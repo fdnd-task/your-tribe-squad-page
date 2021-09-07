@@ -1,12 +1,12 @@
-# {Naam}
+# Squad page
 
-De conventie voor naamgeving is opdrachtgever-opdracht-ondersteuningsniveau
-Topics: opdrachtgever-naam, semester-naam, sprint-naam, niveau-naam
+Maak met je squad een squadpagina met HTML, CSS en Javascript.
 
 ## Context
-*Bij welke sprint hoort deze leertaak en welk niveau heeft deze leertaak.*
 
-Leertaak: {Beschrijving van de leertaak}. Deze leertaak hoort bij {sprint # "titel van de sprint}. Dit is een {niveau van de opdracht} die je {individueel, in team} uitvoert voor {opdrachtgever}
+Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een autonome opdracht die je in een team uitvoert voor FDND.
+
+
 
 ## Briefing
 *In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
@@ -36,7 +36,7 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 2. {die in deze fase}
 3. {doorlopen worden}
 
-#### Materiaal
+#### Materiaal analysefase
 
 - [Resource](https://example.com)
 - [Resource](https://example.com)
@@ -54,7 +54,7 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 2. {die in deze fase}
 3. {doorlopen worden}
 
-#### Materiaal
+#### Materiaal ontwerpfase
 
 - [Resource](https://example.com)
 - [Resource](https://example.com)
@@ -72,7 +72,7 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 2. {die in deze fase}
 3. {doorlopen worden}
 
-#### Materiaal
+#### Materiaal bouwfase
 
 - [Resource](https://example.com)
 - [Resource](https://example.com)
@@ -90,7 +90,7 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 2. {die in deze fase}
 3. {doorlopen worden}
 
-#### Materiaal
+#### Materiaal integratiefase
 
 - [Resource](https://example.com)
 - [Resource](https://example.com)
@@ -108,7 +108,7 @@ Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwer
 2. {die in deze fase}
 3. {doorlopen worden}
 
-#### Materiaal
+#### Materiaal testfase
 
 - [Resource](https://example.com)
 - [Resource](https://example.com)
