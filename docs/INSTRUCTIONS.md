@@ -61,11 +61,13 @@ Werk de breakdownschets van de squad page uit naar HTML en geef de pagina vorm m
 <details>
 <summary>Aanpak</summary>
 
-1. Werk de pagina uit in HTML
-2. Geef de pagina vorm met CSS
+1. Werk aan de hand van de breakdwonschets de pagina uit in HTML
+2. Geef vervolgens de pagina vorm met CSS
 
 #### Materiaal bouwfase
 
+- [Clip over CSS font en text properties](https://www.youtube.com/watch?v=RNakAX3rVVw)
+- [Typography for developers](https://css-tricks.com/typography-for-developers/)
 - [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
 - [What the Flexbox clips](https://flexbox.io/)
