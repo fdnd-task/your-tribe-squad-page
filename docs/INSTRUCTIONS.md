@@ -39,23 +39,28 @@ Vertaal met behulp van een breakdownschets het design van de website naar HTML.
 <details>
 <summary>Aanpak</summary>
 
-1. Breakdownschets maken
+* Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
+* Maak vervolgens per section een breakdownschets van elemnten van de betreffende section
+* Bedenk voor elke breakdownschets welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
+* Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
+ 
 
 #### Materiaal ontwerpfase
 
-- [Resource](https://example.com)
+- ![Breakdownschets](...)
+- [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
 
 </details>
 
 ### Bouwen
-Werk de breakdownschets uit naar HTML.
+Werk de breakdownschets van de squad page uit naar HTML en geef de pagina vorm met CSS.
 
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. Werk de pagina uit in HTML
+2. Geef de pagina vorm met CSS
 
 #### Materiaal bouwfase
 
