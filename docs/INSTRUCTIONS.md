@@ -66,47 +66,41 @@ Werk de breakdownschets van de squad page uit naar HTML en geef de pagina vorm m
 
 #### Materiaal bouwfase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
+- [What the Flexbox clips](https://flexbox.io/)
+- [FlexBox Froggy](https://flexbox.io/)
+- [A guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Making Modern Layouts with CSS Grid | Grid Basics](https://youtu.be/br-0i3U1VCA)
+- [CSS Grid Garden](https://cssgridgarden.com/)
+- [Learn how to use CSS Media Queries in less than 5 minutes](https://youtu.be/2KL-z9A56SQ)
 
 </details>
 
 ### Integreren
-*In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
-
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal integratiefase
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+1. 'Push' jouw aanpassingen naar Github (en publiceer via Github pages) 
 
 </details>
+
 
 ### Testen
-*In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
-
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal testfase
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+1. Laat jouw visitekaartje aan iedereen zien
+2. Noteer feedback
+3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
 
 </details>
+
+## Criteria
+
+Je bent klaar als je als team het proces (ontwerpbeslissingen, schetsen, inzichten en testresultaten) hebt gedocumenteerd in de README.md in de fork van de team repository. Ook moet de squad page bereikbaar zijn via gh-pages.
+
+Focus sprint 1 - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design. Hoe gaan werken we bij FDND, wat wordt er van je verwacht, welke mindset is nodig.
 
 
 
