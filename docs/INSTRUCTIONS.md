@@ -47,8 +47,8 @@ Vertaal met behulp van een breakdownschets het design van de website naar HTML.
 
 #### Materiaal ontwerpfase
 
+- Breakdownschets:
 ![Breakdownschets](breakdownschets.jpeg "Breakdownschets")
- 
  
 - [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
