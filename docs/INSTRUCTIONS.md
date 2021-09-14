@@ -92,7 +92,7 @@ Werk de breakdownschets van de squad page uit naar HTML en geef de pagina vorm m
 <details>
 <summary>Aanpak</summary>
 
-1. Laat jouw visitekaartje aan iedereen zien
+1. Laat jullie squadpagina aan iedereen zien
 2. Noteer feedback
 3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
 
