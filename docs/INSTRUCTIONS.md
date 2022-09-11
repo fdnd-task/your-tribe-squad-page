@@ -4,9 +4,13 @@ Ontwerp en maak met je squad een squadpagina met HTML, CSS en Javascript.
 
 ## Context
 
-Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een autonome opdracht die je in een team uitvoert voor FDND.
+Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een leertaak die je in een team uitvoert.
+
+In het S01W2-01-Squadpage wordt stap voor stap behandeld wat je moet doen.
+
 
 ## Briefing
+
 Op fdnd.nl komen alle visitekaartjes van de studenten te staan, op deze website kijken potentiele opdrachtgevers. In de squadpagina komen alle visitekaartjes samen. Ontwerp en maak samen met je teamgenoten de squadpagina
 
 ## Doel van deze opdracht
@@ -16,13 +20,18 @@ Op fdnd.nl komen alle visitekaartjes van de studenten te staan, op deze website 
 * Een defintieve squadpagina maken waarin alle visitekaartjes van de squad samen komen
 
 ## Werkwijze
-Dit is een autonome leertaak en gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
+
+Deze taak wordt behandeld in het bijhorende college. Deze opdracht gaat over alle fases van de **development-lifecycle** [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
+
+Volg onderstaand fases om jouw squadpage gestructureerd te ontwerpen, aan te passen en op Github te publiceren.
+
 
 ### Analyseren
+
 In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.
 
-<details>
-<summary>Aanpak</summary>
+
+#### Aanpak analysefase
 
 1. Lees de instructies van deze leertaak zorgvuldig door
 2. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
@@ -31,13 +40,20 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 #### Materiaal analysefase
 
 - [Mastering Issues](https://guides.github.com/features/issues/)
-</details>
+
 
 ### Ontwerpen
-Vertaal met behulp van een breakdownschets het design van de website naar HTML. 
 
-<details>
-<summary>Aanpak</summary>
+
+Bij de start van de ontwerpfase weet je wat het doel en het resultaat van je project zijn. In de ontwerpfase neem je ontwerp- beslissingen en zorg je dat je precies weet wat je moet gaan bouwen.  
+
+Nu wordt het tijd om te kijken hoe het resultaat eruit zou kunnen zien. 
+
+Dit is een belangrijk moment in het project.
+(Voor veel opdrachtgevers geldt dat ze nu pas duidelijk krijgen hoe het resultaat eruit zal zien. En dat is een moment waarop veel opdrachtgevers veel duidelijker kunnen aangeven wat ze wel en niet willen.)
+  
+
+#### Aanpak ontwerpfase
 
 * Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
 * Maak vervolgens per section een breakdownschets van elemnten van de betreffende section
@@ -53,13 +69,15 @@ Vertaal met behulp van een breakdownschets het design van de website naar HTML.
 - [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
 
-</details>
+
 
 ### Bouwen
-Werk de breakdownschets van de squad page uit naar HTML en geef de pagina vorm met CSS.
 
-<details>
-<summary>Aanpak</summary>
+In de bouwfase realiseer je de beslissingen uit de ontwerpfase in HTML, CSS en JS.
+
+Op basis van je ontwerpschets ga je bedenken hoe je je ontwerp in code kan bouwen. Je zet je project op in Github en kopieert de repository naar jouw computer. Je begint met de content in HTML, voegt CSS toe voor de vormgeving en JS voor de interactie.
+
+#### Aanpak bouwfase
 
 1. Werk aan de hand van de breakdwonschets de pagina uit in HTML
 2. Geef vervolgens de pagina vorm met CSS
@@ -77,32 +95,46 @@ Werk de breakdownschets van de squad page uit naar HTML en geef de pagina vorm m
 - [CSS Grid Garden](https://cssgridgarden.com/)
 - [Learn how to use CSS Media Queries in less than 5 minutes](https://youtu.be/2KL-z9A56SQ)
 
-</details>
+
 
 ### Integreren
-<details>
-<summary>Aanpak</summary>
+
+In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
+
+#### Aanpak integreerfase
 
 1. 'Push' jouw aanpassingen naar Github (en publiceer via Github pages) 
 
-</details>
 
 
 ### Testen
-<details>
-<summary>Aanpak</summary>
+
+In de testfase controleer je of jouw aanpassingen werken zoals bedoeld. Dit kan een technische-test zijn, maar ook een test met gebruikers of een presentatie bij de opdrachtgever om te bespreken of de opdracht goed is.
+
+#### Aanpak testfase
 
 1. Laat jullie squadpagina aan iedereen zien
 2. Noteer feedback
 3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
 
-</details>
+
+
 
 ## Criteria
 
-Je bent klaar als je als team het proces (ontwerpbeslissingen, schetsen, inzichten en testresultaten) hebt gedocumenteerd in de README.md in de fork van de team repository. Ook moet de squad page bereikbaar zijn via gh-pages.
+Focus sprint 1: Your Tribe - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design.
 
-Focus sprint 1 - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design. Hoe gaan werken we bij FDND, wat wordt er van je verwacht, welke mindset is nodig.
+Bij deze leertaak gelden de gedragscriteria van Sprint 1:
 
+- Je volgt binnen projecten de aangeboden fasering van de development-lifecycle.
+- Je past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
+- Je werkt in teams, laat je hierbij begeleiden en geeft feedback aan teamleden.
+- Je draagt verantwoording voor je eigen resultaten en verwerkt ontvangen feedback.
+- Je luistert naar wat een ander zegt en neemt dit serieus.
 
+Deze opdracht is done als:
+
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
+- [ ] je hebt als team het proces (ontwerpbeslissingen, schetsen, inzichten en testresultaten) gedocumenteerd in de Wiki
+- [ ] de squad page staat op Github en heeft een live url
 
