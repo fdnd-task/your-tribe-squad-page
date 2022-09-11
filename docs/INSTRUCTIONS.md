@@ -56,15 +56,12 @@ Dit is een belangrijk moment in het project.
 #### Aanpak ontwerpfase
 
 * Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
-* Maak vervolgens per section een breakdownschets van elemnten van de betreffende section
-* Bedenk voor elke breakdownschets welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
+* Maak vervolgens per section een breakdownschets van elementen van de betreffende section
+* Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
 * Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
  
 
 #### Materiaal ontwerpfase
-
-- Breakdownschets:  
-![Breakdownschets](breakdownschets.jpeg "Breakdownschets")
  
 - [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [How to section your HTML](https://css-tricks.com/how-to-section-your-html/)
@@ -79,7 +76,7 @@ Op basis van je ontwerpschets ga je bedenken hoe je je ontwerp in code kan bouwe
 
 #### Aanpak bouwfase
 
-1. Werk aan de hand van de breakdwonschets de pagina uit in HTML
+1. Werk aan de hand van de breakdownschets de pagina uit in HTML
 2. Geef vervolgens de pagina vorm met CSS
 
 #### Materiaal bouwfase
