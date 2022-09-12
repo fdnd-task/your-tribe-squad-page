@@ -33,9 +33,10 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 #### Aanpak analysefase
 
-1. Lees de instructies van deze leertaak zorgvuldig door
-2. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
-3. Bespreek met jouw team wat je aan werk verwacht en verdeel het werk. Tip: gebruik hiervoor issues op GitHub
+1. Verzamel inspiratie voor overzichtspagina's door _desktop research_ uit te voeren met jouw Squad (doen we samen)
+2. Lees de instructies van deze leertaak zorgvuldig door
+3. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
+4. Bespreek met jouw team wat je aan werk verwacht en verdeel het werk. Tip: gebruik hiervoor issues op GitHub
 
 #### Materiaal analysefase
 
@@ -43,7 +44,6 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 
 ### Ontwerpen
-
 
 Bij de start van de ontwerpfase weet je wat het doel en het resultaat van je project zijn. In de ontwerpfase neem je ontwerp- beslissingen en zorg je dat je precies weet wat je moet gaan bouwen.  
 
@@ -55,10 +55,10 @@ Dit is een belangrijk moment in het project.
 
 #### Aanpak ontwerpfase
 
-* Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
-* Maak vervolgens per section een breakdownschets van elementen van de betreffende section
-* Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
-* Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
+1. Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
+2. Maak vervolgens per section een breakdownschets van elementen van de betreffende section
+3. Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
+4. Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
  
 
 #### Materiaal ontwerpfase
@@ -92,8 +92,6 @@ Op basis van je ontwerpschets ga je bedenken hoe je je ontwerp in code kan bouwe
 - [CSS Grid Garden](https://cssgridgarden.com/)
 - [Learn how to use CSS Media Queries in less than 5 minutes](https://youtu.be/2KL-z9A56SQ)
 
-
-
 ### Integreren
 
 In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
@@ -101,7 +99,6 @@ In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
 #### Aanpak integreerfase
 
 1. 'Push' jouw aanpassingen naar Github (en publiceer via Github pages) 
-
 
 
 ### Testen
@@ -113,9 +110,6 @@ In de testfase controleer je of jouw aanpassingen werken zoals bedoeld. Dit kan 
 1. Laat jullie squadpagina aan iedereen zien
 2. Noteer feedback
 3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
-
-
-
 
 ## Criteria
 
