@@ -1,0 +1,47 @@
+/* #page{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+} */
+
+#photo{
+    /* width: 100vw; */
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+}
+
+#monitor1{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 264px;
+    height: 169px;
+    top: 260px;
+    left: 229.5px;
+}
+
+#monitor2{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 264px;
+    height: 169px;
+    top: 91.2px;
+    left: 546.8px;
+}
+
+h1{
+    position:relative; 
+    top: 30%;
+    text-align: center;
+    color:rgb(224, 244, 210);
+    text-shadow: 
+    0 0 10px    rgb(27, 118, 19),
+    0 0 10px    rgb(27, 118, 19),  
+    0 0 10px    rgb(27, 118, 19),  
+    0 0 10px    rgb(27, 118, 19);
+}
