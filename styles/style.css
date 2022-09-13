@@ -17,10 +17,12 @@
   text-align: center;
   color: white; 
 }
-img{
+.profielfoto{
     width: 100%;
     height: 100%;
 }
+
+
 .NaamPersoonTekst{
     color: #58ff25;
     position: absolute;
