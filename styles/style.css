@@ -157,6 +157,12 @@ body .container .card .box .content button:hover {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  display: none;
+}
+
+.modal-content.active {
+  /* background: hotpink; */
+  display: block;
 }
 
 /* The Close Button */
