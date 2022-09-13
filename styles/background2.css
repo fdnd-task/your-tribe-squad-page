@@ -8,14 +8,8 @@
 
 #monitor1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
-
-    flex-wrap: wrap;
-    column-gap: 70px;
-    row-gap: 20px;
-    
 
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -24,6 +18,106 @@
     top: 259px;
     left: 228.4px;
 }
+
+#tf1, #tf2, #tf3, #tf4, #tf5, #tf6{
+    width: 50px;
+}
+
+/* .container3f{
+    background-color: re;
+    width: 230px;
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    flex-wrap: wrap;
+    column-gap: 5px;
+} */
+
+/* .container4f{
+    background-color: transparent;
+    width: 180px;
+    height: 160px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 5px;
+} */
+
+/* .container5f{
+    background-color: transparent;
+    width: 210px;
+    height: 160px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+
+    flex-wrap: wrap;
+    column-gap: 4px;
+    row-gap: 5px;
+} */
+
+.container6f{
+    background-color: transparent;
+    width: 210px;
+    height: 160px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#left, #right{
+    position: absolute;
+    font-size: 30px;
+    color:rgb(122, 167, 91);
+    transition: 0.2s;
+}
+
+#left{
+    left: 4%;
+}
+
+#right{
+    right: 4%;
+}
+
+#left:hover, #right:hover{
+    text-shadow: 
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19),
+    0 0 5px    rgb(27, 118, 19);
+}
+
+
+
+
+
 
 #monitor2{
     position: relative;
@@ -35,23 +129,8 @@
 }
 
 #monitor1, #monitor2{
-    transition:2s
+    transition:1s
   }
 #monitor1:hover, #monitor2:hover{
-    box-shadow: 0 0 100px rgb(59, 122, 0);
+    box-shadow: 0 0 50px rgb(59, 122, 0);
   }
-
-/* h1{
-    position:relative; 
-    top: 30%;
-    text-align: center;
-    color:rgb(224, 244, 210);
-    text-shadow: 
-    0 0 10px    rgb(27, 118, 19),
-    0 0 10px    rgb(27, 118, 19),  
-    0 0 10px    rgb(27, 118, 19);
-} */
-
-#tf1, #tf2, #tf3, #tf4{
-    width: 20%;
-}
