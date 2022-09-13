@@ -48,6 +48,10 @@ body .container .card:nth-child(3) .box .content a {
   background: #23c186;
 }
 
+body .container .card:nth-child(4) .box .content a {
+  background: #23c186;
+}
+
 body .container .card .box {
   position: absolute;
   top: 20px;
@@ -91,6 +95,14 @@ body .container .card .box .content h2 {
 }
 
 body .container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content h4 {
   font-size: 1.8rem;
   color: #fff;
   z-index: 1;
