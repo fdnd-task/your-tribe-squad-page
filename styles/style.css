@@ -1,5 +1,5 @@
 .ContainerDiv{
-    background-color: orange;
+    background-color: #000000;
     height: 300px;
     width: 600px;
     border: 10 px solid;
@@ -22,11 +22,12 @@ img{
     height: 100%;
 }
 .NaamPersoonTekst{
-    color: white;
+    color: #58ff25;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-    font-family: Comic sans ms;
+    font-family: 'Montserrat';
     font-size: 30px; 
+    font-weight: bold;
 }
