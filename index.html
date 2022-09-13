@@ -17,7 +17,7 @@
           <h3>Card One</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
           </p>
-          <button id="myBtn">
+          <button class="js-open-modal" data-opens="1">
             Read More
           </button>
         </div>
@@ -31,7 +31,7 @@
           <h3>Card Two</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
           </p>
-          <button>
+          <button class="js-open-modal" data-opens="2">
             Read More
           </button>
         </div>
@@ -45,7 +45,7 @@
           <h3>Card Three</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
           </p>
-          <button>
+          <button class="js-open-modal" data-opens="3">
             Read More
           </button>
         </div>
@@ -59,7 +59,7 @@
           <h3>Card Four</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
           </p>
-          <button>
+          <button class="js-open-modal" data-opens="4">
             Read More
           </button>
         </div>
@@ -73,7 +73,7 @@
           <h3>Card Five</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
           </p>
-          <button>
+          <button class="js-open-modal" data-opens="5">
             Read More
           </button>
         </div>
@@ -82,9 +82,26 @@
   </div>
 
   <div id="myModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <p>test</p>
+    <span class="close">&times;</span>
+
+    <div class="modal-content" id="1">
+      <p>test 1</p>
+    </div>
+
+    <div class="modal-content" id="2">
+      <p>test 2</p>
+    </div>
+
+    <div class="modal-content" id="3">
+      <p>test 3</p>
+    </div>
+
+    <div class="modal-content" id="4">
+      <p>test 4</p>
+    </div>
+
+    <div class="modal-content" id="5">
+      <p>test 5</p>
     </div>
   </div>
   <script src="scripts\script.js"></script>
