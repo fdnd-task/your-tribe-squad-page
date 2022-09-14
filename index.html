@@ -1,114 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squadpage</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Squadpage</title>
-  <link rel="stylesheet" href="styles/style.css">
-</head>
+  <body>
+    <header></header>
+    <div class="container">
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <button class="js-open-modal" data-opens="1">
+              <img src="assets/voorbeeld1.jpg" width="310px" />
+            </button>
+          </div>
+        </div>
+      </div>
 
-<body>
-  <div class="container">
-    <div class="card">
-      <div class="box">
-        <div class="content">
-          <h2>01</h2>
-          <h3>Card One</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
-          </p>
-          <button class="js-open-modal" data-opens="1">
-            Read More
-          </button>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <button class="js-open-modal" data-opens="2">
+              <img src="assets/voorbeeld2.jpg" width="310px" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <button class="js-open-modal" data-opens="3">
+              <img src="assets/voorbeeld3.jpg" width="310px" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <button class="js-open-modal" data-opens="4">
+              <img src="assets/voorbeeld4.jpg" width="310px" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <button class="js-open-modal" data-opens="5">
+              <img src="assets/voorbeeld5.jpg" width="310px" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="card">
-      <div class="box">
-        <div class="content">
-          <h2>02</h2>
-          <h3>Card Two</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
-          </p>
-          <button class="js-open-modal" data-opens="2">
-            Read More
-          </button>
-        </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+
+      <div class="modal-content" id="1">
+        <p>test 1</p>
+      </div>
+
+      <div class="modal-content" id="2">
+        <p>test 2</p>
+      </div>
+
+      <div class="modal-content" id="3">
+        <p>test 3</p>
+      </div>
+
+      <div class="modal-content" id="4">
+        <p>test 4</p>
+      </div>
+
+      <div class="modal-content" id="5">
+        <p>test 5</p>
       </div>
     </div>
-
-    <div class="card">
-      <div class="box">
-        <div class="content">
-          <h2>03</h2>
-          <h3>Card Three</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
-          </p>
-          <button class="js-open-modal" data-opens="3">
-            Read More
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="box">
-        <div class="content">
-          <h2>04</h2>
-          <h3>Card Four</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
-          </p>
-          <button class="js-open-modal" data-opens="4">
-            Read More
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="box">
-        <div class="content">
-          <h2>05</h2>
-          <h3>Card Five</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?
-          </p>
-          <button class="js-open-modal" data-opens="5">
-            Read More
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-
-    <div class="modal-content" id="1">
-      <p>test 1</p>
-    </div>
-
-    <div class="modal-content" id="2">
-      <p>test 2</p>
-    </div>
-
-    <div class="modal-content" id="3">
-      <p>test 3</p>
-    </div>
-
-    <div class="modal-content" id="4">
-      <p>test 4</p>
-    </div>
-
-    <div class="modal-content" id="5">
-      <p>test 5</p>
-    </div>
-  </div>
-  <script src="scripts\script.js"></script>
-</body>
-
-
-
-
-
+    <script src="scripts\script.js"></script>
+  </body>
 </html>
