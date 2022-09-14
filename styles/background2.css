@@ -23,7 +23,7 @@
     width: 50px;
 }
 
-/* .container3f{
+.container3f{
     background-color: re;
     width: 230px;
     height: 160px;
@@ -35,9 +35,9 @@
 
     flex-wrap: wrap;
     column-gap: 5px;
-} */
+}
 
-/* .container4f{
+.container4f{
     background-color: transparent;
     width: 180px;
     height: 160px;
@@ -50,9 +50,9 @@
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 5px;
-} */
+}
 
-/* .container5f{
+.container5f{
     background-color: transparent;
     width: 210px;
     height: 160px;
@@ -65,7 +65,7 @@
     flex-wrap: wrap;
     column-gap: 4px;
     row-gap: 5px;
-} */
+}
 
 .container6f{
     background-color: transparent;
