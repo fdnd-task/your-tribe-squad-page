@@ -1,0 +1,174 @@
+body {
+    background-image: linear-gradient(to bottom left,
+            rgb(0, 0, 0),
+            rgb(0, 25, 2),
+            rgb(0, 70, 0),
+            rgb(0, 116, 0),
+            rgb(0, 70, 0),
+            rgb(0, 25, 2),
+            rgb(0, 0, 0));
+    background-attachment: fixed;
+    background-size: 400% ;
+    animation: gradient 15s infinite alternate;
+}
+
+
+@keyframes gradient {
+	0% {background-position: right;}
+	100% {background-position: left;}
+}
+
+
+#svg-bg {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    display: flex;
+}
+
+#monitor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    background-color: rgb(0, 7, 0);
+    width: 266.2px;
+    height: 171px;
+    top: 259px;
+    left: 228.4px;
+}
+
+.fotos {
+    cursor: pointer;
+    width: 50px;
+    transition: 0.5s;
+}
+
+.fotos:hover {
+    box-shadow:
+        0 0 10px rgb(27, 118, 19),
+        0 0 10px rgb(27, 118, 19),
+        0 0 10px rgb(27, 118, 19);
+        width: 70px;
+        position: fixed;
+}
+
+.container3f {
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 5px;
+}
+
+.container4f {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    row-gap: 5px;
+}
+
+.container5f {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    column-gap: 4px;
+    row-gap: 5px;
+}
+
+.container6f {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#left,
+#right {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(168, 255, 109);
+    transition: 0.2s;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+#left {
+    left: 0%;
+}
+
+#right {
+    right: 0%;
+}
+
+#left:hover,
+#right:hover,
+#left:active,
+#right:active,
+#left:focus,
+#right:focus {
+    text-shadow:
+        0 0 5px rgb(27, 118, 19),
+        0 0 5px rgb(27, 118, 19),
+        0 0 5px rgb(27, 118, 19),
+        0 0 5px rgb(27, 118, 19),
+        0 0 5px rgb(27, 118, 19),
+        0 0 5px rgb(27, 118, 19),
+        0 0 5px rgb(27, 118, 19);
+    outline: none;
+}
+
+#monitor2 {
+    position: relative;
+    background-color: rgb(0, 7, 0);
+    width: 266.2px;
+    height: 171px;
+    top: 88px;
+    left: 546px;
+}
+
+#monitor1,
+#monitor2 {
+    transition: 1s
+}
+
+#monitor1:hover,
+#monitor2:hover {
+    box-shadow: 0 0 50px rgb(59, 122, 0);
+}
+
+
+
+
+#leftbig,
+#rightbig,
+.fotosbig {
+    opacity: 0;
+}
+
+.container3f,
+.container4f,
+.container5f,
+.container6f {
+    background-color: transparent;
+    width: 200px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.container3f[data-active],
+.container4f[data-active],
+.container5f[data-active],
+.container6f[data-active] {
+    opacity: 1;
+}
+
+#data-slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
