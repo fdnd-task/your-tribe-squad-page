@@ -18,6 +18,9 @@ buttons.forEach(function (button) {
         active = document.getElementById(button.dataset.opens)
         active.classList.add("active")
     })
+})
+
+=======
 
 })
 
