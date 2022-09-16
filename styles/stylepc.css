@@ -38,12 +38,18 @@ body {
     height: 171px;
     top: 259px;
     left: 228.4px;
+    transition: 1s;
+    z-index: 1;
+    transform-origin: top left;
 }
 
 .fotos {
     cursor: pointer;
     width: 50px;
-    transition: 0.5s;
+    height: 60px;
+    object-fit: cover;
+    transition: 0.3s;
+    filter: grayscale(100);
 }
 
 .fotos:hover {
@@ -52,42 +58,28 @@ body {
         0 0 10px rgb(27, 118, 19),
         0 0 10px rgb(27, 118, 19);
         width: 70px;
-        position: fixed;
-}
-
-.container3f {
-    align-items: center;
-    justify-content: space-evenly;
-    column-gap: 5px;
+        filter: none;
 }
 
 .container4f {
-    align-items: flex-start;
-    justify-content: space-evenly;
-    column-gap: 30px;
-    row-gap: 5px;
-}
-
-.container5f {
-    align-items: flex-start;
-    justify-content: space-evenly;
-    column-gap: 4px;
-    row-gap: 5px;
+    width: 180px;
+    height: 160px;
+    column-gap: 20px;
 }
 
 .container6f {
-    align-items: flex-start;
-    justify-content: space-evenly;
+    width: 200px;
+    height: 160px;
     column-gap: 5px;
-    row-gap: 5px;
 }
 
 #left,
-#right {
+#right,
+#inout{
     position: absolute;
     font-size: 30px;
     color: rgb(168, 255, 109);
-    transition: 0.2s;
+    transition: 0.3s;
     background-color: transparent;
     border-style: none;
     cursor: pointer;
@@ -99,6 +91,7 @@ body {
 
 #right {
     right: 0%;
+    z-index: 1;
 }
 
 #left:hover,
@@ -106,7 +99,10 @@ body {
 #left:active,
 #right:active,
 #left:focus,
-#right:focus {
+#right:focus, 
+#inout:hover, 
+#inout:active,
+#inout:focus {
     text-shadow:
         0 0 5px rgb(27, 118, 19),
         0 0 5px rgb(27, 118, 19),
@@ -137,32 +133,19 @@ body {
     box-shadow: 0 0 50px rgb(59, 122, 0);
 }
 
-
-
-
-#leftbig,
-#rightbig,
-.fotosbig {
-    opacity: 0;
-}
-
-.container3f,
 .container4f,
-.container5f,
 .container6f {
     background-color: transparent;
-    width: 200px;
-    height: 160px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     position: absolute;
     opacity: 0;
     transition: 0.3s ease;
 }
 
-.container3f[data-active],
 .container4f[data-active],
-.container5f[data-active],
 .container6f[data-active] {
     opacity: 1;
 }
@@ -171,4 +154,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#inout{
+    font-size: 25px;
+    right: 2%;
+    top: 2%;
+}
+
+.zoomed{
+    transform: scale(4);
 }

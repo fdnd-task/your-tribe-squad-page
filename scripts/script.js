@@ -16,3 +16,10 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
     })
 })
+
+var button = document.querySelector('#inout')
+var div = document.querySelector('#monitor1')
+
+button.addEventListener('click', function(){
+  div.classList.toggle('zoomed')
+})
