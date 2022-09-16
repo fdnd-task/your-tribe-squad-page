@@ -1,1 +1,5 @@
-> Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Squadpage
+
+## :pencil2: Beschrijving
+
+Dit is de repository van de squadpage. Voor het maken van deze squadpage is gebruik gemaakt van HTML, CSS en JavaScript.
