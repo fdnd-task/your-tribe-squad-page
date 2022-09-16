@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+<<<<<<< Updated upstream
+=======
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+
+>>>>>>> Stashed changes
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< Updated upstream
   font-family: "Poppins", sans-serif;
+=======
+  font-family: "Sofia", sans-serif;
+>>>>>>> Stashed changes
 }
 
 body {
@@ -12,7 +22,38 @@ body {
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
+<<<<<<< Updated upstream
   background: #232427;
+=======
+  background: #f5f5f5;
+}
+
+header {
+  background: #b366ff;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div p {
+  display: flex;
+  justify-content: center;
+  padding-top: 10.5em;
+  font-weight: bold;
+  font-size:xx-large;
+}
+
+.no-font {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+>>>>>>> Stashed changes
 }
 
 body .container {
