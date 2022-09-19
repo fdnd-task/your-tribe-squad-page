@@ -164,3 +164,12 @@ body {
 .zoomed{
     transform: scale(4);
 }
+
+iframe {
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 100px;
+    width: auto;
+    z-index: 1;
+}
