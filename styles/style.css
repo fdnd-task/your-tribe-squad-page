@@ -3,6 +3,9 @@ html {
   height: 100%;
   width: 100%;
   padding: 0;
+
+  --base-margin: 5vw;
+  --basis-tijd:.5s;
 }
 
 body {
@@ -25,16 +28,6 @@ main {
   flex-direction: row;
 }
 
-.group-section {
-  width: 75%;
-  height: 100%;
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: green;
-}
-
 .name-nav {
   width: 25%;
   height: 100%;
@@ -44,7 +37,108 @@ main {
   background: rgb(53, 185, 185);
 }
 
-.wrapper {
+/*---------------*/
+/* Group section */
+/*---------------*/
+
+.group-section {
+  width: 75%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: green;
+  user-select: none;
+  --carrouselChromeHeight: 22.95rem;
+  --carrouselStraal: calc(var(--groupSize) * 2.2875);
+  --carrouselHoek: 0;
+  --groupSize: 14em;
+  height: calc(100vh - var(--carrouselChromeHeight))
+}
+
+.group-section > ul{
+  display: block;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  perspective-origin: center calc(-100vh + (var(--groupSize) * 1.644821428571429) + var(--carrouselChromeHeight));
+  perspective: calc(var(--carrouselStraal) * 2);
+  transform-style: preserve-3d;
+}
+
+.group-section li{
+  --grouphoek:calc( (var(--carrouselHoek) + var(--GroupBasisHoek)) * 72deg );
+  position: absolute;
+  display: block;
+  width: var(--groupSize);
+  padding: 0;
+  left: calc(50% - var(--groupSize) / 2);
+  bottom: 0em;
+  border: none;
+  transform: translateZ(calc( var(--carrouselStraal) * -1 )) rotateY(calc( var(--grouphoek) * -1 )) translateZ(var(--carrouselStraal)) rotateY(var(--grouphoek));
+  transition: var(--basis-tijd) cubic-bezier(0.365, 1.09, 0.845, 1.065);
+}
+
+.group-section li:nth-child(1){
+  --GroupBasisHoek: 1 - 1;
+}
+
+.group-section li:nth-child(2){
+  --GroupBasisHoek: 2 - 1;
+}
+
+.group-section li:nth-child(3){
+  --GroupBasisHoek: 3 - 1;
+}
+
+.group-section li:nth-child(4){
+  --GroupBasisHoek: 4 - 1;
+}
+
+.group-section li:nth-child(5){
+  --GroupBasisHoek: 5 - 1;
+}
+
+.group-section li:nth-of-type(odd) {
+  grid-template-areas: "a b b" "a c c";
+}
+
+.group-section li:nth-of-type(even) {
+  grid-template-areas: "b b a" "c c a";
+}
+
+.group-section h2{
+  grid-area: b;
+  align-self: end;
+  text-align: center;
+  padding: 0 calc(var(--base-margin) / 2) calc(var(--base-margin) / 2);
+}
+
+.group-section img{
+  grid-area: a;
+  width: 100%;
+  max-width: var(--groupSize);
+  justify-self: center;
+}
+
+.group-section > button{
+  position: absolute;
+  display: block;
+  bottom: 15em;
+  width: 6rem;
+  height: 3.5rem;
+}
+
+.group-section > button:first-of-type{
+  right: calc(50% + 13rem);
+}
+
+.group-section > button:last-of-type{
+  left: calc(40% + 1rem);
+}
+
+/* .wrapper {
   position: relative;
   margin: 20px auto;
   width: auto;
@@ -180,4 +274,4 @@ main {
   -ms-transform: rotate(-270deg);
   -o-transform: rotate(-270deg);
   transform: rotate(-270deg);
-}
+} */
