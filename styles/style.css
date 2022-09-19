@@ -1,0 +1,226 @@
+:root {
+    --name: rgb(151, 255, 133);
+    --text: rgb(151, 255, 133);
+    --textshadow: rgb(27, 118, 19);
+    --monitorshadow: rgb(0, 0, 0);
+}
+
+body {
+    background-image: linear-gradient(to bottom left,
+            rgb(0, 0, 0),
+            rgb(0, 25, 2),
+            rgb(0, 70, 0),
+            rgb(0, 116, 0),
+            rgb(0, 70, 0),
+            rgb(0, 25, 2),
+            rgb(0, 0, 0));
+    background-attachment: fixed;
+    background-size: 400%;
+    animation: gradient 15s infinite alternate;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+}
+
+#svg-bg {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    display: flex;
+}
+
+#monitor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+    width: 266.2px;
+    height: 171px;
+    top: 259px;
+    left: 228.4px;
+    transition: 1s;
+    z-index: 1;
+    transform-origin: top left;
+}
+
+#monitor2 {
+    position: relative;
+    background-color: var(--monitor);
+    width: 266.2px;
+    height: 171px;
+    top: 88px;
+    left: 546px;
+}
+
+#monitor1,
+#monitor2 {
+    transition: 0.7s
+}
+
+#monitor1:hover,
+#monitor2:hover {
+    box-shadow:
+        0 0 5px var(--monitorshadow),
+        0 0 5px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow);
+}
+
+.zoomed {
+    transform: scale(4);
+    box-shadow:
+        0 0 5px var(--monitorshadow),
+        0 0 5px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow),
+        0 0 15px var(--monitorshadow);
+}
+
+#data-slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4f {
+    width: 180px;
+    height: 160px;
+    column-gap: 20px;
+}
+
+.container6f {
+    width: 200px;
+    height: 160px;
+    column-gap: 5px;
+}
+
+.container4f,
+.container6f {
+    background-color: transparent;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    display: none;
+}
+
+.container4f[data-active],
+.container6f[data-active] {
+    display: flex;
+}
+
+.fotos {
+    cursor: pointer;
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
+    transition: 0.3s;
+    filter: grayscale(100);
+}
+
+.fotos:hover {
+    box-shadow:
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow);
+    width: 70px;
+    filter: none;
+}
+
+#inout {
+    font-size: 25px;
+    right: 2%;
+    top: 2%;
+}
+
+#left {
+    left: 0%;
+}
+
+#right {
+    right: 0%;
+    z-index: 1;
+}
+
+#left,
+#right,
+#inout {
+    position: absolute;
+    font-size: 30px;
+    color: var(--text);
+    transition: 0.3s;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+#left:hover,
+#right:hover,
+#left:active,
+#right:active,
+#left:focus,
+#right:focus,
+#inout:hover,
+#inout:active,
+#inout:focus {
+    text-shadow:
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow),
+        0 0 5px var(--textshadow);
+    outline: none;
+}
+
+h1 {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 100px;
+    top: 250%;
+    left: 5%;
+    word-spacing: 330px;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--name);
+    text-shadow:
+        0 0 5px var(--name),
+        0 0 10px var(--name),
+        0 0 15px var(--name);
+    transition: 0.7s;
+}
+
+h1:hover {
+    text-shadow: 0 0 5px var(--name);
+    box-shadow: none;
+}
+
+iframe {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: auto;
+    z-index: 1;
+}
+
+::selection {
+    color: black;
+    background: rgb(0, 180, 0);
+}

@@ -25,10 +25,64 @@ button.addEventListener('click', function(){
 })
 
 
-//roelie probeersel
+
+var clicked = false;
+function toggle(){
+  if(!clicked){
+    clicked = true;
+    document.getElementById("inout").innerHTML = "zoom_out";
+  }else{
+    clicked = false;
+    document.getElementById("inout").innerHTML = "zoom_in";
+  }
+}
+
+
+// var button = document.querySelector('#in')
+// var div = document.querySelector('#monitor1')
+
+// button.addEventListener('click', function(){
+//   div.classList.toggle('zoomed')
+// })
+
+// var button = document.querySelector('#out')
+// var div = document.querySelector('#monitor1')
+
+// button.addEventListener('click', function(){
+//   div.classList.toggle('zoomedout')
+// })
+
+// var button = document.querySelector('#in')
+// var div = document.querySelector('#in')
+
+// button.addEventListener('click', function(){
+//   div.classList.toggle('weg')
+// })
+
+// var button = document.querySelector('#in')
+// var div = document.querySelector('#out')
+
+// button.addEventListener('click', function(){
+//   div.classList.toggle('nietweg')
+// })
+
+// var button = document.querySelector('#out')
+// var div = document.querySelector('#out')
+
+// button.addEventListener('click', function(){
+//   div.classList.toggle('weg')
+// })
+
+// var button = document.querySelector('#out')
+// var div = document.querySelector('#in')
+
+// button.addEventListener('click', function(){
+//   div.classList.toggle('nietweg')
+// })
 
 
 
+//roelie geluktsel
 const canvas = document.getElementById('monitor2');
 const ctx = canvas.getContext('2d');
 
@@ -44,7 +98,7 @@ function matrix () {
   ctx.fillStyle = '#0001';
   ctx.fillRect(0, 0, w, h);
 
-  ctx.fillStyle = '#0f0';
+  ctx.fillStyle = 'rgb(27, 118, 19)';
   ctx.font = '15pt monospace';
 
   ypos.forEach((y, ind) => {
