@@ -9,7 +9,7 @@ body {
             rgb(0, 0, 0));
     background-attachment: fixed;
     background-size: 400% ;
-    animation: gradient 15s infinite alternate;
+    -webkit-animation: gradient 15s infinite alternate;
 }
 
 
