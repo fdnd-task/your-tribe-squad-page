@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom left,
+    background-image: -webkit-linear-gradient(to bottom left,
             rgb(0, 0, 0),
             rgb(0, 25, 2),
             rgb(0, 70, 0),
