@@ -20,11 +20,38 @@ body {
 header {
   background: #b366ff;
   width: 100vw;
-  height: 20vh;
+  height: 7vh;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header li a{
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 14px 16px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #5e2596;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
 }
 
 div p {
