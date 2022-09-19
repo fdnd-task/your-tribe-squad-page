@@ -38,4 +38,4 @@ Dit project is gemaakt met HTML, CSS & Javascript. Hieronder staan ook een aanta
 
 <h2>🔑 Gebruik</h2>
 De applicatie wordt op twee manieren gebruikt, lokaal en op het web. De bedoeling van lokaal is zodat er getest kan worden en gekeken kan worden of de applicatie er goed uit ziet via verschillende browsers. De applicatie kan ook online bezocht worden, dit kan via deze link:
-https://r20222.github.io/your-tribe-squad-page/
+https://imposters.student.fdnd.nl/
