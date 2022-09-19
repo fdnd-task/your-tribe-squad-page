@@ -1,6 +1,6 @@
 <h1>Onze Squad-page</h1>
 
-[insert image]
+![SquadPage](https://user-images.githubusercontent.com/112861033/190993340-bc45857f-2080-4614-b821-f28e0e262261.jpg)
 
 Dit project bestaat uit een squad-page met onze squad zijn/haar visitekaartje wat gemaakt is met HTML, CSS & Javascript.
 
