@@ -204,6 +204,7 @@ h1 {
         0 0 10px var(--name),
         0 0 15px var(--name);
     transition: 0.7s;
+    cursor: auto;
 }
 
 h1:hover {
