@@ -91,7 +91,7 @@ const h = canvas.height = document.body.offsetHeight;
 const cols = Math.floor(w / 20) + 1;
 const ypos = Array(cols).fill(0);
 
-ctx.fillStyle = '#000';
+ctx.fillStyle = 'black';
 ctx.fillRect(0, 0, w, h);
 
 function matrix () {
