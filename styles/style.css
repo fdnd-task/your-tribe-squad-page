@@ -44,16 +44,18 @@ main {
 .group-section {
   width: 75%;
   float: left;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: green;
+  background: rgb(238,174,202);
+  background: linear-gradient(49deg, rgba(238,174,202,1) 6%, rgba(135,241,233,1) 100%);
   user-select: none;
-  --carrouselChromeHeight: 22.95rem;
+  --carrouselChromeHeight: 22.95em;
   --carrouselStraal: calc(var(--groupSize) * 2.2875);
   --carrouselHoek: 0;
   --groupSize: 14em;
-  height: calc(100vh - var(--carrouselChromeHeight))
+  height: calc(100vh - var(--carrouselChromeHeight));
 }
 
 .group-section > ul{
@@ -78,6 +80,8 @@ main {
   border: none;
   transform: translateZ(calc( var(--carrouselStraal) * -1 )) rotateY(calc( var(--grouphoek) * -1 )) translateZ(var(--carrouselStraal)) rotateY(var(--grouphoek));
   transition: var(--basis-tijd) cubic-bezier(0.365, 1.09, 0.845, 1.065);
+  scale: 0.9;
+  opacity: 0.7;
 }
 
 .group-section li:nth-child(1){
