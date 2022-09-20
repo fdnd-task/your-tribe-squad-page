@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+header {
+  background: #b366ff;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div p {
+  display: flex;
+  justify-content: center;
+  padding-top: 10.5em;
+  font-weight: bold;
+  font-size:xx-large;
+}
+
+.no-font {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+
+  border-radius: 0px;
+  margin: 30px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+
+  background-color: #f5f5f5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+
+  width: 280px;
+  height: 290px;
+}
+
+body .container .card:hover {
+  transform: translateY(-50px);
+}
+
+body .container .card .box .content button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+.rechtsonder {
+    position: absolute;
+    width: 130px;
+    margin-left: 230px;
+    margin-top: -35px;
+    transform: scaleX(-1);
+}
+
+.linksonder {
+    position: absolute;
+    width: 130px;
+    margin: -35px;
+}
+
+.rechtsboven {
+    position: absolute;
+    width: 130px;
+    margin-left: 230px;
+    margin-top: -410px;
+}
+
+.linksboven {
+    position: absolute;
+    width: 130px;
+    margin-top: -410px;
+    margin-left: -35px;
+    transform: scaleX(-1);
+}
