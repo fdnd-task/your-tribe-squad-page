@@ -10,3 +10,7 @@
 #right {
     right: -10%;
 }
+
+.zoomed {
+    transform: scale(3);
+}
