@@ -53,12 +53,22 @@ body {
 }
 
 #monitor1 {
-    animation: fadein 10s;
+    animation: fadein 7s;
 }
 
 @keyframes fadein {
-    from {opacity: 0}
-    to {opacity: 1}
+    0% {opacity: 0}
+    30% {opacity: 0}
+    100% {opacity: 1}
+}
+
+h1 {
+    animation: text 1s;
+}
+
+@keyframes text {
+    0% {opacity: 1}
+    100% {opacity: 1}
 }
 
 #monitor2 {
@@ -220,6 +230,7 @@ h1:hover {
     text-shadow: 0 0 5px var(--name);
     box-shadow: none;
 }
+
 
 iframe {
     position: fixed;

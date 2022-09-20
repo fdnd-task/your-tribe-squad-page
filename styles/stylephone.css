@@ -14,3 +14,11 @@
 .zoomed {
     transform: scale(3);
 }
+
+h1 {
+    white-space: initial;
+    font-size: 80px;
+    top: 325%;
+    left: 4%;
+    word-spacing: 330px;
+}
