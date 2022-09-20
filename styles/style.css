@@ -52,6 +52,15 @@ body {
     transform-origin: top left;
 }
 
+#monitor1 {
+    animation: 5s;
+}
+
+@keyframes fadein {
+    from {index: 4}
+    to {index: -2}
+}
+
 #monitor2 {
     position: relative;
     background-color: var(--monitor);
