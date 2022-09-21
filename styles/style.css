@@ -25,9 +25,9 @@ header {
   width: 100vw;
   height: 7vh;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  /* text-align: center; */
+  text-align: center;
 }
 
 header li {
