@@ -23,11 +23,18 @@ body {
 header {
   background: #b366ff;
   width: 100vw;
-  height: 7vh;
+  height: 8vh;
   display: flex;
   /* justify-content: center; */
   align-items: center;
   /* text-align: center; */
+}
+
+/* MOBIEL FORMAAT */
+@media screen and (max-width: 480px) {
+  header{
+    font-size: 0.5em;
+  }
 }
 
 header li {
