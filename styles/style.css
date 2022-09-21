@@ -16,7 +16,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
+<<<<<<< Updated upstream
   background: #232427;
+=======
+  background: whitesmoke
+>>>>>>> Stashed changes
 }
 
 header {
