@@ -6,38 +6,26 @@
 }
 
 body {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-
-body::before{
-    content: "" ;
-    position: absolute;
-    top: -50%;
-    left: -0%;
-    width: 300vw;
-    height: 300%;
     background-image: linear-gradient(to bottom left,
-    rgb(0, 0, 0),
-    rgb(0, 25, 2),
-    rgb(0, 70, 0),
-    rgb(0, 116, 0),
-    rgb(0, 70, 0),
-    rgb(0, 25, 2),
-    rgb(0, 0, 0));
-background-attachment: fixed;
-background-size: 100%;
-animation: gradient 15s infinite alternate; 
+            rgb(0, 0, 0),
+            rgb(0, 25, 2),
+            rgb(0, 70, 0),
+            rgb(0, 116, 0),
+            rgb(0, 70, 0),
+            rgb(0, 25, 2),
+            rgb(0, 0, 0));
+    background-attachment: fixed;
+    background-size: 400%;
+    animation: gradient 15s infinite alternate;
 }
 
 @keyframes gradient {
     0% {
-        transform: translatex(0%);
+        background-position: right;
     }
 
     100% {
-        transform: translatex(-50%);
+        background-position: left;
     }
 }
 
@@ -62,25 +50,6 @@ animation: gradient 15s infinite alternate;
     transition: 1s;
     z-index: 1;
     transform-origin: top left;
-}
-
-#monitor1 {
-    animation: fadein 7s;
-}
-
-@keyframes fadein {
-    0% {opacity: 0}
-    30% {opacity: 0}
-    100% {opacity: 1}
-}
-
-h1 {
-    animation: text 1s;
-}
-
-@keyframes text {
-    0% {opacity: 1}
-    100% {opacity: 1}
 }
 
 #monitor2 {
@@ -130,13 +99,13 @@ h1 {
 }
 
 .container4f {
-    width: 180px;
+    width: 140px;
     height: 160px;
     column-gap: 20px;
 }
 
 .container6f {
-    width: 200px;
+    width: 180px;
     height: 160px;
     column-gap: 5px;
 }
@@ -243,7 +212,6 @@ h1:hover {
     box-shadow: none;
 }
 
-
 iframe {
     position: fixed;
     top: 0px;
@@ -251,6 +219,7 @@ iframe {
     height: 100px;
     width: auto;
     z-index: 1;
+    transition: 3s;
 }
 
 ::selection {
