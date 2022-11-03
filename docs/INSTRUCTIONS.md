@@ -9,6 +9,11 @@ Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een leertaak die je in een
 In het S01W2-01-Squadpage wordt stap voor stap behandeld wat je moet doen.
 
 
+Bij deze leertaak hoort de deeltaak:
+- [Your Tribe - Team Canvas](https://github.com/fdnd-task/your-tribe-team-canvas/)
+
+
+
 ## Briefing
 
 Op fdnd.nl komen alle visitekaartjes van de studenten te staan, op deze website kijken potentiele opdrachtgevers. In de squadpagina komen alle visitekaartjes samen. Ontwerp en maak samen met je teamgenoten de squadpagina
