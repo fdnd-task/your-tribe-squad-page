@@ -22,7 +22,7 @@ Op fdnd.nl komen alle visitekaartjes van de studenten te staan, op deze website 
 
 * Samenwerken in een team
 * In een team de dev-lifecycle toepassen 
-* Een defintieve squadpagina maken waarin alle visitekaartjes van de squad samen komen
+* Een definitieve squadpagina maken waarin alle visitekaartjes van de squad samen komen
 
 ## Werkwijze
 
@@ -117,8 +117,6 @@ In de testfase controleer je of jouw aanpassingen werken zoals bedoeld. Dit kan 
 3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
 
 ## Definition of Done
-
-Focus sprint 1: Your Tribe - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design.
 
 Deze opdracht is done als:
 
