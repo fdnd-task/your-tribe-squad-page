@@ -22,7 +22,7 @@ Op fdnd.nl komen alle visitekaartjes van de studenten te staan, op deze website 
 
 * Samenwerken in een team
 * In een team de dev-lifecycle toepassen 
-* Een defintieve squadpagina maken waarin alle visitekaartjes van de squad samen komen
+* Een definitieve squadpagina maken waarin alle visitekaartjes van de squad samen komen
 
 ## Werkwijze
 
