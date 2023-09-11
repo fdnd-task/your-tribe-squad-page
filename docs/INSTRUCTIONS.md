@@ -118,8 +118,6 @@ In de testfase controleer je of jouw aanpassingen werken zoals bedoeld. Dit kan 
 
 ## Definition of Done
 
-Focus sprint 1: Your Tribe - De focus in deze sprint ligt op kennismaken, samenwerken en hoe je interface en vormgevingsprincipes kan toepassen voor een responsive design.
-
 Deze opdracht is done als:
 
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle
