@@ -1,0 +1,31 @@
+/* Small devices such as large phones (360px and up) */
+@media only screen and (min-width: 22.5em) {
+    .tile-big {
+        grid-column: 1 / 2;
+        width: auto;
+    }
+
+    .tile-small {
+        grid-column: 1 / 2;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 10px;
+        background-color: #f32140;
+    }
+
+    .spacer {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
+    .spacer {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
