@@ -109,6 +109,10 @@ body::after {
     .grid__container {
         grid-template-columns: 1fr;
     }
+
+    .grid__name {
+        font-size: 3em;
+    }
 }
 
 /* Tablet */
