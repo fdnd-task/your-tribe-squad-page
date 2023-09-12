@@ -38,10 +38,9 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 #### Aanpak analysefase
 
-1. Verzamel inspiratie voor overzichtspagina's door _desktop research_ uit te voeren met jouw Squad (doen we samen)
-2. Lees de instructies van deze leertaak zorgvuldig door
-3. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
-4. Bespreek met jouw team wat je aan werk verwacht en verdeel het werk. Tip: gebruik hiervoor issues op GitHub
+1. Lees de instructies van deze leertaak zorgvuldig door
+2. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
+3. Bespreek met jouw team wat je aan werk verwacht en verdeel het werk. Tip: gebruik hiervoor issues op GitHub
 
 #### Materiaal analysefase
 
@@ -60,10 +59,11 @@ Dit is een belangrijk moment in het project.
 
 #### Aanpak ontwerpfase
 
-1. Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
-2. Maak vervolgens per section een breakdownschets van elementen van de betreffende section
-3. Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
-4. Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
+1. Verzamel inspiratie voor overzichtspagina's door _desktop research_ uit te voeren met jouw Squad (doen we samen)
+2. Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
+3. Maak vervolgens per section een breakdownschets van elementen van de betreffende section
+4. Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
+5. Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
  
 
 #### Materiaal ontwerpfase
