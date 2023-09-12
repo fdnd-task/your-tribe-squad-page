@@ -1,22 +1,16 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
+/* Define styles for the container holding the columns */
+.container {
+    display: flex; /* Use flexbox to create a flexible layout */
 }
 
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+/* Define styles for the left column */
+.big-column {
+    flex: 2; /* This makes the left column twice as wide as the right column */
+    padding: 20px; /* Add some padding for spacing */
 }
 
-.tile-big {
-    grid-column: 1 / 2;
-}
-
-.tile-small {
-    grid-column: 5 / 7;
+/* Define styles for the right column */
+.small-column {
+    flex: 1; /* This sets the right column to one-third the width of the left column */
+    padding: 20px; /* Add some padding for spacing */
 }

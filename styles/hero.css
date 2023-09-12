@@ -1,0 +1,18 @@
+.hero {
+    width: auto;
+    height: 40vh;
+    background-color: #282828;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    transition: height 0.5s ease;
+}
+
+
+.hero h1 {
+    text-transform: uppercase;
+    color: var(--off-white);
+    font-size: 3rem;
+}
