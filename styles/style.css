@@ -11,4 +11,8 @@ body{
     width: 50vw;
     border: solid 1px black;
     margin: 0 auto;
+    background: #936FBA;
+}
+h1{
+    text-align: center;
 }
