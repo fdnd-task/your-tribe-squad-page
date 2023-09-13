@@ -16,3 +16,28 @@
     color: var(--off-white);
     font-size: 3rem;
 }
+
+
+/* Media query for screens with a minimum width of 22.5em (360px and up) */
+@media only screen and (min-width: 22.5em) {
+    .hero {
+        margin: 2em 2em 2em 2em;
+        height: 30vh;
+    }
+
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 48em) {
+    .hero {
+        margin: 4em 8em 8em 8em;
+        height: 40vh;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+}
+

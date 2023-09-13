@@ -1,16 +1,30 @@
-/* Define styles for the container holding the columns */
+/* Default styles for small screens */
 .container {
-    display: flex; /* Use flexbox to create a flexible layout */
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Left column takes 2/3 of the width, right column takes 1/3 */
+    gap: 2em;
+    margin-bottom: 2em;
 }
 
-/* Define styles for the left column */
-.big-column {
-    flex: 2; /* This makes the left column twice as wide as the right column */
-    padding: 20px; /* Add some padding for spacing */
+.left-column {
+    padding: 1rem;
 }
 
-/* Define styles for the right column */
-.small-column {
-    flex: 1; /* This sets the right column to one-third the width of the left column */
-    padding: 20px; /* Add some padding for spacing */
+.right-column {
+    padding: 1rem;
 }
+
+@media only screen and (min-width: 22.5em) {
+    .container {
+        grid-template-columns: 1fr; /* Single column by default */
+        margin: 2em 2em 0em 2em;
+    }
+}
+@media only screen and (min-width: 48em) {
+    .container {
+        grid-template-columns: 2fr 1fr; /* Left column takes 2/3 of the width, right column takes 1/3 */
+        margin: 0em 8em 2em 8em;
+    }
+
+}
+

@@ -3,6 +3,7 @@
     height: 40vh;
     background-image: url('https://placehold.co/600x400'); /* Replace 'your-image-url.jpg' with the actual path to your image */
     background-size: cover; /* This ensures the image covers the entire .card element */
+    background-position: center;
     background-repeat: no-repeat; /* Prevents image repetition */
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -14,7 +15,7 @@
     align-items: center; /* Center vertically */
 }
 
-.card .content h1 {
+.card .content h2 {
     transform: translate(0%, 200%);
     font-weight: normal;
     transition: transform 0.5s ease; /* Add a transition for smooth hover effect */
