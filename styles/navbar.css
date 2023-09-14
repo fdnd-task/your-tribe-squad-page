@@ -4,7 +4,8 @@
     height: 7em;
     position: fixed;
     width: 100%; /* Set your desired initial width */
-    background-color: #333; /* Background color for the navbar */
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    -webkit-backdrop-filter: blur(10px); /* For compatibility with some browsers */
     color: #fff; /* Text color */
     transition: all 0.8s ease-in-out ;
 }
@@ -46,13 +47,13 @@
 
 .navbar-right ul li a {
     text-decoration: none;
-    color: #fff;
+    color: var(--off-white);
 }
 
-.content {
+.navbar .content {
     margin-left: 250px; /* Adjust to match the initial navbar width */
     padding: 20px;
-    background-color: #f5f5f5; /* Background color for the content area */
+    background-color: var(--off-white); /* Background color for the content area */
 }
 
 /* Add styles for the sticky navbar */
@@ -63,10 +64,19 @@
     left: 0;
     z-index: 2;
     height: 40px; /* Set your desired height for the sticky navbar */
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    -webkit-backdrop-filter: blur(10px); /* For compatibility with some browsers */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 1rem 0rem 1rem 0rem;
 
+}
+
+.divider-nav {
+    border: 1px solid var(--off-white);
+    width: 60%;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .sticky .navbar-content {
@@ -79,3 +89,35 @@
 .sticky .navbar-right ul li {
     margin-right: 12px; /* Adjust spacing for sticky items */
 }
+
+/* Media query for screens with a minimum width of 22.5em (360px and up) */
+@media only screen and (min-width: 22.5em) {
+    .navbar-left .navbar-tag {
+        display: none;
+    }
+    .sticky {
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+    .sticky .navbar-left {
+        font-size: 1em; /* Adjust the font size for the sticky text */
+    }
+    .navbar-content {
+        padding: 0rem 2rem 0rem 2rem;
+    }
+}
+@media only screen and (min-width: 48em) {
+    .navbar-left .navbar-tag {
+        display: block;
+    }
+    .sticky {
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    .sticky .navbar-left {
+        font-size: 1em; /* Adjust the font size for the sticky text */
+    }
+    .navbar-content {
+        padding: 0rem 5rem 0rem 5rem;
+    }
+
+}
+

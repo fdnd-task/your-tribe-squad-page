@@ -17,18 +17,19 @@
     font-weight: 300;
     width: 30%;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 /* Media query for screens with a minimum width of 22.5em (360px and up) */
 @media only screen and (min-width: 22.5em) {
     .hero {
         margin: 2em 2em 2em 2em;
-        height: 30vh;
+        height: 60vh;
     }
 
     .hero h1 {
         font-size: 1.3rem;
+        width: 70%;
     }
 }
 @media only screen and (min-width: 48em) {
@@ -39,6 +40,8 @@
 
     .hero h1 {
         font-size: 2.5rem;
+        width: 30%;
+
     }
 
 }
