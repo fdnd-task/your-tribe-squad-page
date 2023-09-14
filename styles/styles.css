@@ -1,9 +1,10 @@
 *{margin: 0;}
+/* ask about this */
 :root{
-    --cpb:rgb(64,104,178);
-    --cpo:rgb(244,123,32);
-    --cpp:rgb(208,73,154);
-    --cpb:rgb(111,111,111);
+    --clr-cpbl:#4068b2;
+    --cpo:#f47b20;
+    --cpp:#d049;
+    --cpb:rgb(111,110,111);
 }
 html,body{
     width: 100%;
@@ -11,24 +12,54 @@ html,body{
     
 
 }
+/* ask about media query */
+@media (max-width: 700px) {
+    .person{
+        opacity: 50%;
+        grid-template-columns: repeat( auto-fit, minmax(20px, 502.6px) );     
+        transition: 0.4s ease-in-out;
+    }
+
+    header{
+        text-align: center;
+        font-size: 1.5em;
+        
+    }
+    .ontop{
+        height: 200rem;
+        flex-grow:0;
+        transition: 2s ease-in-out;
+    }
+    .quote{
+            color:yellow;
+            transition: 0.4s ease-in-out;
+    }
+    .bottom{
+        height:100px;
+        opacity: 50%;
+    }
+}
+
+    
+
 body{
 display: flex;
 flex-direction: column;
 overflow-x:hidden;
 justify-content:baseline;
-background-color:red ;
+background-color:brown ;
 }
 .ontop{
    
     display: flex; 
     flex-direction: column;
     width: 100%;
-  
+   
     /* border:solid red; */
     /* outline: solid rgba(147, 0, 0, 0.608); */
-    margin: ;
- 
-    flex-grow: 1;
+    /* margin: ; */
+     flex-grow: 1;
+     transition: 1s ease-in-out;
 }
 header{
     position: relative top;
@@ -36,6 +67,8 @@ header{
     top:0;
     height: 11%;
     /* border: solid salmon; */
+    font-size: 2em;
+    
 }
 .quote{
     display: block;
@@ -69,16 +102,17 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     /* grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-columns: repeat(auto-fit,minmax(30vw, auto)); */
+    
     /* grid-template-columns: repeat(auto-fill,minmax(auto,30vw)); */
     width: 100%;
     min-height: auto;
-    /* outline: solid blue; */
+    
     background-repeat: no-repeat ;
     background-size:cover;
     background-position: center center;
     z-index: 2;
 }
+
 
 
 .block{
@@ -99,7 +133,7 @@ h2{
     width: fit-content;
     margin: 0;
     background-color: rgba(244,123,32, 0.664);
-    color: ;
+    /* color: ; */
 }
 a:link{
     text-decoration: none;
@@ -135,7 +169,7 @@ background-color: rgba(88, 44, 10, 0.292);
 footer{
 display: flex;
 position: fixed bottom;
-background-color: salmon;
+background-color: --cpb;
 
 
 }
