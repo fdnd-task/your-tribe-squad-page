@@ -1,22 +1,24 @@
 .hero {
     width: auto;
-    height: 40vh;
-    background-color: #282828;
     border-radius: 20px;
     overflow: hidden;
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    transition: height 0.5s ease;
+    flex-direction: column; /* Stack the elements vertically */
 }
 
+.hero-content {
+    text-align: center;
+}
 
 .hero h1 {
-    text-transform: uppercase;
     color: var(--off-white);
-    font-size: 3rem;
+    font-weight: 300;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2em;
 }
-
 
 /* Media query for screens with a minimum width of 22.5em (360px and up) */
 @media only screen and (min-width: 22.5em) {
@@ -31,12 +33,12 @@
 }
 @media only screen and (min-width: 48em) {
     .hero {
-        margin: 4em 8em 8em 8em;
-        height: 40vh;
+        margin: 4em 6em 0em 6em;
+        height: 70vh;
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
 }
