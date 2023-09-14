@@ -13,41 +13,16 @@ html,body{
 
 }
 /* ask about media query */
-@media (max-width: 700px) {
-    .person{
-        opacity: 50%;
-        grid-template-columns: repeat( auto-fit, minmax(20px, 502.6px) );     
-        transition: 0.4s ease-in-out;
-    }
 
-    header{
-        text-align: center;
-        font-size: 1.5em;
-        
-    }
-    .ontop{
-        height: 200rem;
-        flex-grow:0;
-        transition: 2s ease-in-out;
-    }
-    .quote{
-            color:yellow;
-            transition: 0.4s ease-in-out;
-    }
-    .bottom{
-        height:100px;
-        opacity: 50%;
-    }
-}
 
     
 
 body{
-display: flex;
-flex-direction: column;
-overflow-x:hidden;
-justify-content:baseline;
-background-color:brown ;
+    display: flex;
+    flex-direction: column;
+    overflow-x:hidden;
+    justify-content:baseline;
+    background-color:rgb(10, 10, 10) ;
 }
 .ontop{
    
@@ -58,15 +33,12 @@ background-color:brown ;
     /* border:solid red; */
     /* outline: solid rgba(147, 0, 0, 0.608); */
     /* margin: ; */
-     flex-grow: 1;
-     transition: 1s ease-in-out;
+    /* flex-grow: 1; */
+    transition: 1s ease-in-out;
 }
 header{
-    position: relative top;
-    left:0;
-    top:0;
+    text-align: center;
     height: 11%;
-    /* border: solid salmon; */
     font-size: 2em;
     
 }
@@ -77,7 +49,7 @@ header{
     text-align: center;
     font-size: 5rem;
     padding-top: 2em;
-    height: 3.5em;
+    height: 60vh;
     
     /* background-image: element(); */
 }
@@ -88,7 +60,7 @@ header{
     height:300em;
     margin: 0;
     /* padding: 100px; */
-    background-color: rgba(244, 124, 32, 0.373);
+    background-color: #000000;
     
     
 }
@@ -100,11 +72,12 @@ header{
 	list-style:none;
     background-color:rgba(64, 104, 178, 0);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    
     /* grid-template-columns: 1fr 1fr 1fr; */
     
     /* grid-template-columns: repeat(auto-fill,minmax(auto,30vw)); */
     width: 100%;
+    
     min-height: auto;
     
     background-repeat: no-repeat ;
@@ -122,7 +95,7 @@ header{
     min-height: 15em;
     max-height: 20em;
     min-width: none;
-    ;
+    
     /* outline: solid brown; */
     
 }
@@ -148,7 +121,7 @@ a:link{
     top: 195px;
     /* padding-top: 180px;
     padding-left: 280px; */
-background-color: rgba(88, 44, 10, 0.292);
+    background-color: rgba(88, 44, 10, 0.292);
 
     /* border-bottom: solid black; */
     border-width: 2px;
@@ -171,10 +144,73 @@ display: flex;
 position: fixed bottom;
 background-color: --cpb;
 
-
 }
 .backUp{
     position: absolute ;
     right: 0;
     padding:0 30px;
+}
+
+@media (min-width:41rem ) {
+    .person{
+        
+        grid-template-columns: repeat(2,1fr);
+        /* grid-template-columns: repeat( auto-fit, minmax(20px, 200px) );      */
+        transition: 0.4s ease-in-out;
+    }
+
+    header{
+        font-size: 1.5em;  
+        text-align:start;
+    }
+    .ontop{
+        background-color: pink;
+        /* height: 100vh; */
+        flex-grow:0;
+        transition: 2s ease-in-out;
+    }
+    .quote{
+            color:yellow;
+            transition: 0.4s ease-in-out;
+            height: 12rem;
+    }
+    .bottom{
+        height:100px;
+        opacity: 70%;
+        
+    }
+    footer{
+        display: none;
+    }
+}
+
+
+@media (min-width: 62rem) {
+    .person{
+    
+        grid-template-columns: repeat(3,1fr);     
+        transition: 0.4s ease-in-out;
+    }
+    header{
+        position: relative top;
+        left:0;
+        top:0;
+    }
+    
+    .ontop{
+        background-color: pink;
+        flex-grow:0;
+        transition: 2s ease-in-out;
+    }
+    .quote{
+            color:rgb(0, 255, 106);
+            transition: 0.4s ease-in-out;
+            height: 6rem;
+    }
+    .bottom{
+        height:100px;
+        opacity: 100%;
+        background-color: #000000;
+    }
+    
 }

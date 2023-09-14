@@ -1,14 +1,11 @@
 .block:hover{
-    
     background-color: rgba(0, 0, 0, 0.184);
-   
-}
-.block:hover  {
-    
-   transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
     transform:scale(1.03);
     outline: solid ;
+    z-index: 3;
 }
+
 
 
 li:nth-of-type(1) {
