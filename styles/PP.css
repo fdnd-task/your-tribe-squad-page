@@ -10,7 +10,7 @@
 
 li:nth-of-type(1) {
 	
-    background-image: url(/assets/6992026a-4ec4-4399-a36a-c18411945cb2.JPG);
+    background-image: url(/assets/gezichtjes/Squad1E-Danique.jpg);
     background-repeat: no-repeat ;
     /* background-size: 100% 100%; */
     background-size:cover;
@@ -25,7 +25,7 @@ li:nth-of-type(1) {
 }
 li:nth-of-type(2) {
 
-    background-image: url(/assets/Screenshot\ 2023-09-11\ at\ 10.37.33.png);
+    background-image: url(/assets/gezichtjes/Chris.png);
     background-repeat: no-repeat ;
     /* background-size: 100% 100%; */
     background-size:cover;
@@ -39,7 +39,7 @@ li:nth-of-type(2) {
 
 }
 li:nth-of-type(3) {
-    background-image: url(/assets/44ab8d85-37b9-4153-9b50-0bb9ad5f1835.JPG);
+    background-image: url(/assets/gezichtjes/Misah\ Said.png);
     background-repeat: no-repeat ;
     /* background-size: 100% 100%; */
     background-size:cover ;
@@ -47,8 +47,11 @@ li:nth-of-type(3) {
     background-blend-mode:lighten;
     background-color:rgba(233, 114, 9, 0.381);
 }
+
+/* new squad ;) */
+
 li:nth-of-type(4) {
-    background-image: url(/assets/IMG_0276.PNG);
+    background-image: url(/assets/gezichtjes/Abeer.png);
     background-repeat: no-repeat ;
     /* background-size: 100% 100%; */
     background-size:cover;
@@ -58,7 +61,7 @@ li:nth-of-type(4) {
 
 }
 li:nth-of-type(5) {
-    background-image: url(/assets/Screenshot\ 2023-09-11\ at\ 10.37.33.png);
+    background-image: url(/assets/gezichtjes/Akiko.png);
     background-repeat: no-repeat ;
     background-size: 100% 100%;
     background-size:cover;
@@ -69,7 +72,241 @@ li:nth-of-type(5) {
    
 }
 li:nth-of-type(6) {
-    background-image: url(/assets/6f721da5-64de-43e7-8529-273fff63637c.JPG);
+    background-image: url(/assets/gezichtjes/Anna-Kyra.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+/* new squad ;) */
+
+li:nth-of-type(7) {
+    background-image: url(/assets/gezichtjes/Squad1E-Annelinde.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(8) {
+    background-image: url(/assets/gezichtjes/damian.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(9) {
+    background-image: url(/assets/gezichtjes/Gita.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+/* new squad ;) */
+
+li:nth-of-type(10) {
+    background-image: url(/assets/gezichtjes/Hadil.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(11) {
+    background-image: url(/assets/gezichtjes/Squad1E-Ilona.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(12) {
+    background-image: url(/assets/gezichtjes/Jason\ Wong.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+/* new squad ;) */
+
+li:nth-of-type(13) {
+    background-image: url(/assets/gezichtjes/jesse.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(14) {
+    background-image: url(/assets/gezichtjes/Squad1E-Justin.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(15) {
+    background-image: url(/assets/gezichtjes/Kaan.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(16) {
+    background-image: url(/assets/gezichtjes/Squad1E-Kiko.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(17) {
+    background-image: url(/assets/gezichtjes/Lemuel.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(18) {
+    background-image: url(/assets/gezichtjes/Squad1E-Lisa.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(19) {
+    background-image: url(/assets/gezichtjes/Squad1E-Metehan.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(20) {
+    background-image: url(/assets/gezichtjes/Squad1E-Nevayo.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(21) {
+    background-image: url(/assets/gezichtjes/Squad1E-Patrick.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(22) {
+    background-image: url(/assets/gezichtjes/Robby\ Risse.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(23) {
+    background-image: url(/assets/gezichtjes/Ronaldo.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(24) {
+    background-image: url(/assets/gezichtjes/Viktor.png);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center center;
+    background-blend-mode:luminosity;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+li:nth-of-type(25) {
+    background-image: url(/assets/gezichtjes/Inez.png);
     background-repeat: no-repeat ;
     background-size: 100% 100%;
     background-size:cover;
