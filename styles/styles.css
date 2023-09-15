@@ -107,6 +107,13 @@ header{
     /* outline: solid brown; */
     
 }
+.insideGrid{
+    display: grid;
+    grid-template-areas:"a ."
+                        ". b";
+                        outline: solid blue ;
+}
+
 
 h2{
     /* transform: translate(10px,1px); */
