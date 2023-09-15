@@ -55,11 +55,12 @@ header{
 .quote{
     display: block;
     position: relative;
-    background-color: rgb(23, 22, 22);
+    background-color: bisque;
     text-align: center;
-    font-size: 5rem;
+    font-size: 1.5rem;
     height: 60vh;
     transition: 1s ease;
+    color: rgb(208, 73,154);
     /* background-image: element(); */
 }
 
@@ -186,10 +187,11 @@ background-color: --cpb;
         transition: 2s ease-in-out;
     }
     .quote{
-            color:yellow;
+            color: rgb(62, 104, 178);
             transition: 0.4s ease-in-out;
             height: 30rem;
             padding:6rem;
+            font-size: 3rem;
     }
     .bottom{
         height:100px;
@@ -220,8 +222,9 @@ background-color: --cpb;
         transition: 2s ease;
     }
     .quote{
-            color:rgb(0, 255, 106);
+            color:rgb(244, 123, 32);
             transition: 0.4s ease;
+            font-size: 5rem;
             
     }
     .bottom{
