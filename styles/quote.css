@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgb(208, 73,154);
+    font-family: "poppins", sans-serif;
+    background-color: #000000;
+}
+
+.line-1 {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(208, 73,154);
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter {
+    animation: typewriter 2s steps(8) 1s 1 normal both,
+    blinkTextCursor 500ms steps(8) infinite normal;
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to {width: 4.4em;}
+}
+
+@keyframes blinkTextCursor{
+    from{border-right-color: rgb(208, 73,154);}
+    to{border-right-color: transparent;}
+}
+
+
+@media screen and (min-width:41rem) {
+  .line-1 {
+    position: relative;
+    top: 50%;
+    width: 10em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(208, 73,154);
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+  
+    
+}
+
+
+@media screen and (min-width: 62rem) {
+    p {
+        color: rgb(244, 123, 154);
+    }
+    .line-1 {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(244, 123, 154);
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+}
