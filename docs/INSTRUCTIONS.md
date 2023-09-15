@@ -11,6 +11,7 @@ In het S01W2-01-Squadpage wordt stap voor stap behandeld wat je moet doen.
 
 Bij deze leertaak hoort de deeltaak:
 - [Your Tribe - Team Canvas](https://github.com/fdnd-task/your-tribe-team-canvas/)
+- [Your Tribe - Responsive Design](https://github.com/fdnd-task/your-tribe-responsive-design/)
 
 
 
@@ -38,14 +39,15 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 #### Aanpak analysefase
 
-1. Verzamel inspiratie voor overzichtspagina's door _desktop research_ uit te voeren met jouw Squad (doen we samen)
-2. Lees de instructies van deze leertaak zorgvuldig door
-3. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
+1. Lees de instructies van deze leertaak zorgvuldig door
+2. Bekijk de verschillende fases van de Development Lifecycle en wat je per stap gaat doen
+3. Vul met jouw team een teamcanvas in om een goed vertrekpunt voor jouw teamproject te hebben
 4. Bespreek met jouw team wat je aan werk verwacht en verdeel het werk. Tip: gebruik hiervoor issues op GitHub
 
 #### Materiaal analysefase
 
-- [Mastering Issues](https://guides.github.com/features/issues/)
+- [the Team Canvas (engels)](http://theteamcanvas.com/learn/)
+
 
 
 ### Ontwerpen
@@ -60,10 +62,11 @@ Dit is een belangrijk moment in het project.
 
 #### Aanpak ontwerpfase
 
-1. Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
-2. Maak vervolgens per section een breakdownschets van elementen van de betreffende section
-3. Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
-4. Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
+1. Verzamel inspiratie voor overzichtspagina's door _desktop research_ uit te voeren met jouw Squad (doen we samen)
+2. Maak een abstracte schets van het ontwerp van de squad page. schets hierbij de verschillende sections (hoofdstukken) van de pagina.
+3. Maak vervolgens per section een breakdownschets van elementen van de betreffende section
+4. Bedenk welke HTML elementen van toepassingen zijn om de schets uit te kunnen werken in HTML
+5. Verwerk de HTML elementen in de schets, met verwijzingen naar de betreffende section
  
 
 #### Materiaal ontwerpfase
@@ -80,6 +83,12 @@ In de bouwfase realiseer je de beslissingen uit de ontwerpfase in HTML, CSS en J
 Op basis van je ontwerpschets ga je bedenken hoe je je ontwerp in code kan bouwen. Je zet je project op in Github en kopieert de repository naar jouw computer. Je begint met de content in HTML, voegt CSS toe voor de vormgeving en JS voor de interactie.
 
 #### Aanpak bouwfase
+
+<!--
+Project setup met een team?
+[Mastering Issues](https://guides.github.com/features/issues/)
+Samenwerken in GH?
+-->
 
 1. Werk aan de hand van de breakdownschets de pagina uit in HTML
 2. Geef vervolgens de pagina vorm met CSS
