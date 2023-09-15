@@ -51,10 +51,11 @@ header{
     font-size: 2em;
     
 }
+/* this should be replaced with the new quotes */
 .quote{
     display: block;
     position: relative;
-    background-color: bisque;
+    background-color: rgb(23, 22, 22);
     text-align: center;
     font-size: 5rem;
     height: 60vh;
@@ -68,7 +69,7 @@ header{
     height:300em;
     margin: 0;
     /* padding: 100px; */
-    background-color: #000000;
+    background-color: #111111;
     
     
 }
@@ -111,7 +112,7 @@ header{
     display: grid;
     grid-template-areas:"a ."
                         ". b";
-                        outline: solid blue ;
+    
 }
 
 
@@ -179,7 +180,7 @@ background-color: --cpb;
         text-align:start;
     }
     .ontop{
-        background-color: pink;
+        background-color: #111111;
         /* height: 100vh; */
         flex-grow:0;
         transition: 2s ease-in-out;
@@ -187,19 +188,19 @@ background-color: --cpb;
     .quote{
             color:yellow;
             transition: 0.4s ease-in-out;
-            height: 6rem;
+            height: 30rem;
             padding:6rem;
     }
     .bottom{
         height:100px;
         opacity: 70%;
         
-    }
+
     footer{
         display: none;
     }
 }
-
+}
 
 @media (min-width: 62rem) {
     .person{
@@ -214,7 +215,7 @@ background-color: --cpb;
     }
     
     .ontop{
-        background-color: pink;
+        background-color: #111111;
         flex-grow:0;
         transition: 2s ease;
     }
