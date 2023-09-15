@@ -24,6 +24,15 @@ body{
     justify-content:baseline;
     background-color:rgb(10, 10, 10) ;
 }
+body::after{
+    position: fixed;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    outline: solid blue;
+    z-index: 100;
+}
+
 .ontop{
    
     display: flex; 
@@ -34,7 +43,7 @@ body{
     /* outline: solid rgba(147, 0, 0, 0.608); */
     /* margin: ; */
     /* flex-grow: 1; */
-    transition: 1s ease-in-out;
+    transition: 1s ease;
 }
 header{
     text-align: center;
@@ -48,9 +57,8 @@ header{
     background-color: bisque;
     text-align: center;
     font-size: 5rem;
-    padding-top: 2em;
     height: 60vh;
-    
+    transition: 1s ease;
     /* background-image: element(); */
 }
 
@@ -172,7 +180,8 @@ background-color: --cpb;
     .quote{
             color:yellow;
             transition: 0.4s ease-in-out;
-            height: 12rem;
+            height: 6rem;
+            padding:6rem;
     }
     .bottom{
         height:100px;
@@ -189,7 +198,7 @@ background-color: --cpb;
     .person{
     
         grid-template-columns: repeat(3,1fr);     
-        transition: 0.4s ease-in-out;
+        transition: 0.4s ease;
     }
     header{
         position: relative top;
@@ -200,12 +209,12 @@ background-color: --cpb;
     .ontop{
         background-color: pink;
         flex-grow:0;
-        transition: 2s ease-in-out;
+        transition: 2s ease;
     }
     .quote{
             color:rgb(0, 255, 106);
-            transition: 0.4s ease-in-out;
-            height: 6rem;
+            transition: 0.4s ease;
+            
     }
     .bottom{
         height:100px;
