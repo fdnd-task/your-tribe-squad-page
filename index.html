@@ -1,35 +1,175 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    
-    <article>
-      <div class="foto"></div>
-      <div class="container">
-        <div id="element" class="info hidden">
-          <p class="info-tekst"><em>Creative Frontend Developer</em></p>
-          <h1 class="info-header">Patrick Hordijk</h1>
-          <p class="about-tekst">Hoi mijn naam is Patrick en ik design en bouw websites. Ik ben gespecialiseerd in <span class="bold">HTML</span>, <span class="bold">CSS</span> en <span class="bold">Javascript</span>. In mijn vrije tijd voetbal ik bij FC Delta Sports.</p>
-          <div class="icons">
-            <a href="https://www.linkedin.com/in/patrick-hordijk-a639981b7/" target="_blank"><img class="icon1" src="assets/linkedin.svg"> </img> </a>
-            <a href="#website"><img class="icon2" src="assets/globe-solid.svg" target="_blank"></img></a>
-          </div>
-        </div>
-        <div class="card-below">
-          <p class="wave hover">👋</p>
-        </div>
-      </div>
-    </article>
 
-    <script src="scripts/script.js"></script>
-    
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Squadpage 1E</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+   
+   <div class="container">
+     <div class="titel">
+       <h1>Squad 1E</h1>
+     </div>
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Robby.jpg" alt="Robby_img" draggable="false"></div>
+          <h2>Robby</h2>
+          <p>26 Jaar</p>
+          <a href="https://robbyrisse.github.io/your-tribe-profile-card/kaartje%202.html" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card"> 
+          <div class="img"><img src="assets/mugshots/Squad1E-Annelinde.jpg" alt="Annelinde_img" draggable="false">
+          </div>
+          <h2>Annelinde</h2>
+          <p>23 Jaar</p>
+          <a href="https://annelinderaadsheer.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Patrick.jpg" alt="Patrick_img" draggable="false"></div>
+          <h2>Patrick</h2>
+          <p>20 Jaar</p>
+          <a href="https://patrickkhr.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Abeer.jpg" alt="Abeer_img" draggable="false"></div>
+          <h2>Abeer</h2>
+          <p>test</p>
+          <a href="#" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Akiko.jpg" alt="Akiko_img" draggable="false"></div>
+          <h2>Akiko</h2>
+          <p>test</p>
+          <a href="https://akikosophia.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Anna-Kyra.jpg" alt="Anna-kyra_img" draggable="false"></div>
+          <h2>Anna-kyra</h2>
+          <p>test</p>
+          <a href="https://anna-kyra.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Christopher.jpg" alt="Christopher_img" draggable="false"></div>
+          <h2>Christopher</h2>
+          <p>test</p>
+          <a href="#" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Damian.jpg" alt="Damian_img" draggable="false"></div>
+          <h2>Damian</h2>
+          <p>18 Jaar</p>
+          <a href="https://damianr2004.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Danique.jpg" alt="Danique_img" draggable="false"></div>
+          <h2>Danique</h2>
+          <p>test</p>
+          <a href="https://xxdaniquee.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Gita.jpg" alt="Gita_img" draggable="false"></div>
+          <h2>Gita</h2>
+          <p>23 Jaar</p>
+          <a href="https://gitazeinstra.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Hadil.jpg" alt="Hadil_img" draggable="false"></div>
+          <h2>Hadil</h2>
+          <p>23 Jaar</p>
+          <a href="#" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Ilona.jpg" alt="Ilona_img" draggable="false"></div>
+          <h2>Ilona</h2>
+          <p>22 Jaar</p>
+          <a href="https://patrickkhr.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Jason.jpg" alt="Jason_img" draggable="false"></div>
+          <h2>Jason</h2>
+          <p>test</p>
+          <a href="https://jason2426.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Jesse.jpg" alt="Jesse_img" draggable="false"></div>
+          <h2>Jesse</h2>
+          <p>20 Jaar</p>
+          <a href="https://j3ss3hva.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Justin.jpg" alt="Justin_img" draggable="false"></div>
+          <h2>Justin</h2>
+          <p>19 Jaar</p>
+          <a href="https://ofteweljustin.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Kaan.jpg" alt="Kaan_img" draggable="false"></div>
+          <h2>Kaan</h2>
+          <p>test</p>
+          <a href="https://kaankalmi.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Kiko.jpg" alt="Kiko_img" draggable="false"></div>
+          <h2>Kiko</h2>
+          <p>test</p>
+          <a href="#" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Lemuel.jpg" alt="Lemuel_img" draggable="false"></div>
+          <h2>Lemuel</h2>
+          <p>test</p>
+          <a href="https://lemuelmgsn.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Lisa.jpg" alt="Lisa_img" draggable="false"></div>
+          <h2>Lisa</h2>
+          <p>22 Jaar</p>
+          <a href="https://lisagjh.github.io/your-tribe-profile-card/profilecard-versie-2/versie2.html" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Metehan.jpg" alt="Metehan_img" draggable="false"></div>
+          <h2>Metehan</h2>
+          <p>19 Jaar</p>
+          <a href="https://metehan2003.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Misah.jpg" alt="Misah_img" draggable="false"></div>
+          <h2>Misah</h2>
+          <p>test</p>
+          <a href="https://misahsaid.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Nevayo.jpg" alt="Nevayo_img" draggable="false"></div>
+          <h2>Nevayo</h2>
+          <p>test</p>
+          <a href="#" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Ronaldo.jpg" alt="Ronaldo_img" draggable="false"></div>
+          <h2>Ronaldo</h2>
+          <p>test</p>
+          <a href="#" target="_blank">Visitekaartje</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="assets/mugshots/Squad1E-Viktor.jpg" alt="Viktor_img" draggable="false"></div>
+          <h2>Viktor</h2>
+          <p>test</p>
+          <a href="https://patrickkhr.github.io/your-tribe-profile-card/" target="_blank">Visitekaartje</a>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+  </div>
+  
+
+</body>
+
 </html>
