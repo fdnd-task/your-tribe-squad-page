@@ -8,13 +8,10 @@
 }
 html,body{
     width: 100%;
-    height:100vh;
+    height:350vh;
     
 
 }
-/* ask about media query */
-
-
     
 
 body{
@@ -55,22 +52,24 @@ header{
 .quote{
     display: block;
     position: relative;
-    background-color: bisque;
+    background-color: #111111;
     text-align: center;
     font-size: 1.5rem;
-    height: 60vh;
+    height: 70vh;
     transition: 1s ease;
     color: rgb(208, 73,154);
     /* background-image: element(); */
 }
 
 .bottom{
+    display: grid;
     width: 100%;
-    position: relative;
-    height:300em;
+    position: sticky;
+    height:100%;
     margin: 0;
     /* padding: 100px; */
     background-color: #111111;
+    flex-grow: 1;
     
     
 }
@@ -119,7 +118,7 @@ header{
 
 h2{
     /* transform: translate(10px,1px); */
-    outline: solid rgba(64, 104, 178, 0.445);
+    outline: solid rgba(244,123,32, 0.664);
     width: fit-content;
     margin: 0;
     background-color: rgba(244,123,32, 0.664);
@@ -127,7 +126,7 @@ h2{
 }
 a:link{
     text-decoration: none;
-    background-color :rgba(64, 104, 178, 0.907)
+    /* background-color :rgba(244,123,32, 0.664) */
 }
 .link{
     display: block;
@@ -157,14 +156,23 @@ a:link{
 
 /* footer stuff */
 footer{
-display: flex;
-position: fixed bottom;
-background-color: --cpb;
+    position:relative ;
+    /* display: contents; */
+    bottom:0;
+    right: 0;
+    padding-right: 0px;
+ 
+/*position: bottom 100%;
+width: fit-content;
+margin: 10% 10%;*/
+
+/* transform: translate(0 100px); */
+background-color: red; 
 
 }
 .backUp{
     position: absolute ;
-    right: 0;
+    right:0;
     padding:0 30px;
 }
 
@@ -194,12 +202,12 @@ background-color: --cpb;
             font-size: 3rem;
     }
     .bottom{
-        height:100px;
-        opacity: 70%;
-        
+        height:100%;
+        opacity: 100%;
+        background-color: #000000;
 
     footer{
-        display: none;
+       
     }
 }
 }
@@ -228,9 +236,9 @@ background-color: --cpb;
             
     }
     .bottom{
-        height:100px;
+        height:100%;
         opacity: 100%;
-        background-color: #000000;
+       
     }
     
 }
