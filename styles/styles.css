@@ -51,9 +51,6 @@ header{
     font-size: 2em;
     
 }
-<<<<<<< Updated upstream
-/* this should be replaced with the new quotes */
-=======
 
 #logo {
     font-size: 16px;
@@ -69,7 +66,6 @@ header{
     margin: 0 auto; /* Center the box horizontally */
 }
 
->>>>>>> Stashed changes
 .quote{
     display: block;
     position: relative;
