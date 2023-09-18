@@ -70,11 +70,16 @@ header{
     display: block;
     position: relative;
     background-color: #111111;
-    text-align: center;
-    font-size: 1.5rem;
     height: 70vh;
     transition: 1s ease;
-    color: rgb(208, 73,154);
+    font-size: 4em;
+    font-weight: bold;
+    background: #4068B2;
+    background: radial-gradient(circle farthest-corner at center center, #4068B2 21%, #F47B20 50%, #D0499A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    font-family: "poppins", sans-serif;
     /* background-image: element(); */
 }
 
@@ -192,11 +197,10 @@ a:link{
         scale:1;
     }
     .quote{
-            color: rgb(62, 104, 178);
             transition: 0.4s ease-in-out;
             height: 30rem;
             padding:6rem;
-            font-size: 3rem;
+            font-size: 2.5rem;
     }
     .bottom{
         height:100%;
@@ -227,7 +231,6 @@ a:link{
         transition: 2s ease;
     }
     .quote{
-            color:rgb(244, 123, 32);
             transition: 0.4s ease;
             font-size: 5rem;
             
