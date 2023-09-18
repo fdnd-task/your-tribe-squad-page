@@ -117,9 +117,20 @@ header{
     margin:0;
 	padding:8px 10px ;
     position: relative;
-   
+    opacity: 100%;
     border-radius: 10px;
-    background-color:#f47b20 ;
+    background-color:#f47c20e4 ;
+   
+}
+.dreamTeam:hover{
+    opacity: 100%;
+}
+.block:has(a:hover){
+    background-color: #111111;
+    transition: .2s ease-in-out;
+    transform:scale(1.03);
+    outline: solid ;
+    z-index: 3;
 }
 
 .img{
@@ -127,9 +138,13 @@ header{
     width: 100%;
     object-fit:cover;
     aspect-ratio: 16/9;
-    border-radius: 10px;
+    border-radius: 100px;
     min-width:3rem;
     scale:1;
+    outline: solid black;
+    background-color: beige;
+    
+
 
 }
 
@@ -174,7 +189,7 @@ a:link{
 
     header{
         font-size: 1.5em;  
-        text-align:start;
+        text-align:center;
     }
     .ontop{
         background-color: #111111;
