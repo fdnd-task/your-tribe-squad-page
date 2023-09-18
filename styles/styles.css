@@ -121,8 +121,7 @@ header{
     margin:0;
 	padding:8px 10px ;
     position: relative;
-    min-height: 15em;
-    max-height: 20em;
+   
     border-radius: 10px;
     background-color:#f47b20 ;
 }
