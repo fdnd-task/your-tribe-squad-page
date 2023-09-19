@@ -205,7 +205,7 @@ header{
     width: 100%;
     object-fit:cover;
     aspect-ratio: 16/9;
-    border-radius: 100px;
+    border-radius: 10px;
     min-width:3rem;
     scale:1;
     outline: solid black;
