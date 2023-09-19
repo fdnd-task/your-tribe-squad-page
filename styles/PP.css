@@ -108,7 +108,7 @@ li:nth-of-type(10) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -6cm;
     }
 }
 li:nth-of-type(11) {
@@ -121,7 +121,7 @@ li:nth-of-type(11) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5.5cm;
     }
 }
 li:nth-of-type(12) {
@@ -147,7 +147,7 @@ li:nth-of-type(13) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5.5cm;
     }
 }
 li:nth-of-type(14) {
@@ -160,7 +160,7 @@ li:nth-of-type(14) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5.5cm;
     }
 }
 li:nth-of-type(15) {
@@ -186,7 +186,7 @@ li:nth-of-type(16) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -6cm;
     }
 }
 li:nth-of-type(17) {
@@ -199,7 +199,7 @@ li:nth-of-type(17) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5cm;
     }
 }
 li:nth-of-type(18) {
@@ -212,7 +212,7 @@ li:nth-of-type(18) {
    
     >.img{
         opacity: 100%;
-        object-position:center  ;
+        object-position:0px -5cm;
         filter:grayscale(100);
     }
 }
@@ -226,7 +226,7 @@ li:nth-of-type(19) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5cm;
     }
 }
 li:nth-of-type(20) {
@@ -239,7 +239,7 @@ li:nth-of-type(20) {
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5cm;
     }
 }
 li:nth-of-type(21) {
@@ -248,11 +248,11 @@ li:nth-of-type(21) {
     
     size: 100% 100%;
    
-    object-position:bottom;
+   
    
     >.img{
         opacity: 100%;
-        object-position: top ;
+        object-position:0px -4cm ;
     }
 }
 li:nth-of-type(22) {
@@ -261,10 +261,47 @@ li:nth-of-type(22) {
     
     size: 100% 100%;
    
-    object-position:bottom;
    
     >.img{
         opacity: 100%;
-        
+        object-position:0px -5cm;
+    }
+}
+li:nth-of-type(23) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    
+    >.img{
+        opacity: 100%;
+        object-position:0px -6cm;
+    }
+}
+li:nth-of-type(24) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    
+   
+    >.img{
+        opacity: 100%;
+        object-position:0px -5cm;
+    }
+}
+li:nth-of-type(25) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+   
+   
+    >.img{
+        opacity: 100%;
+         object-position:center;
     }
 }

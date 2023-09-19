@@ -55,7 +55,7 @@ body::after{
     position: absolute;
     left: 50%;
     bottom: 0px;
-    translate: 0px 20px;
+    translate: 0px -15px;
     scale: 1;
     transform: translateX(-50%);
     border-radius: 50px;
@@ -65,6 +65,12 @@ body::after{
     text-shadow: rgba(255, 255, 255, 0.5);
     /* background-color:#F47B20; */
     z-index: 5;
+
+    
+}
+
+.scroll-down a{
+    color:#fff;
 }
 
 .scroll-down::before,
@@ -212,8 +218,13 @@ h2{
   text-align: center;
   
 }
+a{
+    color: #111111;
+  }
+
 a:link{
     text-decoration: none;
+    color:#4068B2
     /* background-color :rgba(244,123,32, 0.664) */
 }
 a.people::after {
