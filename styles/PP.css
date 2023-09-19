@@ -1,32 +1,52 @@
-
-
-
-
 li:nth-of-type(1) {
 	
     background-size: 100% 100%;
-    background-size:cover; 
     
-    object-position:center;
-    size: 100% 100%;
-    background-position: center center;
-    background-blend-mode: luminosity;
-    
-   
+    >.img{
+        opacity: 100%;
+        object-position:center;
+        filter: grayscale(	);
+    }
 }
 li:nth-of-type(2) {
 	
-    
-    background-size:cover; 
-    
-    object-position:center;
-    size: 100% 100%;
-    background-position: center center;
-    background-blend-mode: luminosity;
-    
    
+    >.img{
+        opacity: 100%;
+        object-position: center;
+        filter: grayscale(	);
+    }
 }
+
+
 li:nth-of-type(3) {
+	
+   
+    >.img{
+        opacity: 100%;
+        
+        filter: grayscale(	);
+    }
+}
+/* everyone else */
+
+li:nth-of-type(4) {
+	
+
+   
+    >.img{
+        opacity: 100%;
+        object-position: center;
+    }
+}
+li:nth-of-type(5) {
+	
+    
+    >.img{
+        opacity: 100%;
+    }
+}
+li:nth-of-type(6) {
 	
     background-size: 100% 100%;
     
@@ -36,8 +56,215 @@ li:nth-of-type(3) {
    
     >.img{
         opacity: 100%;
-        object-position: top;
+        
     }
 }
-
-
+li:nth-of-type(7) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(8) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(9) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(10) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(11) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(12) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(13) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(14) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(15) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(16) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(17) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(18) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    
+   
+    >.img{
+        opacity: 100%;
+        object-position:center  ;
+        filter:grayscale(100);
+    }
+}
+li:nth-of-type(19) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(20) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
+li:nth-of-type(21) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        object-position: top ;
+    }
+}
+li:nth-of-type(22) {
+	
+    background-size: 100% 100%;
+    
+    size: 100% 100%;
+   
+    object-position:bottom;
+   
+    >.img{
+        opacity: 100%;
+        
+    }
+}
