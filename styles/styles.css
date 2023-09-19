@@ -72,7 +72,7 @@ header{
     background-color: #111111;
     height: 70vh;
     transition: 1s ease;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
     background: #4068B2;
     background: radial-gradient(circle farthest-corner at center center, #4068B2 21%, #F47B20 50%, #D0499A 100%);
@@ -127,9 +127,11 @@ header{
     background-color:#f47c20e4 ;
    
 }
+
 .dreamTeam:hover{
     opacity: 100%;
 }
+
 .block:has(a:hover){
     background-color: #111111;
     transition: .2s ease-in-out;
@@ -152,7 +154,6 @@ header{
 
 
 }
-
 
 
 
@@ -184,6 +185,14 @@ a:link{
     padding:0 30px;
 }
 
+@media (min-width: 18rem) {
+    .quote{
+        transition: 0.4s ease-in-out;
+        font-size: 2.5rem;
+        padding:6rem;  
+    }
+}
+
 @media (min-width:41rem ) {
     .person{
         
@@ -212,11 +221,11 @@ a:link{
         scale:1;
     }
     .quote{
-            transition: 0.4s ease-in-out;
-            height: 30rem;
-            padding:6rem;
-            font-size: 2.5rem;
+        transition: 0.4s ease-in-out;
+        padding:6rem 6rem 4rem 6rem;
+        font-size: 3.5rem;
     }
+
     .bottom{
         height:100%;
         opacity: 100%;
@@ -246,10 +255,11 @@ a:link{
         transition: 2s ease;
     }
     .quote{
-            transition: 0.4s ease;
-            font-size: 5rem;
-            
+        transition: 0.4s ease-in-out;
+        font-size: 5rem;
+        padding:6rem;  
     }
+
     .bottom{
         height:100%;
         opacity: 100%;
@@ -257,3 +267,4 @@ a:link{
     }
     
 }
+
