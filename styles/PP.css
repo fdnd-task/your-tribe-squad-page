@@ -26,6 +26,7 @@ li:nth-of-type(3) {
         opacity: 100%;
         
         filter: grayscale(	);
+        object-position:0px -1cm;
     }
 }
 /* everyone else */
