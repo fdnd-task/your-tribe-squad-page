@@ -23,6 +23,7 @@ body{
     overflow-x:hidden;
     justify-content:baseline;
     background-color:rgb(10, 10, 10) ;
+    height: 30vh;
 }
 body::after{
     position: fixed;
@@ -175,8 +176,7 @@ header{
     background-color:#f47c20e4 ;
    
 }
-
-.dreamTeam:hover{
+.block:hover{
     opacity: 100%;
 }
 
@@ -186,7 +186,13 @@ header{
     transform:scale(1.03);
     outline: solid ;
     z-index: 3;
+    
+    >.img{
+        filter: grayscale(0);
+        
+    }
 }
+
 
 .img{
     /* height: 100%; */
@@ -197,7 +203,7 @@ header{
     min-width:3rem;
     scale:1;
     outline: solid black;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0.926);
     
 
 
@@ -215,7 +221,10 @@ a:link{
     text-decoration: none;
     /* background-color :rgba(244,123,32, 0.664) */
 }
-
+a.people::after {
+    
+    outline: solid red;
+}
 
 /* .img{
     background-position: center;
