@@ -46,6 +46,49 @@ body::after{
     /* flex-grow: 1; */
     transition: 1s ease;
 }
+
+.scroll-down {
+    height: 100px;
+    width: 100px;
+    
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    translate: 0px 20px;
+    scale: 1;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    cursor: pointer; 
+    font-size: small;
+    color: #ffffff;
+    text-shadow: rgba(255, 255, 255, 0.5);
+    /* background-color:#F47B20; */
+    z-index: 5;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid #ffffff;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    
+}
+
+.scroll-down::after{
+    top: 30%;
+    animation-delay: .3s;
+}
+
 header{
     text-align: center;
     height: 11%;
@@ -73,7 +116,7 @@ header{
     background-color: #111111;
     height: 70vh;
     transition: 1s ease;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
     background: #4068B2;
     background: radial-gradient(circle farthest-corner at center center, #4068B2 21%, #F47B20 50%, #D0499A 100%);
@@ -131,6 +174,7 @@ header{
 .block:hover{
     opacity: 100%;
 }
+
 .block:has(a:hover){
     background-color: #111111;
     transition: .2s ease-in-out;
@@ -159,7 +203,6 @@ header{
 
 
 }
-
 
 
 
@@ -194,6 +237,14 @@ a.people::after {
     padding:0 30px;
 }
 
+@media (min-width: 18rem) {
+    .quote{
+        transition: 0.4s ease-in-out;
+        font-size: 2.5rem;
+        padding:6rem;  
+    }
+}
+e
 @media (min-width:41rem ) {
     .person{
         
@@ -222,11 +273,11 @@ a.people::after {
         scale:1;
     }
     .quote{
-            transition: 0.4s ease-in-out;
-            height: 30rem;
-            padding:6rem;
-            font-size: 2.5rem;
+        transition: 0.4s ease-in-out;
+        padding:6rem 6rem 4rem 6rem;
+        font-size: 3.5rem;
     }
+
     .bottom{
         height:100%;
         opacity: 100%;
@@ -256,14 +307,31 @@ a.people::after {
         transition: 2s ease;
     }
     .quote{
-            transition: 0.4s ease;
-            font-size: 5rem;
-            
+        transition: 0.4s ease-in-out;
+        font-size: 5rem;
+        padding:6rem;  
     }
+
     .bottom{
         height:100%;
         opacity: 100%;
        
     }
     
+}
+
+@keyframes scroll-down{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top:90%;
+    }
 }
