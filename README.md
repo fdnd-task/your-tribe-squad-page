@@ -14,9 +14,13 @@
 >   * Github: delen van de code
 >   * Miro: planning, braindump
 >   * Visual Studio Code: Html, Css, Javascript
-
 >
-> 
+> ## Wiki onderdelen:
+>  * [Home](https://github.com/christoph3r3w/your-tribe-squad-page/wiki)
+>  * [Development lifecycle](https://github.com/christoph3r3w/your-tribe-squad-page/wiki/Development-lifecycle)
+>  * [Schetsen](https://github.com/christoph3r3w/your-tribe-squad-page/wiki/Schetsen)
+>  * [Team canvas](https://github.com/christoph3r3w/your-tribe-squad-page/wiki/Team-canvas)
+>  * [Samenwerking](https://github.com/christoph3r3w/your-tribe-squad-page/wiki/Samenwerking)
 
 ## Licentie
 
