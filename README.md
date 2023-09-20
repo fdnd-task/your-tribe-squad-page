@@ -12,6 +12,7 @@
 >   * Figma: design
 >   * Google: research
 >   * Github: delen van de code
+>   * Miro: planning, braindump
 >   * Visual Studio Code: Html, Css, Javascript
 
 >
