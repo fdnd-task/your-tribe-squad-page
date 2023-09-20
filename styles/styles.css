@@ -17,37 +17,53 @@
 html,body{
     width: 100%;
     height:350vh;
+<<<<<<< Updated upstream
     font-family: Poppins,sans-serif;
+=======
+    font-family: 'Poppins',sans-serif; 
+>>>>>>> Stashed changes
 }
     
 body{
     display: flex;
     flex-direction: column;
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
     justify-content:baseline;
     background-color: var(--black1) ;
     height: 30vh;
+    width: 100%;
 }
+<<<<<<< Updated upstream
 
 body::after{
+=======
+/* body::after{
+>>>>>>> Stashed changes
     position: fixed;
     bottom: 0;
     width: 10px;
     height: 10px;
     outline: solid var(--blue);
     z-index: 100;
-}
+} */
 
 .ontop{
    
     display: flex; 
     flex-direction: column;
     width: 100%;
+<<<<<<< Updated upstream
     background-color: var(--black1);
     /* border:solid var(--red); */
     /* outline: solid rgba(147, 0, 0, 0.608); */
     /* margin: ; */
     /* flex-grow: 1; */
+=======
+    background-color: #111111;
+    /* outline:solid red; */
+    margin:0;
+   scale:.99;
+>>>>>>> Stashed changes
     transition: 1s ease;
 }
 
@@ -80,11 +96,17 @@ body::after{
     border: 2px solid var(--white);
     height: 10px;
     width: 10px;
-    transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(44deg);
     border-top: transparent;
     border-left: transparent;
+<<<<<<< Updated upstream
     animation: scroll-down 1s ease-in-out infinite;
     box-shadow: 2px 2px 2px var(--grey) 0.5;
+=======
+    animation: scroll-down 1.5s cubic-bezier(0,-0.13, 0.48, 1.39) infinite;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    
+>>>>>>> Stashed changes
 }
 
 .scroll-down::after{
@@ -93,16 +115,28 @@ body::after{
 }
 
 header{
-    text-align: center;
+    width: 100%;
     height: 11%;
+    text-align: center;
     font-size: 2em;
+<<<<<<< Updated upstream
+=======
+    padding-top: 15px;
+    /* outline: solid blue; */
+    scale:0.999;
+>>>>>>> Stashed changes
 }
 
 #logo {
     font-size: 16px;
     line-height: 1.5;
+<<<<<<< Updated upstream
     margin: 20px;
     color: var(--white);
+=======
+    /* margin: 20px; */
+    color: #fff;
+>>>>>>> Stashed changes
     opacity: 17%;
     text-align: center;
     border: 2px solid var(--white); 
@@ -126,8 +160,13 @@ header{
     -webkit-text-fill-color: transparent; 
     text-align: center;
     font-family: "poppins", sans-serif;
+<<<<<<< Updated upstream
     /* background-image: element(); */
     /* outline: solid var(--pink); */
+=======
+    
+    /* outline: solid #D0499A; */
+>>>>>>> Stashed changes
     scale:.9;
     margin: 0;
     padding: 2rem;
@@ -139,10 +178,16 @@ header{
     width: 100%;
     position: sticky;
     height:100%;
-    margin: 0;
+    margin:0;
+    gap:0;
     /* padding: 100px; */
+<<<<<<< Updated upstream
     background-color: var(--black1);
     flex-grow: 1;
+=======
+    background-color: #111111;
+    flex-grow:1 ;
+>>>>>>> Stashed changes
     
 }
 
@@ -177,9 +222,16 @@ header{
     border-radius: 10px;
     background-color:var(--orange) ;
 }
+<<<<<<< Updated upstream
 
 .block:hover{
     opacity: 100%;
+=======
+.block:has(~ .block a:hover),
+.block:has(a:hover) ~ .block {
+    opacity: 30%;
+
+>>>>>>> Stashed changes
 }
 
 .block:has(a:hover){
@@ -204,14 +256,22 @@ header{
     border-radius: 10px;
     min-width:3rem;
     scale:1;
+<<<<<<< Updated upstream
     outline: solid var(--black);
     background-color: var(--beige);
+=======
+    outline: solid black;
+    background-color: rgba(245, 245, 220, 0.96);
+    filter: grayscale(	.9)
+
+>>>>>>> Stashed changes
 }
 
 h2{
   position: relative;
   text-align: center;
 }
+<<<<<<< Updated upstream
 
 a:link{
     text-decoration: none;
@@ -220,24 +280,42 @@ a:link{
 
 a.people::after {
     outline: solid var(--red);
+=======
+a{
+    color: #111111;
+    text-decoration: none;
+   
+  }
+  a:hover{
+    color:rgb(74, 120, 207);
+>>>>>>> Stashed changes
 }
 
-/* .img{
-    background-position: center;
-    height: 100%;
-    position: relative;
-    justify-content: flex-start;
+a.people .klas::after {
     
+    background-color: #4068b257;
+}
 
-} */
+
 
 /* footer stuff */
 .backUp{
-    position: absolute ;
+    position:absolute ;
+    text-align: center;
     right:0;
-    padding:0 30px;
-}
+    bottom:0;
+    width: 90px;
+    padding: 10px;
+    margin: 20px;
+    color:rgba(48, 4, 24, 0.884);
+    background-color: #7950329e;
+    outline:solid #373232da;
+    border-radius: 50px;
+    translate:0px 350vh;
 
+   
+   
+}
 
 @media (min-width:41rem ) {
     .person{
