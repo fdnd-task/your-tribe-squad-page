@@ -8,7 +8,7 @@
     --orange: #F47B20;
     --blue: #4068B2;
     --red: red;
-    --grey: rgb(255, 255, 255)
+    --grey: rgb(255, 255, 255);
     --beige: rgba(245, 245, 220, 0.926);
 }
 
@@ -205,7 +205,7 @@ header{
     min-width:3rem;
     scale:1;
     outline: solid var(--black);
-    background-color: rgba(245, 245, 220, 0.926);
+    background-color: var(--beige);
 }
 
 h2{
