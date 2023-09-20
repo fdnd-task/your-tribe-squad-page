@@ -5,6 +5,7 @@
 > De squad page is een overzichtspagina met klikbare polaroid voor alle studenten uit squad E. <br>
 > Via de naam van de student op de polaroid, kan je doorklikken naar het visitekaartje van die student.
 > * Link: https://christoph3r3w.github.io/your-tribe-squad-page/
+> * Wiki: https://github.com/christoph3r3w/your-tribe-squad-page/wiki
 >
 >   ##  ⚙️ Gebruikte tools:
 >   * Discord: communicatie
