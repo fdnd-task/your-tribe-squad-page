@@ -7,16 +7,22 @@
   font-family: "Poppins", sans-serif;
 }
 
+.titel {
+  margin-bottom: 2em;
+}
+
 .titel h1 {
-  text-align: center;
   font-size: 8em;
-  margin-bottom: 0.7em;
   color: white;
+  max-width: 1100px;
+  margin: auto;
 }
 .container {
   padding: 0 35px;
   min-height: 100vh;
-  background-color: black;
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00416A, #E4E5E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#00416A, #E4E5E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .wrapper {
   max-width: 1100px;
