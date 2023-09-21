@@ -235,18 +235,18 @@ a:link{
 
 /* footer stuff */
 .backUp{
-    position:absolute ;
-    text-align: center;
+    /* position:absolute ; */
+    /* text-align: center;
     right:0;
     bottom:0;
     width: 90px;
     padding: 10px;
-    margin: 20px;
+    margin: 20px; */
     color:rgba(48, 4, 24, 0.884);
     background-color: #7950329e;
     outline:solid #373232da;
-    border-radius: 50px;
-    translate:0px 350vh;
+    /* border-radius: 50px;
+    translate:0px 350vh; */
 
 }
 
@@ -328,8 +328,8 @@ a:link{
     }
     li:nth-of-type(3) {
      box-shadow: 0px -3px 32px var(--orange);
-    }
-    
+    }  
+
 }
 
 @keyframes scroll-down{
@@ -346,5 +346,6 @@ a:link{
     100%{
         opacity: 0;
         top:90%;
+        z-index: -2;
     }
 }
