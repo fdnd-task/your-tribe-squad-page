@@ -1,0 +1,109 @@
+/* GLOBAL STYLING */
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: #; */
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* HOME */
+
+#home {
+    background-color: #13073D;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home img {
+    margin-top: 1.5em;
+    min-width: 280px;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#home .grid {
+    position: absolute;
+    background-image: url('../assets/vaporwave-grid.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+/* ABOUT US */
+#about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .625em;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #282828;
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 2rem;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 1.7rem;
+    margin: .3rem; 
+
+    transition: .3s ease;
+}
+
+footer ul li a:hover {
+    color: #AF8AA0;
+    transform: scale(1.1);
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width: 32em) {
+    #home img {
+        max-width: 30%;
+    }
+
+    #home .grid {
+        background-position: top;
+    }
+}
