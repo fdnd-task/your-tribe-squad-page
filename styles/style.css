@@ -1,0 +1,45 @@
+body {
+    background: rgb(255, 227, 121);
+    background: linear-gradient(90deg, rgba(255, 227, 121, 1) 0%, rgba(231, 130, 54, 1) 49%, rgba(227, 54, 46, 1) 99%);
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height:auto;
+
+}
+
+h1 {
+
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+
+    position: relative;
+    height: 100vh;
+    gap: 0.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.img1 {
+
+    border: 5px solid black;
+
+}
+
+.img2 {
+
+    border: 5px solid black;
+
+
+}
