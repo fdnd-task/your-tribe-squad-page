@@ -1,10 +1,12 @@
 body {
-    background: rgb(255, 227, 121);
-    background: linear-gradient(90deg, rgba(255, 227, 121, 1) 0%, rgba(231, 130, 54, 1) 49%, rgba(227, 54, 46, 1) 99%);
+   
+    min-height: 100%;
+    height: 100vh;
+    background: linear-gradient(155deg, #f5f5f5, #644c4cb2); /* Neutrale grijsgradient */
 }
 
 header {
-    text-align: center;
+    justify-content: center;
     width: 100%;
     height:auto;
 
@@ -12,34 +14,70 @@ header {
 
 h1 {
 
-    font-size: 6rem;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'be vietnam pro';
+    color: #8f8078;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 
-section {
-
-    position: relative;
-    height: 100vh;
-    gap: 0.8px;
+.sectie {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 30px;
+}
+
+.img-container {
+
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 600px; 
+    height: 550px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    filter: blur(3px);
+    object-fit: cover; 
+}
+
+.img-container:hover {
+
+    border-radius: 15px;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img2:hover {
+
+    position: relative;
+    width: 600px; 
+    height: 550px; 
 
 }
 
 
-
-.img1 {
-
-    border: 5px solid black;
-
-}
-
-.img2 {
-
-    border: 5px solid black;
-
-
+.text-overlay {
+    position: absolute;
+    font-family: 'be vietnam pro';
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-weight: 540;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1;
 }
