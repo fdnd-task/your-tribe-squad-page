@@ -85,7 +85,7 @@ Naast dat je de devtools kunt gebruiken kun je natuurlijk ook met je browser hee
 - [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 - [Gstat counter mobile/desktop/tablet](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide)
 - [Whatsmyviewport](https://whatismyviewport.com/)
-- Wil je een browser die _Responsive_ ontwikkelen nog makkelijker maakt? 🚀 Installeer dan https://polypane.app (gratis voor studenten)
+- Een browser die _Responsive_ makkelijker maakt? 🚀 Gebruik https://polypane.app (gratis voor studenten)
 
 
 
