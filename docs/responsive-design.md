@@ -22,10 +22,27 @@ Met CSS kun je regels schrijven waarmee de browser de website anders toont op ve
     }
 ```
 
-
 ### Aanpak
 
 Schets en maak een responsive design voor je squadpage.
+
+#### Opdracht 1
+
+1. Zoek de pixelwaardes van elke telefoon aan de tafel op
+2. Schrijf deze pixelwaardes op het whiteboard achter ieders naam
+3. Vraag elkaar op welke devices je op internet zit, hoeveel procent op welk device?
+4. Schrijf dit op het whiteboard achter ieders naam
+5. Ga naar [ Gstat counter](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide) en vergelijk de antwoorden met de statistieken
+6. Extra: verander van werelddeel op Gstat counter en bekijk de verschillen
+
+### Opdracht 2
+
+1. Ga naar je favoriete nieuwssite, ieder aan de tafel een ander (zoals nos.nl, ad.nl, parool.nl, cnn.com)
+2. Zoek uit op welke pixelwaardes de site een breakpoint inzet om de layout te veranderen
+3. Schrijf deze pixelwaardes op het bord
+4. Wat valt je op, bespreek dit met je tafel
+
+#### Opdracht 3
 
 1. Schets de squadpage voor een mobiel scherm (S) en een laptop scherm (L)
 2. Maak een breakdownschets met HTML en pseudo CSS code
@@ -73,6 +90,5 @@ Naast dat je de devtools kunt gebruiken kun je natuurlijk ook met je browser hee
 - [How Much Has The Web Really Changed?](https://www.smashingmagazine.com/2013/05/new-defaults-web-design/)
 - [The New Multi-screen World](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/the-new-multi-screen-world-study/)
 - [The ideal viewport doesn’t exist](https://viewports.fyi)
-
 
 
