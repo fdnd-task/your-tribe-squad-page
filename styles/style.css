@@ -1,45 +1,43 @@
 body {
-    background: rgb(255, 227, 121);
-    background: linear-gradient(90deg, rgba(255, 227, 121, 1) 0%, rgba(231, 130, 54, 1) 49%, rgba(227, 54, 46, 1) 99%);
+    background: rgba(4, 179, 227, 0.308);
 }
 
 header {
     text-align: center;
     width: 100%;
-    height:auto;
-
 }
 
 h1 {
 
-    font-size: 6rem;
+    font-size: 6em;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
 }
 
 
-section {
+.image-section {
 
-    position: relative;
-    height: 100vh;
-    gap: 0.8px;
     display: flex;
+    flex-direction: row;
+    gap: 4em;
     justify-content: center;
     align-items: center;
+    justify-items: center;
 
 }
 
-
-
-.img1 {
-
-    border: 5px solid black;
+@media (min-width: 860px) {
+    .img1, .img2 {
+       border: 5px solid black;
+    }
 
 }
 
-.img2 {
+.img1, .img2 {
 
-    border: 5px solid black;
-
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 20px 25px rgba(255, 255, 255, 0.9);
 
 }
