@@ -84,6 +84,7 @@ Naast dat je de devtools kunt gebruiken kun je natuurlijk ook met je browser hee
 - [Viewport meta tag op MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
 - [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 - [Gstat counter mobile/desktop/tablet](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide)
+- [Whatsmyviewport](https://whatismyviewport.com/)
 
 
 **Meer lezen over Responsive**
