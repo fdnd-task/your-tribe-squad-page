@@ -11,7 +11,7 @@ Hier kun je volgende week mee verder om je website te verbeteren.
 
 Deze manier van werken heet iteratief werken. Je doorloopt meerdere keren de DLC, je test regelmatig, je vraagt regelmatig om feedback, zo kan je je website stap voor stap verbeteren.
 
-<img width="598" alt="image" src="https://github.com/user-attachments/assets/8c9442ee-cd00-4ce1-bfb5-cf0b1eb347a9">
+<img width="598" alt="image" src="https://github.com/fdnd-task/your-tribe-squad-page/blob/main/assets/Een-sprint-bij-FDND.png">
 
 
 
