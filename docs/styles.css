@@ -1,0 +1,91 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color of the entire page to white */
+body {
+    background-color: white;
+    color: #333; /* Default text color */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    position: relative; /* To position the background circles */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    z-index: 10; /* Higher z-index to ensure it stays above the circles */
+    position: relative; /* Relative positioning to keep it above the circles */
+}
+
+/* Main content styling */
+main {
+    text-align: center;
+    margin-bottom: 40px;
+    z-index: 10; /* Higher z-index to ensure it stays above the circles */
+    position: relative; /* Relative positioning to keep it above the circles */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+    z-index: 10; /* Higher z-index to ensure it stays above the circles */
+    position: relative; /* Relative positioning to keep it above the circles */
+}
+
+/* Circle styles */
+.circle {
+    position: fixed; /* Fixed to stay visible while scrolling */
+    border-radius: 50%;
+    z-index: 1; /* Lower z-index to stay behind other content */
+    opacity: 0.5; /* Slight transparency for a soft look */
+}
+
+/* Specific circles with different sizes and colors */
+.circle1 {
+    width: 300px;
+    height: 300px;
+    background-color: #a2d5f2; /* Pastel blue */
+    top: 10%;
+    left: 5%;
+}
+
+.circle2 {
+    width: 500px;
+    height: 500px;
+    background-color: #c4aedb; /* Pastel purple */
+    top: 50%;
+    left: 15%;
+}
+
+.circle3 {
+    width: 150px;
+    height: 150px;
+    background-color: #b1e5d3; /* Pastel green */
+    top: 30%;
+    left: 75%;
+}
+
+.circle4 {
+    width: 100px;
+    height: 100px;
+    background-color: #d4b5ff; /* Another pastel purple */
+    top: 75%;
+    left: 80%;
+}
+
+.circle5 {
+    width: 200px;
+    height: 200px;
+    background-color: #f3d5b5; /* Pastel peach */
+    top: 20%;
+    left: 50%;
+}
