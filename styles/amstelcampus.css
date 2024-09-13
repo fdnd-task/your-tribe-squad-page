@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Be Vietnam Pro;
+
+    height: 500vh;
+    margin: 0;
+    background-color: white;
+}
+
+.header {
+    position: fixed;
+    top: -0.25em;
+    left: 0;
+    width: 100vw;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 13.5vw;
+
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    mix-blend-mode: difference;
+    
+}
+
+/* image */
+.image {
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.image:hover {
+    opacity: 0.8;
+}
+
+
+/* image 1 */
+.image.img1:hover {
+    transform: scale(0.95);
+}
+
+.img1 {
+    top: 20vw;
+    left: 5vw;
+    width: 20vw;
+}
+
+/* image 2 */
+.image.img2:hover {
+    transform: scale(0.95);
+}
+
+.img2 {
+    top: 30vw;
+    left: 30vw;
+    width: 30vw;
+}
+
+/* image 3 */
+.image.img3:hover {
+    transform: scale(0.95);
+}
+
+.img3 {
+    top: 20vw;
+    left: 65vw;
+    width: 30vw;
+}
+
+/* cursor */
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    background: rgb(255, 255, 255);
+    transition: transform 0.2s ease-out;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    
+}
+
+a:hover ~ .cursor {
+    transform: scale(6);
+}
+
+.image:hover ~ .cursor
+{
+    transform: scale(6);
+}
+
+.header:hover ~ .cursor
+{
+    transform: scale(6);
+}
+
+/* scrollbar */
+::-webkit-scrollbar { 
+    display: none;
+}
