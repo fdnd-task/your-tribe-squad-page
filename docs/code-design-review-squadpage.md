@@ -27,7 +27,7 @@ Schrijf altijd nette teksten in een issue en probeer een bron of voorbeeld bij t
 Doe de review samen met jouw groepje en bespreek alles wat je tegenkomt. Doe minimaal een Code/Design review voor een andere groep uit je squad.
 
 
-0. Zorg dat je issues van je _repository_ aan staan. En dat je je de meest recente versie naar je online _repository_ hebt gepusht.
+0. Zorg dat je issues van je _repository_ aan staan, en dat je site live staat via GitHub Pages, met een link erheen. En dat je je de meest recente versie naar je online _repository_ hebt gepusht.
 1. Test of de HTML goed is door een _HTML validator check_ te doen op de W3C website: https://validator.w3.org. Schrijf een issue als er in de test problemen naar voren zijn gekomen.
 2. Bekijk alle HTML. Let met name op de _[Content sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning)_, zijn de juiste elementen gebruikt voor de content van de pagina zoals een`<main>`, `<header>`, `<footer>`, `<h1>`-`<h6>`? 
 3. Bekijk de CSS, zijn enkele selectors en properties uitgelegd met comments in de code? Gebruik de [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) om te kijken of de uitleg klopt. Schrijf ook een issue als er geen comments met uitleg zijn geschreven.
