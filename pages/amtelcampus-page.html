@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squad-Page</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../styles/amstelcampus.css">
+    <script src="Amstelcampus.js"></script>
+</head>
+<body>
+
+
+    <!-- <a href="Img1.html"><img class="image img1" src="/Assets/arno-senoner-Z-hiM9VFak0-unsplash.jpg"></a> -->
+
+    <div class="header">Amstelcampus</div>
+    
+    <img class="image img1" src="/Assets/arno-senoner-Z-hiM9VFak0-unsplash.jpg" alt="1">
+    <img class="image img2" src="/Assets/mitch-YIMXYjQoBBU-unsplash.jpg" alt="2">
+    <img class="image img3" src="/Assets/r-architecture-2gDwlIim3Uw-unsplash.jpg" alt="3">
+
+    <div class="cursor"></div>
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        })
+    </script>
+
+</body>
+</html>
