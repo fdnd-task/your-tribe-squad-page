@@ -32,7 +32,6 @@ h1 {
     margin-top: 0;
     display: flex;   /* flex zodat de blokjes naast elkaar komen */
     justify-content: center;
-    /* gap: 30px; */
 }
 
 .img-container {
@@ -41,7 +40,6 @@ h1 {
     display: inline-block;
     overflow: hidden;
     position: relative; /* relative zodat de text-overlay absolute erin kan */
-    /* box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5); */
     width: 500px; 
     height: 450px;
     background: black;
@@ -93,23 +91,11 @@ h1 {
         font-size: 40px;
     }
 
-    .sectie {
-
-        /* gap: 40px; */
-
-    }
-
 }
 
 @media (min-width: 600px) {
     .text-overlay {
         font-size: 60px;
-    }
-
-    .sectie {
-
-        /* gap: 0px; */
-
     }
 }
 
