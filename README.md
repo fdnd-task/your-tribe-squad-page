@@ -9,6 +9,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com
 
 Renzo: https://renzowille.github.io/squad-page-rmr/indexrenzo.html
 Riley: https://renzowille.github.io/squad-page-rmr/docs/index.html
+Meil: [https](https://renzowille.github.io/squad-page-rmr/docs/indexMiel.html)
 
 ## Licentie
 
