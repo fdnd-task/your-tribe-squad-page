@@ -64,59 +64,50 @@ _De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of wri
 
 
 ### Visuele hiërarchie ontwerpen door grootte van tekst of elementen
+Door tekst of elementen verschillende groottes te geven kan je informatie meer of minder belangrijk maken. 
 
+<img width="691" alt="image" src="https://github.com/user-attachments/assets/8eb9e155-1fd3-4eca-a10d-edc288666fe7">
+_De tekst "Beleef samen een spectaculair dagje uit" valt erg op, het is veel groter dan de andere teksten en elementen_
 
-1. lk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken
-2. grootte
-3. 
-Oefening waarbij alle teamleden de visuele hiërarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
-Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
-Eerst gaan jullie kleine experimenten doen met grootte, kleur/contrast, witruime en positie, daarna gaan jullie verschillende versies maken van jullie ontwerp. 
-
-![image](https://github.com/user-attachments/assets/a26fb102-c929-4322-9018-8ffaf79e73f1)
-_Grootte_
+1. Elke teamlid gaat minimaal 3 versies maken door te variëren met de grootte van teksten en elementen
+2. Dupliceer per versie het frame in Figma
 
 
 
 ### Visuele hiërarchie ontwerpen door kleur/contrast
+Door een onderdeel van je ontwerp een hoger kleuren-contrast te geven dan andere valt het meer op. 
 
-Oefening waarbij alle teamleden de visuele hiërarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
-Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
+1. Elke teamlid maakt minimaal 3 verschillende versies waarbij je met kleur en contrast belangrijkste informatie meer contrast geeft dan details.
+2. Dupliceer per versie het frame in Figma
 
-Kleur en contrast toepassen. 
+![image](https://github.com/user-attachments/assets/616a5751-419d-4b70-a3aa-a73df9993c8e)
 
 ![image](https://github.com/user-attachments/assets/0126cc80-1b79-4b8e-a55f-5327845dce13)
-_KLeur/contrast_
+_De buttons "Ontdenk alle attracties" en "Koop nu je ticket" vallen op omdat ze een felle rode kleur hebben op een witte achtergrond_
 
 
 
 ### Visuele hiërarchie ontwerpen door witruimte en positie
+Als tekst of elementen veel witruimte hebben en los staan van andere onderdelen op de pagina vallen ze op. 
 
-Oefening waarbij alle teamleden de visuele hiërarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
-Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
+1.  Elke teamlid maakt minimaal 3 verschillende versies waarbij belangrijke informatie meer witruimte  krijgt en het op een andere plek op de pagina staat dan details en achtergorndinformatie. 
+2. Dupliceer per versie het frame in Figma
 
-witruimte en positie toepassen
 
-![image](https://github.com/user-attachments/assets/5334b77c-c52b-46ba-b1d6-5d1fb5390a8d)
-_witruime en positie_
+![image](https://github.com/user-attachments/assets/1aebd071-acfd-4f55-bf87-399888e2068f)
+_De tekst "Waar wil je heen" valt niet alleen op door de grootte en kleur contrast, maar ook omdat er veel witruimte omheenis gebruikt_
 
 
 
 ### Variaties bespreken
-
+Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
 
 ![image](https://github.com/user-attachments/assets/693625cb-0c55-4bc7-87f9-cdc9c0402e02)
 
-Bespreek alle variatie met het team. Noteer bij elk ontwerp hoe je visuele hiërarchie hebt toegepast. 
-
-3.
-Maak een nieuw ontwerp van jullie squad page waarin je de beste ideeën die jullie hebben bedacht gebruikt. 
-
-4.
-Maak een issue aan met het nieuwe ontwerp, voeg ook de variaties toe die jullie hebben gemaakt. 
-
-5. 
-Daarna 1 website (proberen) te maken ... code code code en afspraken maken hoe jullie 1 website gaat maken voor de expo van vrijdag.
+1. Je hebt met je team 9 versies per persoon gemaakt, dus 27 nieuwe ideeen voor jullie squad page. Bespreek alle variatie met het team. Noteer bij elk ontwerp hoe je visuele hiërarchie hebt toegepast.
+2. Maak een nieuw ontwerp van jullie squad page waarin je de beste ideeën die jullie hebben bedacht gebruikt.
+3. Maak een issue aan met jullie nieuwe ontwerp, voeg ook de variaties toe die jullie hebben gemaakt.
+4. Met jullie nieuwe ontwerp gaan jullie deze week 1 website (proberen) te maken. Maak afspraken hoe jullie gaan werken, zorg dat je regelmatig samenkomt en jullie vorderingen bespreekt. 
 
 
 
