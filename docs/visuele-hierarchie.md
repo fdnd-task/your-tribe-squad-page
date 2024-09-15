@@ -53,7 +53,7 @@ Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 
 
 
-## Varieren met Visuele hiërarchie
+## Variëren met visuele hiërarchie
 
 Maak verschillende variaties van jullie squad page, waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
 
