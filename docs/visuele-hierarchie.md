@@ -8,16 +8,16 @@ _In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarc
 
 
 Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
-[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
+Joshua Porter schrijft in zijn artikel over _principles of user interface design_: 
 > A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
-> 
-Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-hiërarchie) van je ontwerp gaan we eerst wat [oefeningen doen om Figma te leren](#figma-oefeningen). 
+
+Voordat je met visuele hiërarchie variaties gaat maken van je ontwerp, gaan we eerst wat oefeningen doen om Figma te leren.
 
 
 
 ## Figma oefeningen
 
-Maak een [account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (je kan ook in de browser met Figma werken).
+Maak een [Figma account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (je kan ook in de browser met Figma werken).
 
 Open de template https://www.figma.com/community/file/1417141972138865897/fdnd-figma-sprint-1-template-community voor een aantal oefeningen. 
 
@@ -72,10 +72,10 @@ Bepaal met je team de [3 niveau's van visuele hierarchie](https://www.smashingma
 ![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
 
 
-### Visuel hiërarchie ontwerpen door grootte
+### Visuele hiërarchie ontwerpen door grootte
 
-Oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
-Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
+Oefening waarbij alle teamleden de visuele hiërarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
+Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
 Eerst gaan jullie kleine experimenten doen met grootte, kleur/contrast, witruime en positie, daarna gaan jullie verschillende versies maken van jullie ontwerp. 
 
 ![image](https://github.com/user-attachments/assets/a26fb102-c929-4322-9018-8ffaf79e73f1)
@@ -83,10 +83,10 @@ _Grootte_
 
 
 
-### Visuel hiërarchie ontwerpen door kleur/contrast
+### Visuele hiërarchie ontwerpen door kleur/contrast
 
-Oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
-Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
+Oefening waarbij alle teamleden de visuele hiërarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
+Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
 
 Kleur en contrast toepassen. 
 
@@ -95,10 +95,10 @@ _KLeur/contrast_
 
 
 
-### Visuel hiërarchie ontwerpen door witruimte en positie
+### Visuele hiërarchie ontwerpen door witruimte en positie
 
-Oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
-Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
+Oefening waarbij alle teamleden de visuele hiërarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
+Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
 
 witruimte en positie toepassen
 
@@ -115,7 +115,7 @@ _witruime en positie_
 Bespreek alle variatie met het team. Noteer bij elk ontwerp hoe je visuele hiërarchie hebt toegepast. 
 
 3.
-Maak een nieuw ontwerp van jullie squadpage waarin je de beste ideeen die jullie hebben gbedacht gebruikt. 
+Maak een nieuw ontwerp van jullie squad page waarin je de beste ideeën die jullie hebben bedacht gebruikt. 
 
 4.
 Maak een issue aan met het nieuwe ontwerp, voeg ook de variaties toe die jullie hebben gemaakt. 
@@ -125,11 +125,12 @@ Daarna 1 website (proberen) te maken ... code code code en afspraken maken hoe j
 
 
 
-#### Bronnen visuele hierarchie
+#### Bronnen Visuele Hiërarchie
 
 - [Design Principles: Dominance, Focal Points And Hierarchy](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/)
 - [Communicating a Message Through Visual Hierarchy](https://designmodo.com/visual-hierarchy/)
 - [Visual Hierarchy: How Well Does Your Design Communicate?](http://vanseodesign.com/web-design/visual-hierarchy/)
+- [Principles of User Interface Design, door Joshua Porter](http://bokardo.com/principles-of-user-interface-design/)
 <!-- - [Korte video over layout en compositie  @ YouTube](https://www.youtube.com/watch?v=a5KYlHNKQB8) -->
 
 
