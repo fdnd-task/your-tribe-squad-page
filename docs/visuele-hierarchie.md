@@ -7,6 +7,13 @@ Visuele hiërarchie toepassen in je ontwerp en met je team ideeën uitwerken in 
 _In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarchie is, hoe je dit kan toepassen in je ontwerp en hoe je met Figma kan werken._
 
 
+Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
+Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm.
+
+[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
+> A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
+
+
 
 
 
@@ -29,11 +36,7 @@ https://help.figma.com/hc/en-us/sections/23691657321239-Courses
 
 ## Varieren met Visuele hiërarchie
 
-Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
-Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, kleur gebruik en contrast, witruime en positie van elementen op het scherm.
 
-[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
-> A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
 
 
 
@@ -41,6 +44,10 @@ Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van
 
 Herontwerp je visitekaartje waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
 
+Oefening met grootte, kleur/contrast, witruime en positie 
+Daarna zelf aan de slag met je team en allemaal 4 ideeen uitwerken van eigen ontwerp (dan heeft je team er 12) 
+Daarna ideeen bekijken en 1 design maken
+Daarna 1 website (proeren) te maken ... 
 
 
 #### Aanpak designen in Figma
