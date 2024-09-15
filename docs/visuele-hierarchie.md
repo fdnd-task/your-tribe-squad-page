@@ -63,7 +63,7 @@ Eerst ga je met je team jullie ontwerp in Figma maken.
 
 ![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
 
-_De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of writing”_
+_De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of writing”, belangrijkste informatie, belangrijke details en achtergrondinformatie_
 
 
 ### Visuele hiërarchie ontwerpen door grootte van tekst of elementen
