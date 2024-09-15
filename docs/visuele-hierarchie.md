@@ -15,27 +15,24 @@ Voordat je met visuele hiërarchie variaties gaat maken van je ontwerp, gaan we 
 
 
 
-## Figma oefeningen
 
+
+## Figma oefeningen
 Maak een [Figma account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (je kan ook in de browser met Figma werken).
 
 Open de template https://www.figma.com/community/file/1417141972138865897/fdnd-figma-sprint-1-template-community voor een aantal oefeningen. 
 
-
 ### Vormen, volgorde en groeperen
-Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen. 
+Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen en voer de oefeningen uit. 
 
 ![image](https://github.com/user-attachments/assets/9912e56f-53bc-474b-a1e8-686fe93a3f8a)
 
-
 ### Frames, grids en uitlijnen
-
 In Figma werk je met frames (artboards), een frame stelt over het algemeen één scherm voor, voor continuïteit is het handig om gridlijnen toe te voegen zodat je dezelfde spacing aanhoudt over je hele ontwerp.
 
-Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
+Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen en voer de oefenigen uit. 
 
 ![image](https://github.com/user-attachments/assets/99a77250-da50-455a-9fbb-5a35de73cb26)
-
 
 ### Bronnen om Figma te leren
 
@@ -51,23 +48,18 @@ Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 
 
 
-
-
 ## Variëren met visuele hiërarchie
-
 Maak verschillende variaties van jullie squad page, waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
 
-Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm. 
+Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleur en contrast, en witruime en positie van elementen op het scherm. 
 
 In deze workshop ga je leren wat visuele hiërarchie is en hoe je het kunt gebruiken om met je team verschillende variaties van jullie website te maken. 
 
-
-
 ### Belangrijkste informatie, belangrijke details en achtergrondinformatie 
+Eerst ga je met je team de 
 
-Maak jullie ontwerp na in Figma. 
-
-Bepaal met je team de [3 niveau's van visuele hierarchie](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/#the-inverted-pyramid-of-writing) van jullie ontwerp en noteer het in Figma. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
+1. Maak jullie ontwerp na in Figma. Zorg dat je met je team in hetzelfde document werkt.
+2. Bepaal met je team de [3 niveau's van visuele hierarchie](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/#the-inverted-pyramid-of-writing) van jullie ontwerp en noteer het in Figma. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
 
 ![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
 
@@ -127,9 +119,9 @@ Daarna 1 website (proberen) te maken ... code code code en afspraken maken hoe j
 
 #### Bronnen Visuele Hiërarchie
 
-- [Design Principles: Dominance, Focal Points And Hierarchy](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/)
 - [Communicating a Message Through Visual Hierarchy](https://designmodo.com/visual-hierarchy/)
-- [Visual Hierarchy: How Well Does Your Design Communicate?](http://vanseodesign.com/web-design/visual-hierarchy/)
+- [Design Principles: Dominance, Focal Points And Hierarchy](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/)
+<!--- [Visual Hierarchy: How Well Does Your Design Communicate?](http://vanseodesign.com/web-design/visual-hierarchy/)-->
 - [Principles of User Interface Design, door Joshua Porter](http://bokardo.com/principles-of-user-interface-design/)
 <!-- - [Korte video over layout en compositie  @ YouTube](https://www.youtube.com/watch?v=a5KYlHNKQB8) -->
 
