@@ -25,14 +25,16 @@ Open de template https://www.figma.com/community/file/1417141972138865897/fdnd-f
 ### Vormen, volgorde en groeperen
 Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen en voer de oefeningen uit. 
 
-![image](https://github.com/user-attachments/assets/9912e56f-53bc-474b-a1e8-686fe93a3f8a)
+![image](https://github.com/user-attachments/assets/2b24f983-9d25-4314-96be-c2f35ee9dc36)
+
 
 ### Frames, grids en uitlijnen
 In Figma werk je met frames (artboards), een frame stelt over het algemeen één scherm voor, voor continuïteit is het handig om gridlijnen toe te voegen zodat je dezelfde spacing aanhoudt over je hele ontwerp.
 
 Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen en voer de oefenigen uit. 
 
-![image](https://github.com/user-attachments/assets/d03ef111-6073-40f9-9ce2-e7e4d50130a0)
+![image](https://github.com/user-attachments/assets/217c21c6-e07c-46df-a45b-6521133b3205)
+
 
 ### Bronnen om Figma te leren
 
@@ -60,6 +62,7 @@ Eerst ga je met je team jullie ontwerp in Figma maken.
 2. Bepaal met je team de 3 niveau's van visuele hiërarchie van jullie ontwerp en maak aantekeningen in Figma. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
 
 ![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
+
 _De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of writing”_
 
 
@@ -67,6 +70,7 @@ _De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of wri
 Door tekst of elementen verschillende groottes te geven kan je informatie meer of minder belangrijk maken. 
 
 <img width="691" alt="image" src="https://github.com/user-attachments/assets/8eb9e155-1fd3-4eca-a10d-edc288666fe7">
+
 _De tekst "Beleef samen een spectaculair dagje uit" valt erg op, het is veel groter dan de andere teksten en elementen_
 
 1. Elke teamlid gaat minimaal 3 versies maken door te variëren met de grootte van teksten en elementen
@@ -82,7 +86,6 @@ Door een onderdeel van je ontwerp een hoger kleuren-contrast te geven dan andere
 
 ![image](https://github.com/user-attachments/assets/616a5751-419d-4b70-a3aa-a73df9993c8e)
 
-![image](https://github.com/user-attachments/assets/0126cc80-1b79-4b8e-a55f-5327845dce13)
 _De buttons "Ontdenk alle attracties" en "Koop nu je ticket" vallen op omdat ze een felle rode kleur hebben op een witte achtergrond_
 
 
@@ -95,6 +98,7 @@ Als tekst of elementen veel witruimte hebben en los staan van andere onderdelen 
 
 
 ![image](https://github.com/user-attachments/assets/1aebd071-acfd-4f55-bf87-399888e2068f)
+
 _De tekst "Waar wil je heen" valt niet alleen op door de grootte en kleur contrast, maar ook omdat er veel witruimte omheenis gebruikt_
 
 
