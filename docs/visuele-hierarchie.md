@@ -37,14 +37,16 @@ Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 ![image](https://github.com/user-attachments/assets/99a77250-da50-455a-9fbb-5a35de73cb26)
 
 
-
-
 ### Bronnen om Figma te leren
 
 - [Adjust, align, rotate and position elements in Figma](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position)  
 - [Working with Frames](https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma-Design)
 - [Working with Layout grids](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows)
 - [Figma for beginners - 4 parts](https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts)
+
+
+
+
 
 
 
@@ -61,9 +63,6 @@ In deze workshop ga je leren wat visuele hierarchie is en hoe het kan gebruiken 
 
 
 
-
-
-
 ### Belangrijkste informatie, belangrijke details en achtergrondinformatie 
 
 Maak jullie ontwerp na in Figma. 
@@ -73,15 +72,10 @@ Bepaal met je team de [3 niveau's van visuele hierarchie](https://www.smashingma
 ![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
 
 
-### Experimenteren met grootte, kleur/contrast, witruime en positie 
+### Visuel hiërarchie ontwerpen door grootte
 
 Oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
 Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
-
-
-
-#### Visuel hiërarchie ontwerpen door grootte
-
 Eerst gaan jullie kleine experimenten doen met grootte, kleur/contrast, witruime en positie, daarna gaan jullie verschillende versies maken van jullie ontwerp. 
 
 ![image](https://github.com/user-attachments/assets/a26fb102-c929-4322-9018-8ffaf79e73f1)
@@ -89,21 +83,31 @@ _Grootte_
 
 
 
-#### Visuel hiërarchie ontwerpen door kleur/contrast
+### Visuel hiërarchie ontwerpen door kleur/contrast
+
+Oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
+Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
+
+Kleur en contrast toepassen. 
 
 ![image](https://github.com/user-attachments/assets/0126cc80-1b79-4b8e-a55f-5327845dce13)
 _KLeur/contrast_
 
 
 
-#### Visuel hiërarchie ontwerpen door witruimte en positie
+### Visuel hiërarchie ontwerpen door witruimte en positie
+
+Oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
+Elk teamlid dupliceert het frame in Figma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
+
+witruimte en positie toepassen
 
 ![image](https://github.com/user-attachments/assets/5334b77c-c52b-46ba-b1d6-5d1fb5390a8d)
 _witruime en positie_
 
 
 
-#### Variaties bespreken
+### Variaties bespreken
 
 
 ![image](https://github.com/user-attachments/assets/693625cb-0c55-4bc7-87f9-cdc9c0402e02)
