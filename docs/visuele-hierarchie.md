@@ -106,7 +106,7 @@ Door te experimenteren en verschillende variaties te maken en bespreken met je t
 
 ![image](https://github.com/user-attachments/assets/693625cb-0c55-4bc7-87f9-cdc9c0402e02)
 
-1. Je hebt met je team 9 versies per persoon gemaakt, dus 27 nieuwe ideeen voor jullie squad page. Bespreek alle variatie met het team. Noteer bij elk ontwerp hoe je visuele hiërarchie hebt toegepast.
+1. Je hebt met je team 9 versies per persoon gemaakt, dus 27 nieuwe ideeen voor jullie squad page! Bespreek alle variatie met het team. Noteer bij elk ontwerp hoe je visuele hiërarchie hebt toegepast.
 2. Maak een nieuw ontwerp van jullie squad page waarin je de beste ideeën die jullie hebben bedacht gebruikt.
 3. Maak een issue aan met jullie nieuwe ontwerp, voeg ook de variaties toe die jullie hebben gemaakt.
 4. Met jullie nieuwe ontwerp gaan jullie deze week 1 website (proberen) te maken. Maak afspraken hoe jullie gaan werken, zorg dat je regelmatig samenkomt en jullie vorderingen bespreekt. 
