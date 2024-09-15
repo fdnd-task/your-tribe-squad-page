@@ -14,24 +14,32 @@
         </nav>
     </header>
 
-    <main>
-        <div class="wrapper">
-            <nav class="lil-nav">
-                <a href= "#image-1">
-                    <img class="lil-nav__img" src="Squad1H-Miel.JPG" alt="Miel 1H"/></a>
-                <a href= "#image-2">
-                    <img class="lil-nav__img" src="Squad1H-Riley.JPG" alt="Riley 1H"/></a>
-                <a href= "#image-3">
-                    <img class="lil-nav__img" src="Squad1H-Renzo.JPG" alt="Renzo 1H"/></a>
-            
-            </nav>
-        
-            <div class="gallery">
-                <img class="gallery__img" id="image-1" src="Squad1H-Miel.JPG" alt="Miel 1H" />
-                <img class="gallery__img" id="image-2" src="Squad1H-Riley.JPG" alt="Riley 1H" />
-                <img class="gallery__img" id="image-2" src="Squad1H-Renzo.JPG" alt="Renzo 1H" />
+  <main>
+    <div class="carousel">
+        <button class="prev" onclick="prevSlide()">&#60;</button>
+        <div class="carousel-container">
+            <div class="carousel-images" id="carousel-images">
+                <img src="Squad1H-Renzo.JPG" alt="Image 1" onclick="openLink(this)">
+                <img src="Squad1H-Riley.JPG" alt="Image 2" onclick="openLink(this)">
+                <img src="Squad1H-Miel.JPG" alt="Image 3" onclick="openLink(this)">
+            </div>
         </div>
-        
-        <img id="image-4"
-        src="amstelcampus.png" alt="Foto van Amstelcampus"/>
-    </main>
+        <button class="next" onclick="nextSlide()">&#62;</button>
+    </div>
+</main>
+<div class="amstel-campus">
+    <h2>De Amstel Campus</h2>
+    <div class="content">
+        <img src="amstelcampuss.png" alt="Amstel Campus">
+        <div class="text-block">
+            <p>1. Café Fest: In Café Fest kun je comfortabel werken terwijl je geniet van een goede koffie en een gezellige sfeer, wat bijdraagt aan een productieve en ontspannen werkdag.</p>
+            <p>2. Bij de Shop: Werken bij de Shop biedt de mogelijkheid om even tussen de drukte door te schakelen en direct toegang te hebben tot handige kantoorbenodigdheden en snacks.</p>
+            <p>3. In een Vergaderruimte: De vergaderruimtes op de Amstel Campus zijn perfect voor geconcentreerd werk en teamoverleg, uitgerust met moderne technologieën en een professionele uitstraling.</p>
+            <p>4. Op een Massagestoel: Op de massagestoel kun je even een pauze nemen en ontspannen terwijl je werk voorbereidt, wat zorgt voor een verfrissende break en verbeterde focus.</p>
+            <p>5. Op de Buitenplaats: Werken op de buitenplaats biedt een frisse lucht en een mooie omgeving, waardoor je in een inspirerende setting kunt brainstormen of je taken uitvoeren terwijl je geniet van het uitzicht.</p>
+        </div>
+    </div>
+</div>
+
+<script src="javarenzo.js"></script>
+</body>

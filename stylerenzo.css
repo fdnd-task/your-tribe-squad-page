@@ -1,82 +1,144 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 header{
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 .menu-bar a{
-    padding: 14px 20px;
-    margin-right: 20px;
-    border: 2px solid #003f93;
-    border-radius: 25px;
-    color: black;
+  padding: 14px 20px;
+  margin-right: 20px;
+  border: 2px solid #003f93;
+  border-radius: 25px;
+  color: black;
 }
 
 .menu-bar a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .menu-bar a:hover {
-    background-color: #003f93;
-    color: white;
+  background-color: #003f93;
+  color: white;
 }
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    margin: 100px auto;
-}
-img {
-    display: block;
-    max-width: 100%;
-    border-radius: 20px;
-  }
-  
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-gap: 20px;
-    overflow: hidden;
-    height: 100vh; 
-  }
-  
-  .gallery {
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-  .gallery__img {
-    scroll-snap-align: start;
-    margin-bottom: 10px;
-    min-height: 100vh;
-    object-fit: cover;
-  }
-  
-  .lil-nav {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  .lil-nav a {
-    height: 200px;
-    display: flex;
-    margin-bottom: 10px;
-  }
-  
-  .lil-nav__img {
-    object-fit: cover;
-    transition: 0.3s ease all;
-  }
-  .lil-nav__img:hover {
-    transform: scale(1.05);
-    filter: saturate(1);
-  }
-  
-#image-4{
+
+main{
+display: flex;
 justify-content: center;
 align-items: center;
+height: 100vh;
+margin: 0;
+}
+img{
+border: 2px solid #003f93;
+border-radius: 20px;
+}
+.carousel {
+position: relative;
+width: 600px;
+overflow: hidden;
+}
+
+.carousel-container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+overflow: hidden;
+}
+
+.carousel-images {
+display: flex;
+transition: transform 0.5s ease-in-out;
+width: 100%;
+}
+
+.carousel-images img {
+width: 596px;
+cursor: pointer;
+justify-content: center;
+}
+
+button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
+font-size: 20px;
+}
+
+button:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+left: 10px;
+}
+
+.next {
+right: 10px;
+}
+
+.amstel-campus {
+padding: 20px;
+}
+
+.amstel-campus h2{
+font-size: 24px;
+text-align: center;
+border: 2px solid #003f93;
+border-radius: 20px;
+margin: 20px;
+padding: 5px;
+background-color: #003f93;
+color: white;
+}
+
+.amstel-campus .content {
+display: grid;
+grid-template-columns: 1fr 1fr; /* Twee kolommen van gelijke breedte */
+gap: 20px; /* Ruimte tussen kolommen */
+align-items: stretch; /* Zorgt ervoor dat beide items dezelfde hoogte krijgen */
+}
+
+.amstel-campus img {
+max-width: 100%;
+height: auto; /* Behoudt de verhoudingen van de afbeelding */
+border: 2px solid #003f93;
+border-radius: 20px;
+}
+
+.amstel-campus .text-block {
+padding-left: 20px;
+border: 2px solid #003f93;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #003f93;
+align-items: center;
+}
+
+.amstel-campus .text-block p{
+font-size: 16px;
+line-height: 1.6;
+color: white;
+}
+
+.amstel-campus img,
+.amstel-campus .text-block {
+  max-width: 100%;
+}
+
+@media (max-width: 765px) {
+.amstel-campus .content {
+    grid-template-columns: 1fr; /* Zet de grid om in één kolom */
+}
 }
