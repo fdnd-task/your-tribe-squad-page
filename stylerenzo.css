@@ -59,7 +59,7 @@ width: 100%;
 }
 
 .carousel-images img {
-width: 596px;
+width: 100%;
 cursor: pointer;
 justify-content: center;
 }
