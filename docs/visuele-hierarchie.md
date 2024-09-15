@@ -15,22 +15,22 @@ Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-h
 
 ## Figma oefeningen
 
-Maak een [account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (of werk in de browser).
+Maak een [account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (je kan ook in de browser met Figma werken).
 
 Open de template https://www.figma.com/community/file/1417141972138865897/fdnd-figma-sprint-1-template-community voor een aantal oefeningen. 
 
 
 ### Vormen volgorde en groeperen
-Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen, om te leren hoe je makkelijk met Figma kan werken. 
+Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen. 
 
 ![image](https://github.com/user-attachments/assets/9912e56f-53bc-474b-a1e8-686fe93a3f8a)
 
 
 ### Frames, grids en uitlijnen
 
-In Figma werk je met frames (artboards), een artboard stelt over het algemeen één scherm voor, voor continuïteit is het handig om gridlijnen toe te voegen zodat je dezelfde spacing aanhoudt over je hele ontwerp.
+In Figma werk je met frames (artboards), een frame stelt over het algemeen één scherm voor, voor continuïteit is het handig om gridlijnen toe te voegen zodat je dezelfde spacing aanhoudt over je hele ontwerp.
 
-Ga naar de 'page' met oefeningen over het werken met frames en gridlijnen.
+Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 
 ![image](https://github.com/user-attachments/assets/99a77250-da50-455a-9fbb-5a35de73cb26)
 
