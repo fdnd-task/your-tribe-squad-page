@@ -102,7 +102,7 @@ _De tekst "In welke attractie ga jij als eerst?" en de button "Ontdek alle attra
 
 
 ### Variaties bespreken
-Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeën. 
+Door te experimenteren en verschillende variaties te maken en bespreken met je team kom je tot nieuwe ontwerp-ideeën. 
 
 ![image](https://github.com/user-attachments/assets/693625cb-0c55-4bc7-87f9-cdc9c0402e02)
 
