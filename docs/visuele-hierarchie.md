@@ -12,6 +12,13 @@ _In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarc
 
 ## Werken met Figma
 
+
+Basic oefeningen met vormen, volgorde, groeperen 
+Werken met pagina's, artboards en grids
+Grid hulplijnen, uitlijning 
+
+
+
 ### Bronnen Figma
 
 https://help.figma.com/hc/en-us/sections/23691657321239-Courses
@@ -20,7 +27,7 @@ https://help.figma.com/hc/en-us/sections/23691657321239-Courses
 
 
 
-## Varieren met Visuele hIërarchie
+## Varieren met Visuele hiërarchie
 
 Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
 Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, kleur gebruik en contrast, witruime en positie van elementen op het scherm.
