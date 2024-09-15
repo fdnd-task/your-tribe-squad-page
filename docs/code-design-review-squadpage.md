@@ -11,6 +11,7 @@ Hier kun je volgende week mee verder om je website te verbeteren.
 
 Deze manier van werken heet iteratief werken. Je doorloopt meerdere keren de DLC, je test regelmatig, je vraagt elke week feedback tijdens de code en design review, zo kan je je website stap voor stap verbeteren.
 
+<img width="1217" alt="image" src="https://github.com/user-attachments/assets/5c90be63-b4db-4f64-a3b0-b55b1b2d4ac7">
 
 
 ### Aanpak 
