@@ -28,6 +28,8 @@ function openLink(imgElement) {
         url = "https://ryryesther.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Miel.JPG")) {
         url = "https://miel775.github.io/your-tribe-profile-card/";
+    } else if (currentSrc.includes("Squad1H-Anouar.JPG")) {
+        url = "https://miel775.github.io/your-tribe-profile-card/";
     }
 
     // Open de link in een nieuw tabblad
