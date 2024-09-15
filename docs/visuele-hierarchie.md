@@ -8,6 +8,9 @@ _In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarc
 
 
 Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
+[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
+> A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
+> 
 Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-hiërarchie) van je ontwerp gaan we eerst wat [oefeningen doen om Figma te leren](#figma-oefeningen). 
 
 
@@ -53,10 +56,6 @@ Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 Maak verschillende variatie van jullie squadpage waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
 
 Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm. 
-
-[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
-> A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
-
 
 In deze workshop ga je leren wat visuele hierarchie is en hoe het kan gebruiken om met je team verschillende variaties van jullie website te maken. 
 
