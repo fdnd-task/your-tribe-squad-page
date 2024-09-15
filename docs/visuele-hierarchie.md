@@ -12,7 +12,6 @@ Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-h
 
 
 
-
 ## Figma oefeningen
 
 Maak een [account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (je kan ook in de browser met Figma werken).
@@ -20,7 +19,7 @@ Maak een [account](https://www.figma.com/) aan en [download Figma](https://www.f
 Open de template https://www.figma.com/community/file/1417141972138865897/fdnd-figma-sprint-1-template-community voor een aantal oefeningen. 
 
 
-### Vormen volgorde en groeperen
+### Vormen, volgorde en groeperen
 Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen. 
 
 ![image](https://github.com/user-attachments/assets/9912e56f-53bc-474b-a1e8-686fe93a3f8a)
@@ -51,6 +50,8 @@ Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 
 ## Varieren met Visuele hiërarchie
 
+Maak verschillende variatie van jullie squadpage waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
+
 Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm. 
 
 [Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
@@ -59,31 +60,68 @@ Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van
 
 In deze workshop ga je leren wat visuele hierarchie is en hoe het kan gebruiken om met je team verschillende variaties van jullie website te maken. 
 
+
+
+
+
+
 ### Aanpak 
 
-Herontwerp je visitekaartje waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
+Maak jullie ontwerp na in Figma. 
 
-Oefening met grootte, kleur/contrast, witruime en positie 
+Bepaal de de [3 niveau's van visuele hierarchie](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/#the-inverted-pyramid-of-writing) op jullie ontwerp. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
+
+![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
+
+
+Eerst gaan jullie kleine experimenten doen met grootte, kleur/contrast, witruime en positie, daarna gaan jullie verschillende versies maken van jullie ontwerp. 
+
+![image](https://github.com/user-attachments/assets/1f30de76-9ee5-4c3c-900d-3c0057361606)
+
+
+
+![image](https://github.com/user-attachments/assets/a26fb102-c929-4322-9018-8ffaf79e73f1)
+_Grootte_
+
+![image](https://github.com/user-attachments/assets/0126cc80-1b79-4b8e-a55f-5327845dce13)
+_KLeur/contrast_
+
+![image](https://github.com/user-attachments/assets/5334b77c-c52b-46ba-b1d6-5d1fb5390a8d)
+_witruime en positie_
+
+
+
+
+
+#### Experimenteren met grootte, kleur/contrast, witruime en positie 
+
+4 oefening waarbij alle teamleden de visuele hierarchie laten zien door de grootte, kleur/contrast, witruime en positie van elementen
+
+Elk teamlid dupliceert het frame in Fogma om een variatie op het ontwerp te maken. Door te experimenteren en verschillende variaties te maken kom je tot nieuwe ideeen. 
+
+![image](https://github.com/user-attachments/assets/693625cb-0c55-4bc7-87f9-cdc9c0402e02)
+
+
+
+#### Variaties bedenken
+
+1.
 Daarna zelf aan de slag met je team en allemaal 4 ideeen uitwerken van eigen ontwerp (dan heeft je team er 12) 
-Daarna ideeen bekijken en 1 design maken
-Daarna 1 website (proeren) te maken ... 
+Schets 4 verschillende versies waarin je door middel van grootte, kleur/contrast, witruimte en/of positie van de informatie visuele hiêrarchie aanbrengt.
+Dupliceer voor elke variatie het frame/artboard
 
+2.
+Bespreek alle variatie met het team. Noteer bij elk ontwerp hoe je visuele hiërarchie hebt toegepast. 
 
-#### Aanpak designen in Figma
+3.
+Maak een nieuw ontwerp van jullie squadpage waarin je de beste ideeen die jullie hebben gbedacht gebruikt. 
 
-Visuele hiërarchie  schetsen
-  
-1. Hiërarchie bepalen - 
-Pak je (laatste) ontwerpschets en omcirkel de belangrijkste informatie, belangrijke details en achtergrondinformatie (wat moeten mensen als eerste zien?)
+4.
+Maak een issue aan met het nieuwe ontwerp, voeg ook de variaties toe die jullie hebben gemaakt. 
 
-2. Variaties schetsen  -
-Schets minimaal 8 verschillende versies waarin je door middel van grootte, kleur/contrast, witruimte en/of positie van de informatie visuele hiêrarchie aanbrengt.
+5. 
+Daarna 1 website (proberen) te maken ... code code code en afspraken maken hoe jullie 1 website gaat maken voor de expo van vrijdag.
 
-3. Feedback - 
-Bespreek al je schetsen in groepjes van 3. Leg bij elke schets uit hoe je visuele hiërarchie hebt toegepast. Geef elkaar tips en tops en schrijf dit op.
-
-4. Uitwerken - 
-Schets een nieuwe definitieve versie van je visitekaartje. Schrijf op wat de belangrijkste informatie, belangrijke details en achtergrondinformatie is en hoe je visuele hierarchie hebt toegepast.
 
 
 #### Bronnen visuele hierarchie
