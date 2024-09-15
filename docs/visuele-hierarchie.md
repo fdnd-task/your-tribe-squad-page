@@ -4,25 +4,35 @@
 
 Visuele hiërarchie toepassen in je ontwerp en met je team ideeën uitwerken in Figma
 
-_In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarchie is, hoe je dit kan toepassen in je ontwerp en hoe je met Figma kan werken._
+_In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarchie is en hoe je dit kan toepassen in je ontwerp._
 
 
 Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
-Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm.
-
-[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
-> A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
+Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-hierarchie) van je ontwerp gaan we eerst wat [oefeningen doen om Figma te leren](#figma-oefeningen). 
 
 
 
 
+## Figma oefeningen
 
-## Werken met Figma
+Maak een [account](https://www.figma.com/) aan en [download Figma](https://www.figma.com/downloads/) als je dit nog niet hebt (of werk in de browser).
+
+Open de template https://www.figma.com/community/file/1417141972138865897/fdnd-figma-sprint-1-template-community voor een aantal oefeningen. 
 
 
-Basic oefeningen met vormen, volgorde, groeperen 
-Werken met pagina's, artboards en grids
-Grid hulplijnen, uitlijning 
+### Vormen volgorde en groeperen
+Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en groeperen, om te leren hoe je makkelijk met Figma kan werken. 
+
+![image](https://github.com/user-attachments/assets/9912e56f-53bc-474b-a1e8-686fe93a3f8a)
+
+
+### Frames, grids en uitlijnen
+
+In Figma werk je met frames (artboards), een artboard stelt over het algemeen één scherm voor, voor continuïteit is het handig om gridlijnen toe te voegen zodat je dezelfde spacing aanhoudt over je hele ontwerp.
+
+Ga naar de 'page' met oefeningen over het werken met frames en gridlijnen.
+
+![image](https://github.com/user-attachments/assets/b911d76b-e4ee-4a79-a15c-d39203fbd3f5)
 
 
 
@@ -35,11 +45,18 @@ Grid hulplijnen, uitlijning
 
 
 
+
+
+
 ## Varieren met Visuele hiërarchie
 
+Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm. 
+
+[Joshua Porter](http://bokardo.com/principles-of-user-interface-design/) schrijft in zijn artikel over _principles of user interface design_: 
+> A strong visual hierarchy is achieved when there is a clear viewing order to the visual elements on a screen. Most people don't notice visual hierarchy but it is one of the easiest ways to strengthen (or weaken) a design
 
 
-
+In deze workshop ga je leren wat visuele hierarchie is en hoe het kan gebruiken om met je team verschillende variaties van jullie website te maken. 
 
 ### Aanpak 
 
