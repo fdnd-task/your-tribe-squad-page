@@ -29,55 +29,55 @@ function openLink(imgElement) {
     } else if (currentSrc.includes("Squad1H-Miel.JPG")) {
         url = "https://miel775.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Anouar.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://anouarab2.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Anouk.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://anoukderooij24.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Daan.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://dvdalfsen.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Finn.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "";
     } else if (currentSrc.includes("Squad1H-Kai.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://kaiven7.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Kate.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://kitkatisvibing.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Kerem.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://keremttc.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Aria.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://poormoa00.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Arman.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://armanvd.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Kyan.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://kyantg.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Luuk-2.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://lutrian1.github.io/your-tribe-profile-card---Luuk/";
     } else if (currentSrc.includes("Squad1H-Marije.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "";
     } else if (currentSrc.includes("Squad1H-Mkiyas.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://mikiyas-hs.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Nawal.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://nawallox.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Nayome.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://nayomekaia.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Rapha.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "";
     } else if (currentSrc.includes("Squad1H-Reyhan.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://reyrey-https.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Rick.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://rickfdnd.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Safoe.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://safae-e.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Sascha.JPG")) {
         url = "https://saschavanvliet.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Sebastiaan-2.JPG")) {
         url = "https://sebastiaan-hva.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Senne.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://senneb31.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Sidney.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://sidopjescherm.github.io/your-tribe-profile-card/";
     } else if (currentSrc.includes("Squad1H-Sjors.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "";
     } else if (currentSrc.includes("Squad1H-Stella.JPG")) {
-        url = "https://miel775.github.io/your-tribe-profile-card/";
+        url = "https://misspastelwitch.github.io/your-tribe-profile-card/";
     } 
 
     // Open de link in een nieuw tabblad
