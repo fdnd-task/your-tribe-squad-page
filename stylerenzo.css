@@ -4,7 +4,7 @@ body{
 }
 
 header{
-  padding: 15px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -33,6 +33,7 @@ align-items: center;
 height: 100vh;
 margin: 0;
 }
+
 img{
 border: 2px solid #003f93;
 border-radius: 20px;
