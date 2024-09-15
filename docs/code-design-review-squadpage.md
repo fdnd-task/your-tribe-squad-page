@@ -9,9 +9,7 @@ Bij FDND doen we elke vrijdag zo'n review en bekijken we elkaars code en design.
 De feedback leg je vast in issues bij je leertaak. 
 Hier kun je volgende week mee verder om je website te verbeteren. 
 
-Deze manier van werken heet iteratief werken. Je doorloopt meerdere keren de DLC, je test regelmatig, je vraagt regelmatig om feedback, zo kan je je website stap voor stap verbeteren.
-
-<img width="598" alt="image" src="https://github.com/fdnd-task/your-tribe-squad-page/blob/main/assets/Een-sprint-bij-FDND.png">
+Deze manier van werken heet iteratief werken. Je doorloopt meerdere keren de DLC, je test regelmatig, je vraagt elke week feedback tijdens de code en design review, zo kan je je website stap voor stap verbeteren.
 
 
 
