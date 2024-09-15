@@ -102,7 +102,7 @@ _De tekst "In welke attractie ga jij als eerst?" en de button "Ontdek alle attra
 
 
 ### Variaties bespreken
-Door te experimenteren en verschillende variaties te maken en bespreken met je team kom je tot nieuwe ontwerp-ideeën. 
+Door te experimenteren en verschillende variaties te maken en bespreken met je team kom je tot nieuwe ontwerp-ideeën. Dat noemen we divergeren en convergeren. Tijdens het _divergeren_ maak je veel variaties, tijdens het _convergeren_ ga je de variaties bespreken en maak je keuzes om tot een nieuw ontwerp te komen. 
 
 ![image](https://github.com/user-attachments/assets/693625cb-0c55-4bc7-87f9-cdc9c0402e02)
 
@@ -117,8 +117,8 @@ Door te experimenteren en verschillende variaties te maken en bespreken met je t
 
 - [Communicating a Message Through Visual Hierarchy](https://designmodo.com/visual-hierarchy/)
 - [Design Principles: Dominance, Focal Points And Hierarchy](https://www.smashingmagazine.com/2015/02/design-principles-dominance-focal-points-hierarchy/)
-<!--- [Visual Hierarchy: How Well Does Your Design Communicate?](http://vanseodesign.com/web-design/visual-hierarchy/)-->
 - [Principles of User Interface Design, door Joshua Porter](http://bokardo.com/principles-of-user-interface-design/)
+<!--- [Visual Hierarchy: How Well Does Your Design Communicate?](http://vanseodesign.com/web-design/visual-hierarchy/)-->
 <!-- - [Korte video over layout en compositie  @ YouTube](https://www.youtube.com/watch?v=a5KYlHNKQB8) -->
 
 
