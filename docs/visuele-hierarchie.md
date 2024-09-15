@@ -55,11 +55,11 @@ Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen.
 
 ## Varieren met Visuele hiërarchie
 
-Maak verschillende variatie van jullie squadpage waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
+Maak verschillende variaties van jullie squad page, waarbij je goed rekening houdt met de visuele hiërarchie. Je leert wat visuele hiërarchie is en hoe je het kan toepassen in web design. 
 
 Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleuren en contrast, witruime en positie van elementen op het scherm. 
 
-In deze workshop ga je leren wat visuele hierarchie is en hoe het kan gebruiken om met je team verschillende variaties van jullie website te maken. 
+In deze workshop ga je leren wat visuele hiërarchie is en hoe je het kunt gebruiken om met je team verschillende variaties van jullie website te maken. 
 
 
 
