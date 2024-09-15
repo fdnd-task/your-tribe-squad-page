@@ -28,9 +28,11 @@ Grid hulplijnen, uitlijning
 
 ### Bronnen Figma
 
-https://help.figma.com/hc/en-us/sections/23691657321239-Courses
 
-
+[Adjust, align, rotate and position elements in Figma](https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position)  
+Working with artboards in Figma
+Working with grids and allignments
+[Figma for beginners - 4 parts](https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts)
 
 
 
