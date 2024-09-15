@@ -8,7 +8,7 @@ _In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarc
 
 
 Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
-Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-hierarchie) van je ontwerp gaan we eerst wat [oefeningen doen om Figma te leren](#figma-oefeningen). 
+Voordat je met [visuele hierarchie variaties gaat maken](#varieren-met-visuele-hiërarchie) van je ontwerp gaan we eerst wat [oefeningen doen om Figma te leren](#figma-oefeningen). 
 
 
 
