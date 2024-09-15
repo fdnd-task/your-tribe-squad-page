@@ -32,7 +32,8 @@ In Figma werk je met frames (artboards), een artboard stelt over het algemeen é
 
 Ga naar de 'page' met oefeningen over het werken met frames en gridlijnen.
 
-![image](https://github.com/user-attachments/assets/b911d76b-e4ee-4a79-a15c-d39203fbd3f5)
+![image](https://github.com/user-attachments/assets/99a77250-da50-455a-9fbb-5a35de73cb26)
+
 
 
 
