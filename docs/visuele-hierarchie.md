@@ -69,9 +69,7 @@ _De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of wri
 ### Visuele hiërarchie ontwerpen door grootte van tekst of elementen
 Door tekst of elementen verschillende groottes te geven kan je informatie meer of minder belangrijk maken. 
 
-<img width="691" alt="image" src="https://github.com/user-attachments/assets/8eb9e155-1fd3-4eca-a10d-edc288666fe7">
-
-_De tekst "Beleef samen een spectaculair dagje uit" valt erg op, het is veel groter dan de andere teksten en elementen_
+![image](https://github.com/user-attachments/assets/8eb9e155-1fd3-4eca-a10d-edc288666fe7) <br>_De tekst "Beleef samen een spectaculair dagje uit" valt erg op, het is veel groter dan de andere teksten en elementen_
 
 1. Elke teamlid gaat minimaal 3 versies maken door te variëren met de grootte van teksten en elementen
 2. Dupliceer per versie het frame in Figma
@@ -84,9 +82,7 @@ Door een onderdeel van je ontwerp een hoger kleuren-contrast te geven dan andere
 1. Elke teamlid maakt minimaal 3 verschillende versies waarbij je met kleur en contrast belangrijkste informatie meer contrast geeft dan details.
 2. Dupliceer per versie het frame in Figma
 
-![image](https://github.com/user-attachments/assets/616a5751-419d-4b70-a3aa-a73df9993c8e)
-
-_De buttons "Ontdenk alle attracties" en "Koop nu je ticket" vallen op omdat ze een felle rode kleur hebben op een witte achtergrond_
+![image](https://github.com/user-attachments/assets/26f77bf0-d9b7-4e37-ad47-1213e867385b) <br>_De buttons "Ontdenk alle attracties" en "Koop nu je ticket" vallen op omdat ze een felle rode kleur hebben op een witte achtergrond_
 
 
 
@@ -97,9 +93,7 @@ Als tekst of elementen veel witruimte hebben en los staan van andere onderdelen 
 2. Dupliceer per versie het frame in Figma
 
 
-![image](https://github.com/user-attachments/assets/1aebd071-acfd-4f55-bf87-399888e2068f)
-
-_De tekst "Waar wil je heen" valt niet alleen op door de grootte en kleur contrast, maar ook omdat er veel witruimte omheenis gebruikt_
+![image](https://github.com/user-attachments/assets/1aebd071-acfd-4f55-bf87-399888e2068f) <br>_De tekst "Waar wil je heen" valt niet alleen op door de grootte en kleur contrast, maar ook omdat er veel witruimte omheenis gebruikt_
 
 
 
