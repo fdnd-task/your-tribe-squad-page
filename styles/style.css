@@ -6,12 +6,6 @@ body {
     background: rgba(230, 232, 230, 0.711);
 }
 
-header {
-
-    /* justify-content: center; */
-
-}
-
 h1 {
 
     text-align: center;
@@ -23,8 +17,6 @@ h1 {
     letter-spacing: 5px;
     font-family: 'be vietnam pro';
     color: #000000;
-    /* border-top: 3px solid black;
-    border-bottom: 3px solid black; */
 }
 
 
