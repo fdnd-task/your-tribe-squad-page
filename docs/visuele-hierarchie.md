@@ -50,7 +50,7 @@ Maak met je team verschillende variaties van jullie squad page ontwerp in Figma,
 Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van tekst of elementen, gebruik van kleur en contrast, en witruime en positie van elementen op het scherm. In deze workshop ga je leren wat visuele hiërarchie is en hoe je het kunt gebruiken om met je team verschillende variaties van jullie website te maken. 
 
 ### Belangrijkste informatie, belangrijke details en achtergrondinformatie 
-Eerst ga je met je team jullie ontwerp in Figma maken. 
+Eerst ga je met je team jullie ontwerp in Figma maken en de 3 niveau's van visuele hiërarchie bepalen.
 
 1. Maak jullie ontwerp na in Figma. Zorg dat je met je team in hetzelfde document werkt.
 2. Bepaal met je team de 3 niveau's van visuele hiërarchie van jullie ontwerp en maak aantekeningen in Figma. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
