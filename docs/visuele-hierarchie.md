@@ -23,14 +23,12 @@ Ga naar de 'page' met een aantal beginners oefeningen over vormen, volgorde en g
 
 ![image](https://github.com/user-attachments/assets/2b24f983-9d25-4314-96be-c2f35ee9dc36)
 
-
 ### Frames, grids en uitlijnen
 In Figma werk je met frames (artboards), een frame stelt over het algemeen één scherm voor, voor continuïteit is het handig om gridlijnen toe te voegen zodat je dezelfde spacing aanhoudt over je hele ontwerp.
 
 Ga naar de 'page' met oefeningen over het werken met frames, grids en uitlijnen en voer de oefenigen uit. 
 
 ![image](https://github.com/user-attachments/assets/217c21c6-e07c-46df-a45b-6521133b3205)
-
 
 ### Bronnen om Figma te leren
 
@@ -54,14 +52,11 @@ Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van
 ### Belangrijkste informatie, belangrijke details en achtergrondinformatie 
 Eerst ga je met je team jullie ontwerp in Figma maken. 
 
-![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
-
-_De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of writing”, belangrijkste informatie, belangrijke details en achtergrondinformatie_
-
-
 1. Maak jullie ontwerp na in Figma. Zorg dat je met je team in hetzelfde document werkt.
 2. Bepaal met je team de 3 niveau's van visuele hiërarchie van jullie ontwerp en maak aantekeningen in Figma. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
 
+![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
+_De 3 niveau's van visuele hiërarchie volgens de “The inverted pyramid of writing”, belangrijkste informatie, belangrijke details en achtergrondinformatie_
 
 
 ### Visuele hiërarchie ontwerpen door grootte van tekst of elementen
