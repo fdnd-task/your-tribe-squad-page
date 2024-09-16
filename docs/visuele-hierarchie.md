@@ -1,11 +1,7 @@
 # Your Tribe - Squadpage
 
 ## Visuele Hiërarchie
-
-Visuele hiërarchie toepassen in je ontwerp en met je team ideeën uitwerken in Figma
-
 _In de workshop S01W3-01-Visuele-hierarchie wordt uitgelegd wat visuele hiërarchie is en hoe je dit kan toepassen in je ontwerp._
-
 
 Visuele hiërarchie is belangrijk in webdesign. Het vertelt mensen waar ze moeten kijken en welke dingen op het scherm het belangrijkst zijn. 
 Joshua Porter schrijft in zijn artikel over _principles of user interface design_: 
