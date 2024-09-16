@@ -52,7 +52,7 @@ Visuele hiërarchie kun je op verschillende manieren bereiken, zoals grootte van
 ### Belangrijkste informatie, belangrijke details en achtergrondinformatie 
 Eerst ga je met je team jullie ontwerp in Figma maken en de 3 niveau's van visuele hiërarchie bepalen.
 
-1. Maak jullie ontwerp na in Figma. Zorg dat je met je team in hetzelfde document werkt.
+1. Maak een nieuw document aan in Fogma en maak jullie ontwerp na. Zorg dat je met je team in hetzelfde document werkt. (als jullie al een ontwerp in Figma hebben kan je deze stap overslaan)
 2. Bepaal met je team de 3 niveau's van visuele hiërarchie van jullie ontwerp en maak aantekeningen in Figma. Wat moeten mensen als eerste zien? Geef in het Figma file aan wat de belangrijkste informatie is, wat belangrijke details zijn en wat achtergrondinformatie is.
 
 ![image](https://github.com/user-attachments/assets/753332c2-78a0-4dbe-bb7f-39dba76f8184)
