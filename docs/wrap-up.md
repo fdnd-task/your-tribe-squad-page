@@ -19,4 +19,11 @@ Als je een project oplevert, bijvoorbeeld voor een klant, is het belangrijk dat 
 Hiervoor kun je de Readme gebruiken. 
 
 De Readme is het eerste wat iemand ziet op Github. 
-In de Readme kan je uitleggen wat jullie hebben gemaakt, je kan screenshots laten zien van het responsive uitwerking en wie de website hebben genaakt.
+In de Readme kan je uitleggen wat jullie hebben gemaakt, je kan screenshots laten zien en wie de website hebben genaakt. De Readme is het uithangbord van jullie project.
+
+#### Aanpak
+
+1. jsjs
+2. jejdkd
+3. ndjdjd
+
