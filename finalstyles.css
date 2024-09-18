@@ -49,7 +49,7 @@ h1 {
 
 .carousel-slide {
     display: flex;
-    flex: 0 1 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
+    flex: 1 0 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
     margin-right: 20px;
 }
 
