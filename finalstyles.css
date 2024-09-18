@@ -23,12 +23,18 @@ video {
 
 h1 {
     text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-top: 60px;
+    padding: 20px 40px;
+    padding-bottom:10px;
+    padding-top: 10px;
     color: white;
+    border: 2px solid rgb(207, 159, 255);
+    border-radius: 10px;
+    background-color: rgb(207, 159, 255, 0.7);
 }
 
 .carousel {
+    padding-top: 50px;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -37,13 +43,14 @@ h1 {
 
 .carousel-wrapper {
     display: flex;
-    width: calc(100% * 33 / 5); /* 33 afbeeldingen totaal, maar we tonen 5 tegelijk */
-    animation: slide 30s infinite linear;
+    width: calc(100% * 33 / 5);; /* 33 afbeeldingen totaal, maar we tonen 5 tegelijk */
+    animation: slide 90s infinite linear;
 }
 
 .carousel-slide {
     display: flex;
     flex: 0 1 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
+    margin-right: 20px;
 }
 
 .carousel-slide img {
@@ -51,6 +58,7 @@ h1 {
     height: auto;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .carousel-slide a {
@@ -66,7 +74,7 @@ h1 {
 
 @keyframes slide {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-calc(100% * 28 / 33)); } /* Verplaats de carousel met de breedte van 28 afbeeldingen */
+    100% { transform: translateX(-100%); } /* Verplaats de carousel met de breedte van 28 afbeeldingen */
 }
 
 .carousel-slide a:hover img {
