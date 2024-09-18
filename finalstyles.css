@@ -23,14 +23,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%; /* Adjust to fit the container size */
+    width: 50%; /* Adjust to fit the container size */
     overflow: hidden; /* Hide overflow outside of the view */
 }
 
 /* Carousel */
 .carousel {
     position: relative;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
