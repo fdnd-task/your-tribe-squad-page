@@ -40,4 +40,5 @@ Tijdens de expo vrijdag laten jullie naast jullie project ook jullie Readme zien
 - [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - [Een voorbeeld van hoe een GitHub Readme zou kunnen](https://github.com/KoopReynders/the-client-case#readme)
 - [Writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+- Kijk ook eens hoe je [task lists kunt maken](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists) in een issue, voor het opsplitsen in kleinere taken
 - [Maak eventueel ook een Readme voor je eigen GitHub profiel](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
