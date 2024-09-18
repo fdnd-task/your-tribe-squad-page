@@ -33,7 +33,7 @@ h1 {
     background-color: rgb(207, 159, 255, 0.7);
 }
 
-<<<<<<< HEAD
+
 body {
     font-family: 'Arial', sans-serif;
     background: url('215697_small.mp4'), url(image.png) no-repeat center center fixed;
@@ -86,7 +86,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     font-size: 1rem;
-=======
+
 .carousel {
     padding-top: 50px;
     position: relative;
@@ -103,13 +103,13 @@ body {
 
 .carousel-slide {
     display: flex;
-<<<<<<< HEAD
+
     width: 20%; /* Elke afbeelding neemt 20% van de container breedte in */
->>>>>>> a40d1155fc196c5c2f0806999258853c416383b9
-=======
+
+
     flex: 1 0 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
     margin-right: 20px;
->>>>>>> f791a17eedbd08e46acc2fb9b67f79af71823657
+
 }
 
 .carousel-slide img {
@@ -140,3 +140,4 @@ body {
 .carousel-slide a:hover img {
     animation-play-state: paused;
 }
+
