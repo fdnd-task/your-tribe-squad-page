@@ -1,10 +1,10 @@
-/* Basic reset */
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 body {
     font-family: 'Arial', sans-serif;
     background: url('215697_small.mp4'), url(image.png) no-repeat center center fixed;
@@ -57,18 +57,49 @@ body {
     margin-bottom: 10px;
     text-align: center;
     font-size: 1rem;
+=======
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px; /* Pas de hoogte aan indien nodig */
 }
 
-.passcode-section button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 255, 0.8);
-    color: #00FFDD;
+.carousel-wrapper {
+    display: flex;
+    width: 500%; /* 100% per afbeelding, 5 afbeeldingen */
+    animation: slide 15s infinite linear;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 20%; /* Elke afbeelding neemt 20% van de container breedte in */
+>>>>>>> a40d1155fc196c5c2f0806999258853c416383b9
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    transition: transform 3s ease-in-out;
     cursor: pointer;
-    font-size: 1.2rem;
 }
 
-.passcode-section button:hover {
-    background-color: rgba(0, 0, 255, 1);
+.carousel-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.carousel-slide img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.carousel-slide a:hover img {
+    animation-play-state: paused;
 }
