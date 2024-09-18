@@ -14,83 +14,41 @@ body {
     align-items: center;
     height: 100vh;
     color: #00FFDD;
-    flex-direction: column; /* Stack elements vertically */
 }
 
-/* Center the carousel container */
-.carousel-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%; /* Adjust to fit the container size */
-    overflow: hidden; /* Hide overflow outside of the view */
-}
-
-/* Carousel */
-.carousel {
-    position: relative;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.carousel-track {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: calc(100% * 33 / 3); /* Adjust based on the total number of items */
-}
-
-/* Carousel items */
-.carousel-item {
-    min-width: calc(100% / 3); /* Ensures 3 items are visible at once */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
     text-align: center;
 }
 
-/* Style images */
-.carousel-item img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    object-fit: cover;
-}
-
-/* Navigation buttons */
-.prev-btn {
-    left: 10px;
-    position: absolute;
-}
-
-.next-btn {
-    right: 10px;
-    position: absolute;
-}
-
-/* Squad and passcode sections */
 .squad-selection, .passcode-section {
     background-color: rgba(145, 82, 202, 0.7);
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
-    width: 100%;
 }
 
-.squad-selection h1, .passcode-section h2 {
+.squad-title-container {
     background-color: rgba(0, 0, 255, 0.6);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     color: #00ffdd;
-    text-align: center;
 }
 
-/* Passcode section inputs */
+.circles {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+}
+
 .passcode-section input {
     padding: 10px;
     border-radius: 10px;
