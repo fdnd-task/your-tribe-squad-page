@@ -1,32 +1,33 @@
-document.getElementById('submit').addEventListener('click', function() {
-    const passcode = document.getElementById('passcode').value;
-    if (passcode === "1,2,3") {
-        alert('Access granted!');
-    } else {
-        alert('Invalid passcode!');
-    }
-});
+const wrapper = document.getElementById('carousel-wrapper');
+const slides = document.querySelectorAll('.carousel-slide');
+const totalSlides = slides.length;
+const visibleSlides = 5;
+let currentIndex = 0;
+let interval;
 
-
-    const track = document.querySelector('.carousel-track');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
-
-    let currentIndex = 0;
-    const totalItems = 33;  // Total number of carousel items
-    const visibleItems = 3; // Number of visible items at a time
-    const itemWidth = document.querySelector('.carousel-item').offsetWidth + 20; // Add margin
-
-    nextBtn.addEventListener('click', () => {
-        if (currentIndex < totalItems - visibleItems) {
-            currentIndex++;
-            track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+function startCarousel() {
+    interval = setInterval(() => {
+        // Beweeg de carousel naar de volgende set van 5 afbeeldingen
+        currentIndex++;
+        if (currentIndex >= totalSlides / visibleSlides) {
+            currentIndex = 0;
         }
-    });
+        const translateXValue = -(currentIndex * 100);
+        wrapper.style.transform = `translateX(${translateXValue}%)`;
+    }, 3000); // Beweeg elke 3 seconden naar de volgende set
+}
 
-    prevBtn.addEventListener('click', () => {
-        if (currentIndex > 0) {
-            currentIndex--;
-            track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
-        }
-    });
+function stopCarousel() {
+    clearInterval(interval);
+}
+
+// Start de carousel zodra de pagina wordt geladen
+window.onload = function () {
+    startCarousel();
+
+    // Pauzeer de carousel wanneer er met de muis over wordt gegaan
+    wrapper.addEventListener('mouseover', stopCarousel);
+
+    // Herstart de carousel wanneer de muis weer weggaat
+    wrapper.addEventListener('mouseout', startCarousel);
+};
