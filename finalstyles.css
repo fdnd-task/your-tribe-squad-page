@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: url('space-background.jpg') no-repeat center center fixed;
+    background: url('215697_small.mp4') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -27,11 +27,13 @@ body {
     margin-bottom: 20px;
 }
 
+
 .squad-selection h1, .passcode-section h2 {
     background-color: rgba(0, 0, 255, 0.6);
     padding: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    color: #00FFDD;
+    color: #00ffdd;
 }
 
 .circles {
@@ -45,7 +47,7 @@ body {
     height: 80px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.2);
-    border: 2px solid #00FFDD;
+    border: 2px solid #ffffff;
 }
 
 .passcode-section input {
