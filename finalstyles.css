@@ -33,61 +33,6 @@ h1 {
     background-color: rgb(207, 159, 255, 0.7);
 }
 
-
-body {
-    font-family: 'Arial', sans-serif;
-    background: url('215697_small.mp4'), url(image.png) no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #00FFDD;
-}
-
-.container {
-    text-align: center;
-}
-
-.squad-selection, .passcode-section {
-    background-color: rgba(145, 82, 202, 0.7);
-    padding: 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-}
-
-.squad-title-container {
-    background-color: rgba(0, 0, 255, 0.6);
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    color: #00ffdd;
-}
-
-.circles {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
-}
-
-.circle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 2px solid #ffffff;
-}
-
-.passcode-section input {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    width: 150px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 1rem;
-}
-
 .carousel {
     padding-top: 50px;
     position: relative;
@@ -104,13 +49,8 @@ body {
 
 .carousel-slide {
     display: flex;
-
-    width: 20%; /* Elke afbeelding neemt 20% van de container breedte in */
-
-
     flex: 1 0 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
     margin-right: 20px;
-
 }
 
 .carousel-slide img {
