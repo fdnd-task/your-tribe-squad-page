@@ -14,47 +14,62 @@ body {
     align-items: center;
     height: 100vh;
     color: #00FFDD;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Center the carousel container */
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%; /* Adjust to fit the container size */
+    overflow: hidden; /* Hide overflow outside of the view */
 }
 
 /* Carousel */
 .carousel {
     position: relative;
-    width: 50%;
-    overflow: hidden;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease;
+    width: calc(100% * 33 / 3); /* Adjust based on the total number of items */
 }
 
 /* Carousel items */
 .carousel-item {
-    min-width: calc(100% / 3);
+    min-width: calc(100% / 3); /* Ensures 3 items are visible at once */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-/* Remove background and style images */
+/* Style images */
 .carousel-item img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     border: 2px solid #ffffff;
-    object-fit: cover; /* Ensures the image fits perfectly inside the circle */
+    object-fit: cover;
 }
 
 /* Navigation buttons */
 .prev-btn {
     left: 10px;
+    position: absolute;
 }
 
 .next-btn {
     right: 10px;
+    position: absolute;
 }
 
 /* Squad and passcode sections */
@@ -63,6 +78,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .squad-selection h1, .passcode-section h2 {
@@ -71,14 +87,6 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
     color: #00ffdd;
-}
-
-/* Heading style */
-h1 {
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: #333;
-    justify-content: center;
     text-align: center;
 }
 
@@ -91,8 +99,6 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 1rem;
-    justify-content: center;
-    align-items: center;
 }
 
 .passcode-section button {
@@ -103,13 +109,8 @@ h1 {
     color: #00FFDD;
     cursor: pointer;
     font-size: 1.2rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .passcode-section button:hover {
     background-color: rgba(0, 0, 255, 1);
 }
-
-
