@@ -25,8 +25,8 @@ Deze leertaak wordt behandeld in week 2 en 3 van sprint 1. Er worden verschillen
 - [Team canvas](team-canvas.md) - Maandag
 - [Responsive Design](responsive-design.md) - Woensdag
 - [Code/Design review squadpage](code-design-review-squadpage.md) - Vrijdag
-- [Visuele Hiërarchie](visuele-hierarchie.md) - Week 2
-- [Wrap Up](wrap-up.md)
+- [Visuele Hiërarchie](visuele-hierarchie.md) - Maandag week 2
+- [Wrap Up](wrap-up.md) - Woensdag week 2
 
 ## Definition of Done
 
