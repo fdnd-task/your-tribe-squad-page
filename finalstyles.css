@@ -1,9 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 .carousel {
     position: relative;
     overflow: hidden;
@@ -25,7 +30,7 @@ body {
 .carousel-slide img {
     width: 100%;
     height: auto;
-    transition: transform 3s ease-in-out;
+    transition: transform 10s ease-in-out;
     cursor: pointer;
 }
 
