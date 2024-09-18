@@ -41,7 +41,7 @@ body {
   }
 
   .card-member {
-    max-width: 360px;
+    max-width: 350px;
     background: #fff;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -129,7 +129,7 @@ body {
   .card-member {
     position: relative;
     text-align: center;
-    max-width: 360px;
+    max-width: 350px;
     background: #fff;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
