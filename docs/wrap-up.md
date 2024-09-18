@@ -30,8 +30,8 @@ Tijdens de expo vrijdag laten jullie naast jullie project ook jullie Readme zien
 3. Bekijk ook welke andere issues nog openstaan, en nog opgepakt of gesloten kunnen worden.
 4. Maak via edu.nl alvast een korte link aan voor jullie website, en voeg deze toe aan jullie Readme.
 5. Breid jullie Readme uit met een korte uitleg over jullie project, en beschrijf _drie_ opvallende features, waar jullie trots op zijn.
-6. Voeg wat screenshots toe; laat bijvoorbeeld zien hoe jullie project er op verschillende devices uitziet. Dit is jullie etalage.
-7. Schrijf wat over jullie team; wie zijn de teamleden, en waar kun je meer informatie over jullie vinden?
+6. Voeg wat screenshots toe aan de Readme; laat bijvoorbeeld zien hoe jullie project er op verschillende devices uitziet. Dit is jullie etalage.
+7. Schrijf in de Readme wat over jullie team; wie zijn de teamleden, en waar kun je meer informatie over jullie vinden?
 
 ### Bronnen
 
