@@ -86,6 +86,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     font-size: 1rem;
+}
 
 .carousel {
     padding-top: 50px;
@@ -140,4 +141,3 @@ body {
 .carousel-slide a:hover img {
     animation-play-state: paused;
 }
-
