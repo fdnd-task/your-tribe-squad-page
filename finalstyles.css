@@ -1,116 +1,50 @@
-/* Basic reset */
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background: url('215697_small.mp4'), url(image.png) no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #00FFDD;
-    flex-direction: column; /* Stack elements vertically */
-}
-
-/* Center the carousel container */
-.carousel-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%; /* Adjust to fit the container size */
-    overflow: hidden; /* Hide overflow outside of the view */
-}
-
-/* Carousel */
 .carousel {
     position: relative;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
-}
-
-.carousel-track {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: calc(100% * 33 / 3); /* Adjust based on the total number of items */
-}
-
-/* Carousel items */
-.carousel-item {
-    min-width: calc(100% / 3); /* Ensures 3 items are visible at once */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/* Style images */
-.carousel-item img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    object-fit: cover;
-}
-
-/* Navigation buttons */
-.prev-btn {
-    left: 10px;
-    position: absolute;
-}
-
-.next-btn {
-    right: 10px;
-    position: absolute;
-}
-
-/* Squad and passcode sections */
-.squad-selection, .passcode-section {
-    background-color: rgba(145, 82, 202, 0.7);
-    padding: 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
     width: 100%;
+    height: 300px; /* Pas de hoogte aan indien nodig */
 }
 
-.squad-selection h1, .passcode-section h2 {
-    background-color: rgba(0, 0, 255, 0.6);
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    color: #00ffdd;
-    text-align: center;
+.carousel-wrapper {
+    display: flex;
+    width: 500%; /* 100% per afbeelding, 5 afbeeldingen */
+    animation: slide 15s infinite linear;
 }
 
-/* Passcode section inputs */
-.passcode-section input {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    width: 150px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 1rem;
+.carousel-slide {
+    display: flex;
+    width: 20%; /* Elke afbeelding neemt 20% van de container breedte in */
 }
 
-.passcode-section button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 255, 0.8);
-    color: #00FFDD;
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    transition: transform 3s ease-in-out;
     cursor: pointer;
-    font-size: 1.2rem;
 }
 
-.passcode-section button:hover {
-    background-color: rgba(0, 0, 255, 1);
+.carousel-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.carousel-slide img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.carousel-slide a:hover img {
+    animation-play-state: paused;
 }
