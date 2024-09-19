@@ -23,8 +23,8 @@ body {
     font-weight: 500;
     background: linear-gradient(
       90deg,
-      rgba(241, 115, 12, 1) 0%,
-      rgba(198, 212, 4, 1) 100%
+      #680000 0%,
+      #000000 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,7 +47,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease,
       background-position 0.4s ease;
-    background-image: linear-gradient(white 50%, rgba(241, 115, 12, 1) 50%);
+    background-image: linear-gradient(white 50%, #c7c7d1 50%);
     background-size: 100% 200%;
     background-position: top;
   }
@@ -60,8 +60,9 @@ body {
   }
 
   .card-member img {
-    width: 100%;
+    width: 300px;
     height: 300px;
+    object-fit: cover;
     border-radius: 5%;
     transition: transform 0.3s ease;
   }
@@ -76,21 +77,20 @@ body {
     color: #333;
   }
 
-  .card-member p {
-    font-size: 1.5rem;
-    color: #777;
+  .github-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #680000; 
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
   }
-
-  .card-member p.role {
-    font-weight: bold;
-    color: #444;
+  .github-btn:hover {
+    color: white;
+    background-color: #a55050; 
   }
-
-  .card-member p.bio {
-    font-size: 1rem;
-    color: #555;
-  }
-
   /* Squad Grid */
   .squad-grid {
     display: flex;
@@ -148,8 +148,9 @@ body {
   }
 
   .card-member img {
-    width: 100%;
+    width: 300px;
     height: 300px;
+    object-fit: cover;
     border-radius: 5%;
     transition: transform 0.3s ease;
   }
@@ -164,27 +165,28 @@ body {
     color: #454545;
   }
 
-  .card-member p {
-    font-size: 1.5rem;
-    color: #454545;
+  .github-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #680000; 
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;
+  }
+  .github-btn:hover {
+    color: white;
+    background-color: #a55050; 
   }
 
-  .card-member p.role {
-    font-weight: bold;
-    color: #454545;
-  }
-
-  .card-member p.bio {
-    font-size: 1rem;
-    color: #454545;
-  }
-
-  /* Squad Grid */
-  .squad-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: center;
-    gap: 40px;
-    margin: 0 15% 50px;
-  }
+/* Squad Grid - Flexbox */
+.squad-grid {
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards */
+  gap: 40px; 
+  margin: 0 auto 50px;
+}
 }
