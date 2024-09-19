@@ -103,6 +103,4 @@ Miel: https://renzowille.github.io/squad-page-rmr/indexMiel.html
   
 ## Licentie
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-This work is licensed under [GNU GPLv3](./LICENSE).
+This project is licensed under the terms of the [MIT license](./LICENSE).
