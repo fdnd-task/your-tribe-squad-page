@@ -41,16 +41,15 @@ Voor de map van de Amstel Campus, hover over een punt op de kaart om meer inform
 
 ### Amstel Campus
 
-In het onderdeel _routebeschrijving_ staan de adresgegevens van de opleiding en wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Daarom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen.Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
+Bij dit deel van de squad page kunnen bezoekers verschillende interessante plekken vinden op de Amstel Campus. Door over een bepaalde locatie te hoveren komt er bepaalde informatie vrij om te kunnen lezen.
 
 ![image](https://user-images.githubusercontent.com/1391509/195097814-cd3b3468-815e-478d-ada3-464c36a5ca68.png)
 
-_Mobile view routebeschrijving_
 
 
 ## Kenmerken
 
-De website is gebouwd met [HTML](#html) en [CSS](#CSS).
+De website is gebouwd met [HTML](#html) en [CSS](#CSS), en [JavaScript](#JavaScript).
 
 ### HTML
 
@@ -129,6 +128,9 @@ Het verplichte HVA en FDND logo worden 70% kleiner getoond en links gepositionee
         left: -3rem;
       }
 ```
+### JavaScript
+
+
 
 ## Bronnen 
 
