@@ -132,17 +132,9 @@ Het verplichte HVA en FDND logo worden 70% kleiner getoond en links gepositionee
 
 ## Bronnen 
 
-How to Section Your HTML https://css-tricks.com/how-to-section-your-html/
-
-Viewport meta tag https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
-
-Media query @Media width https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width
-
-Scroll Behavior Smooth  https://css-tricks.com/almanac/properties/s/scroll-behavior/
-
-Google Font 'Open Sans https://fonts.googleapis.com/css2?family=Open+Sans
-
-FDND Global stylesheet https://styleguide.fdnd.nl/fdnd.css
+Renzo: https://renzowille.github.io/squad-page-rmr/indexrenzo.html
+Riley: https://renzowille.github.io/squad-page-rmr/docs/index.html
+Miel: https://renzowille.github.io/squad-page-rmr/indexMiel.html
 
 
   
