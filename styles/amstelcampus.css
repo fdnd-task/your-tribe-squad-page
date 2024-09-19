@@ -11,9 +11,11 @@ html {
 body {
     font-family: Be Vietnam Pro;
 
-    height: 500vh;
+    min-height: auto;
+    width: 100vw;
+
     margin: 0;
-    background-color: white;
+    background-color: #F4F4F9;
 }
 
 .header {
@@ -27,55 +29,161 @@ body {
     font-size: 13.5vw;
 
     z-index: 1;
-    color: rgb(255, 255, 255);
+    color: #d5d2cb;
     mix-blend-mode: difference;
-    
 }
 
-/* image */
-.image {
+section {
+    opacity: 0%;
+    transition: 0.2;
+}
+
+/* images */
+.img-container {
     position: absolute;
-    cursor: pointer;
+}
+
+.img-container > section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.img-container > img {
+    width: 100%;
+    transition: 0.2s;
+}
+
+/* image positions */
+#img-1 {
+    top: 16vw;
+    left: 2vw;
+    width: 26vw;
+}
+#img-2 {
+    top: 30vw;
+    left: 33vw;
+    width: 30vw;
+}
+#img-3 {
+    top: 22vw;
+    right: 2vw;
+    width: 30vw;
+}
+#img-4 {
+    top: 75vw;
+    left: 2vw;
+    width: 30vw;
+}
+#img-5 {
+    top: 85vw;
+    left: 36vw;
+    width: 28vw;
+}
+#img-6 {
+    top: 80vw;
+    left: 68vw;
+    width: 29.5vw;
+}
+
+/* image hover */
+.img-container {
     transition: all 0.1s ease-in-out;
 }
 
-.image:hover {
-    opacity: 0.8;
+.img-container:hover {
+    transform: scale(1.05);
 }
 
-
-/* image 1 */
-.image.img1:hover {
-    transform: scale(0.95);
+.img-container:hover img{
+    filter: brightness(20%);
+    transition: 0.3s;
 }
 
-.img1 {
-    top: 20vw;
-    left: 5vw;
-    width: 20vw;
+.img-container:hover section{
+    opacity: 100%;
 }
 
-/* image 2 */
-.image.img2:hover {
-    transform: scale(0.95);
+/* Responsive */
+@media screen and (max-width: 1050px) {
+    #img-1 {
+        top: 20vw;
+        left: 5vw;
+        width: 35vw;
+    }
+    #img-2 {
+        top: 24vw;
+        left: 55vw;
+        width: 40vw;
+    }
+    #img-3 {
+        top: 75vw;
+        left: 5vw;
+        width: 40vw;
+    }
+    #img-4 {
+        top: 80vw;
+        left: 57vw;
+        width: 35vw;
+    }
+    #img-5 {
+        top: 132vw;
+        left: 7vw;
+        width: 40vw;
+    }
+    #img-6 {
+        top: 134vw;
+        left: 55vw;
+        width: 40vw;
+    }
 }
 
-.img2 {
-    top: 30vw;
-    left: 30vw;
-    width: 30vw;
+@media screen and (max-width: 750px) {
+    #img-1 {
+        top: 20vw;
+        left: 13vw;
+        width: 75vw;
+    }
+    #img-2 {
+        top: 130vw;
+        left: 16vw;
+        width: 70vw;
+    }
+    #img-3 {
+        top: 235vw;
+        left: 10vw;
+        width: 80vw;
+    }
+    #img-4 {
+        top: 350vw;
+        left: 12vw;
+        width: 75vw;
+    }
+    #img-5 {
+        top: 460vw;
+        left: 10vw;
+        width: 80vw;
+    }
+    #img-6 {
+        top: 575vw;
+        left: 12vw;
+        width: 75vw;
+    }
 }
 
-/* image 3 */
-.image.img3:hover {
-    transform: scale(0.95);
+@media (pointer: coarse) {
+    .cursor {
+        display: none;
+    }
 }
 
-.img3 {
-    top: 20vw;
-    left: 65vw;
-    width: 30vw;
-}
 
 /* cursor */
 .cursor {
@@ -92,16 +200,9 @@ body {
     
 }
 
-a:hover ~ .cursor {
-    transform: scale(6);
-}
 
-.image:hover ~ .cursor
-{
-    transform: scale(6);
-}
-
-.header:hover ~ .cursor
+.header:hover ~ .cursor,
+.img-container:hover ~ .cursor
 {
     transform: scale(6);
 }
