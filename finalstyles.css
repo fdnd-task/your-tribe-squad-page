@@ -67,6 +67,11 @@ h1 {
     width: calc(200px * 30 + 15px * 29); /* Adjust numbers according to your setup */
 }
 
+/* Wanneer de muis over de carousel-wrapper gaat, pauzeer de animatie */
+.carousel-wrapper:hover {
+    animation-play-state: paused;
+}
+
 .carousel-slide {
     flex: 0 0 auto;
     width: 200px; /* Width of each image */
