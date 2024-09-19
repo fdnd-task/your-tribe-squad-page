@@ -1,16 +1,106 @@
+# Squad Page RMR
 
-# Squad page
+Dit is het ontwerp van de squad page gemaakt door Renzo, Miel en Riley.
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
+## Inhoudsopgave
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
+  * [Beschrijving](#beschrijving)
+  * [Gebruik](#gebruik)
+  * [Kenmerken](#kenmerken)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-## Links
+## Beschrijving
+
+Voor Sprint 1 is er de opdracht gegeven om een Squad Page te ontwerpen in groepen van drie personen. De reden voor deze Squad Page is om de visitekaartjes en interessante plekken op de Amstel Campus te laten zien op een interactieve manier.
+
+Met behulp van foto's is er laten zien wat onze gedachtegang was tijdens dit project en welke ontwerpen er zijn gemaakt. 
+
+De pagina is responsive ontworpen en dus bereikbaar voor mobiele, tablet, en desktop gebruikers. 
+
+Hier staat de website: https://renzowille.github.io/squad-page-rmr/finalindex.html
+
+<img width="1439" alt="squadpage" src="https://github.com/user-attachments/assets/b17df2d0-29f7-4fb2-a3b5-435c5b91b696">
+
+_Layout van de homepage_
+
+
+## Gebruik
+
+De Squad Page kan op deze manier gebruikt worden: 
+
+KLik op de foto van de persoon van wiens visitekaartje je wilt zien, dit brengt je naar een ander tablad waar je het visitekaartje kan zien en gebruiken. Zoals je ziet, zijn alle foto's in een carousel gezet waardoor de doorloop makkelijk en clean is. Hover over een foto, en de carousel stopt met draaien voor een optimale gebruikservaring.
+
+Voor de map van de Amstel Campus, hover over een punt op de kaart om meer informatie te kunnen zien over een interessante plek op de campus waar gewerkt kan worden.
+
+
+### Visitekaartjes
+
+<img width="1440" alt="Scherm­afbeelding 2024-09-19 om 10 43 08" src="https://github.com/user-attachments/assets/21fa9bef-c3ab-4146-a3d5-46ce249219dd">
+
+
+### Amstel Campus
+
+Bij dit deel van de squad page kunnen bezoekers verschillende interessante plekken vinden op de Amstel Campus. Door over een bepaalde locatie te hoveren komt er bepaalde informatie vrij om te kunnen lezen.
+
+![image](https://user-images.githubusercontent.com/1391509/195097814-cd3b3468-815e-478d-ada3-464c36a5ca68.png)
+
+
+
+## Kenmerken
+
+De website is gebouwd met [HTML](#html) en [CSS](#CSS), en [JavaScript](#JavaScript).
+
+### HTML
+
+Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) en opmaak van de [BODY](#BODY):
+
+#### HEAD
+  
+  In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
+  En een local CSS file met specifieke styling voor deze pagina. 
+  ```html
+<link rel="stylesheet" href="finalstyles.css">   
+  ```
+
+#### BODY
+
+  De structuur van de body is [HEADER](#HEADER), [CAROUSEL](#CAROUSEL): 
+  
+  ##### HEADER
+  In de header staat de H1 titel.
+  
+  ##### CAROUSEL
+  In de carousel staan de verschillende classes de squad page aan moet voldoen om de carousel werkend te maken. Dit wordt gedaan door: 
+ ```html
+       <div class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-slide">
+  ```
+  
+### CSS
+
+In de CSS staat een `carousel-slide;` op de html voor een animatie wanneer de pagina wordt ingeladen dat de carousel naar links blijft bewegen door de carousel leven in te blazen.
+
+```css
+     .carousel-slide {
+    display: flex;
+    flex: 1 0 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
+    margin-right: 20px;
+}
+```
+### JavaScript
+
+
+
+## Bronnen 
 
 Renzo: https://renzowille.github.io/squad-page-rmr/indexrenzo.html
 Riley: https://renzowille.github.io/squad-page-rmr/docs/index.html
 Miel: https://renzowille.github.io/squad-page-rmr/indexMiel.html
 
+
+  
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
