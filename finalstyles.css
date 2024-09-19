@@ -74,8 +74,8 @@ h1 {
 
 .carousel-slide {
     flex: 0 0 auto;
-    width: 200px; /* Width of each image */
-    margin-right: 15px; /* Space between images */
+    width: 250px; /* Width of each image */
+    margin-right: 25px; /* Space between images */
 }
 
 .carousel-slide img {
@@ -83,7 +83,7 @@ h1 {
     height: auto;
     object-fit: cover;
     border-radius: 200px;
-    border: 2px solid rgba(207, 159, 255, 0.8);
+    border: 5px solid rgba(207, 159, 255, 0.8);
     transition: transform 0.3s ease-in-out;
 }
 
