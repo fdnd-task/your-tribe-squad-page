@@ -84,14 +84,7 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
 
       <section id="routebeschrijving">
   ```
-  
-  De foto's voor de routebeschrijving zijn opgemaakt met een figure-element en figcaption:
-  ```html
-      <figure>
-        <img src="assets/routebeschrijving1a-min.jpg" alt="">
-        <figcaption>Dit is de Leeuwenburg (LWB). (1/9)</figcaption>
-      </figure>
-  ```
+ 
   ##### FOOTER
   
   In de `<footer>` staan alle microsites van FDND. 
