@@ -63,31 +63,20 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
 <link rel="stylesheet" href="finalstyles.css">   
   ```
 
-  In de `<head>` wordt een extern font geladen: De Open Sans
-  
-  ```html
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
-  ```
-
 #### BODY
 
-  De structuur van de body is [HEADER](#HEADER), [MAIN](#MAIN) en [FOOTER](#FOOTER): 
+  De structuur van de body is [HEADER](#HEADER), [CAROUSEL](#CAROUSEL): 
   
   ##### HEADER
-  In de header staat de H1 titel en eerste paragraaf. In de eerste paragraaf wordt gellinkt naar de contactgegevens en routebeschrijving.
+  In de header staat de H1 titel.
   
-  ##### MAIN
-  In de main staan twee sections, de section contactgegevens met een id en een section voor de routebeschrijving met een id. De id's worden gebruikt om vanuit de eerste paragraaf te linken. 
+  ##### CAROUSEL
+  In de carousel staan de verschillende classes de squad page aan moet voldoen om de carousel werkend te maken. Dit wordt gedaan door: 
  ```html
-      <section id="contactgegevens">
-
-      <section id="routebeschrijving">
+       <div class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-slide">
   ```
- 
-  ##### FOOTER
-  
-  In de `<footer>` staan alle microsites van FDND. 
-  
   
 ### CSS
 
