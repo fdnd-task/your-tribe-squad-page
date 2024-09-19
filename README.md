@@ -18,10 +18,9 @@ Met behulp van foto's is er laten zien wat onze gedachtegang was tijdens dit pro
 
 De pagina is responsive ontworpen en dus bereikbaar voor mobiele, tablet, en desktop gebruikers. 
 
-Hier staat de website: 
+Hier staat de website: https://renzowille.github.io/squad-page-rmr/finalindex.html
 
-
-<img width="887" alt="FDND contactpagina" src="https://user-images.githubusercontent.com/1391509/137478299-c46c4903-7db8-4305-a072-8ba4c92e31fd.png">
+<img width="1439" alt="squadpage" src="https://github.com/user-attachments/assets/b17df2d0-29f7-4fb2-a3b5-435c5b91b696">
 
 _Layout van de homepage_
 
