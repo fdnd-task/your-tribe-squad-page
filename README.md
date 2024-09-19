@@ -80,34 +80,14 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
   
 ### CSS
 
-In de CSS staat een `scroll-behavior: smooth;` op de html voor een animatie als iemand op de links contactgegevens en routebeschrijving klikt. Dit zijn anchors naar de sections met de id. 
+In de CSS staat een `carousel-slide;` op de html voor een animatie wanneer de pagina wordt ingeladen dat de carousel naar links blijft bewegen door de carousel leven in te blazen.
 
-#### Font-size
-
-De `<h1>` font-size staat op 2.4em en line-height van 120%. 
-De `<section>` font-size staat op 1.2em .
-
-In de CSS zijn 3 minor breakpoints voor Small-screens:
-
-#### @media 20em
-
-Minor breakpoint met o.a. een aangepaste `<h1>` font-size van 1.4em, omdat de titel anders te breed is voor een small-screen.
-
-#### @media 25em
-
-Minor breakpoint met een aangepaste `<h1>` font-size van 1.6em, om de titel zo groot mogelijk te maken zonder dat die te breed wordt.
-
-
-#### @media 30em
-
-Margin en padding aanpassingen voor smalle schermen. 
-
-Het verplichte HVA en FDND logo worden 70% kleiner getoond en links gepositioneerd, omdat die anders te breed worden voor een small-screen.
 ```css
-      body:before, body:after{
-        transform: scale(.7);
-        left: -3rem;
-      }
+     .carousel-slide {
+    display: flex;
+    flex: 1 0 calc(100% / 33); /* Elke afbeelding neemt 1/33 van de wrapper */
+    margin-right: 20px;
+}
 ```
 ### JavaScript
 
