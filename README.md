@@ -60,8 +60,7 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
   En een local CSS file met specifieke styling voor deze pagina. 
   ```html
-      <link rel="stylesheet" href="https://styleguide.fdnd.nl/fdnd.css">
-      <link rel="stylesheet" href="styles/local.css">
+<link rel="stylesheet" href="finalstyles.css">   
   ```
 
   In de `<head>` wordt een extern font geladen: De Open Sans
