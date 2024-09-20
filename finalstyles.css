@@ -241,7 +241,7 @@ h1 {
     height: 300px;
     box-shadow: 0px 0px 150px 5px #fff;
     border-radius: 50%;
-    background-image: url(assets/illu\ map\ hva\ planet.png);
+    background-image: url(illu\ map\ hva\ planet.png);
     background-size: auto 300px;
     background-position: -1020px 0px;
     animation: float 2s infinite;
