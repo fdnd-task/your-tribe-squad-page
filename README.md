@@ -38,6 +38,14 @@ Voor de map van de Amstel Campus, hover over een punt op de kaart om meer inform
 
 Gebaseerd op onze schets was heel snel duidelijk voor ons dat we een bewegende achtergrond wilde om wat extra effect te creëren. Dat was gelukt door middel van een video als achtergrond te zetten maar we kwamen er al snel dat niet alle browsers de video’s registreren als achtergronden waardoor de conclusie al snel getrokken kon worden dat niet iedereen de vid zou kunnen zien als achtergrond, we hebben hiervoor een oplossing bedacht waarbij wij een screenshot hebben gemaakt van de video en die in onze code achter de video hebben geplakt. Op deze manier hebben gebruikers waarvan hun browsers niet de video kunnen ondersteunen nog steeds hetzelfde design als gebruikers waarbij hun browsers wel de video kunnen ondersteunen.
 
+ ```html
+       <video playsinline autoplay muted loop poster="image.png" id="bgvid">
+        <source src="215697_small.mp4" type="video/mp4">
+      </video>
+      
+  ```
+
+
 ### Visitekaartjes
 
 
