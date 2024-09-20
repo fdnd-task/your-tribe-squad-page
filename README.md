@@ -40,6 +40,7 @@ Gebaseerd op onze schets was heel snel duidelijk voor ons dat we een bewegende a
 
 ### Visitekaartjes
 
+
 <img width="1440" alt="Scherm­afbeelding 2024-09-19 om 10 43 08" src="https://github.com/user-attachments/assets/21fa9bef-c3ab-4146-a3d5-46ce249219dd">
 
 
