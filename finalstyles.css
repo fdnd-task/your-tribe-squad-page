@@ -245,6 +245,7 @@ h1 {
     background-size: auto 300px;
     background-position: -1020px 0px;
     animation: float 2s infinite;
+    border-radius: circle;
 }
 
 /* Floating Effect */
