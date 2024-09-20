@@ -25,6 +25,7 @@ Hier staat de website: https://renzowille.github.io/squad-page-rmr/finalindex.ht
 _Layout van de homepage_
 
 
+
 ## Gebruik
 
 De Squad Page kan op deze manier gebruikt worden: 
@@ -33,6 +34,9 @@ KLik op de foto van de persoon van wiens visitekaartje je wilt zien, dit brengt 
 
 Voor de map van de Amstel Campus, hover over een punt op de kaart om meer informatie te kunnen zien over een interessante plek op de campus waar gewerkt kan worden.
 
+## dingen waar we tegen aan liepen
+
+Gebaseerd op onze schets was heel snel duidelijk voor ons dat we een bewegende achtergrond wilde om wat extra effect te creëren. Dat was gelukt door middel van een video als achtergrond te zetten maar we kwamen er al snel dat niet alle browsers de video’s registreren als achtergronden waardoor de conclusie al snel getrokken kon worden dat niet iedereen de vid zou kunnen zien als achtergrond, we hebben hiervoor een oplossing bedacht waarbij wij een screenshot hebben gemaakt van de video en die in onze code achter de video hebben geplakt. Op deze manier hebben gebruikers waarvan hun browsers niet de video kunnen ondersteunen nog steeds hetzelfde design als gebruikers waarbij hun browsers wel de video kunnen ondersteunen.
 
 ### Visitekaartjes
 
@@ -41,7 +45,7 @@ Voor de map van de Amstel Campus, hover over een punt op de kaart om meer inform
 
 ### Amstel Campus
 
-Bij dit deel van de squad page kunnen bezoekers verschillende interessante plekken vinden op de Amstel Campus. Door over een bepaalde locatie te hoveren komt er bepaalde informatie vrij om te kunnen lezen.
+We hebben ook de amstel campus map toegevoegd aan onze website. We hebben een leuke functie toegevoegd waar de gebouwen in de zero state blauwe puntjes zijn , met een hover hebben we kunnen creëren dat zodra je met je curser over een van de blauwe puntjes gaat informatie te voorverschijn komt over wat voor gebouw op die plek staat etc. Op deze manier word de gebruiker niet overvallen met veel informatie maar kan de gebruiker zelf bepalen wat voor informatie op dat moment willen zien.
 
 <img width='1440' alt='schermafbeelding' src='https://github.com/RenzoWille/squad-page-rmr/blob/main/Screenshot%202024-09-20%20084119.png?raw=true'>
 
