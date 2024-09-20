@@ -21,3 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set interval for slower scrolling
     setInterval(moveCarousel, 20); // Slower by increasing interval to 20ms
 });
+
+function createStars(){
+    const container = document.querySelector('body');
+    for(let i=0; i < 1000; i++) {
+        const star = document.createElement('div');
+        star.className = 'star';
+        star.style.width = '0.7px';
+        star.style.height = '0.8px';
+
+        star.style.top = Math.random() * 100 + '%';
+        star.style.left = Math.random() * 100 + '%';
+
+        container.appendChild(star);
+    }
+}
+
+createStars();

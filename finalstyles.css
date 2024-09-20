@@ -171,6 +171,7 @@ h1 {
     width: 320px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     z-index: 10;
+    color: black;
 }
 
 .card-cafe-fest {
@@ -202,3 +203,115 @@ h1 {
     left: 30%;
     top: 37%;
 }
+
+.location:hover .card-cafe-fest {
+    display: block;
+}
+
+.location .pin.cafe-fest:hover + .card-cafe-fest {
+    display: block;
+}
+
+.location .pin.uitzicht:hover + .card-uitzicht {
+    display: block;
+}
+
+.location .pin.winkel:hover + .card-winkel {
+    display: block;
+}
+
+.location .pin.lokaal-huren:hover + .card-lokaal-huren {
+    display: block;
+}
+
+
+.location .pin.trappenhuis:hover + .card-trappenhuis {
+    display: block;
+}
+
+.location .pin.aquarium:hover + .card-aquarium {
+    display: block;
+}
+
+/* Planet Styles */
+.planet {
+    padding: 0em 2em;
+    margin: 10em;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 150px 5px #fff;
+    border-radius: 50%;
+    background-image: url(assets/illu\ map\ hva\ planet.png);
+    background-size: auto 300px;
+    background-position: -1020px 0px;
+    animation: float 2s infinite;
+}
+
+/* Floating Effect */
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.btn {
+    position: absolute;
+    background-color: white;
+    color:#3200fb;
+    stroke: 2px #3200fb;
+    border-radius: 30%;
+    padding: 10px;
+    top: 85%;
+    left: 92%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-start: -2;
+      padding: 1em;
+      grid-row-gap: 100px;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .btn {
+        position: absolute;
+        background-color: white;
+        color:#3200fb;
+        stroke: 2px #3200fb;
+        border-radius: 30%;
+        padding: 10px;
+        top: 5%;
+        left: 45%;
+    }
+  }
+
+  
