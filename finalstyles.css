@@ -11,7 +11,7 @@ body {
 }
 
 /* Full-Screen Background Video */
-video {
+video#bgvid {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
