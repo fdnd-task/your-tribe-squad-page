@@ -43,7 +43,7 @@ Voor de map van de Amstel Campus, hover over een punt op de kaart om meer inform
 
 Bij dit deel van de squad page kunnen bezoekers verschillende interessante plekken vinden op de Amstel Campus. Door over een bepaalde locatie te hoveren komt er bepaalde informatie vrij om te kunnen lezen.
 
-![image](
+<img width='1440' alt='schermafbeelding' src='https://github.com/RenzoWille/squad-page-rmr/blob/main/Screenshot%202024-09-20%20084119.png?raw=true'>
 
 
 
@@ -97,7 +97,7 @@ In de JavaScript staat de 'carousel-slide' toepassing die zorgt dat de carousel 
 
 Bij de achtergrond van de tweede pagina zijn sterren op de achtergrond toegepast. Deze sterren staan elke keer op een andere plek doordat de functie 'random' is gebruikt.
 
-(foto van JavaScript)
+<img width='1440' alt='schermafbeelding' src='https://github.com/RenzoWille/squad-page-rmr/blob/main/Screenshot%202024-09-20%20084449.png?raw=true)'>
 
 
 ## Bronnen 
