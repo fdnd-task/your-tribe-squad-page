@@ -12,10 +12,14 @@ Met CSS kun je regels schrijven waarmee de browser de website anders toont op ve
 
 ```css
     body {
-        background: blue;
+        background: red;
 
-        @media (min-width: 600px) {
-            background: red;
+        @media (min-width: 30em) {
+            background: green;
+        }
+
+        @media (min-width: 50em) {
+            background: blue;
         }
     }
 ```
