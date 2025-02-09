@@ -24,7 +24,7 @@ N.B.: Het invullen van het Team Canvas is natuurlijk geen garantie voor geslaagd
 
 Het Team Canvas invullen.
 
-0. Vul het Team Canvas in op [Miro](https://miro.com/app/board/uXjVKh1tR08=/).
+0. Kopieer het Team Canvas naar Figma, daar kunnen jullie het fezamenlijk invullen. 
 
 
 1. Zet in het midden (PURPOSE) de opdracht waar jullie de komende twee weken aan gaan werken. 
