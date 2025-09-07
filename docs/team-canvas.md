@@ -52,7 +52,7 @@ Stel **persoonlijke doelen** op (GOALS): Dit kan gaan om over kennis (je wilt ie
 ##### Bronnen
 
 - [Pro-tip: Een lijst met kernwaarden](https://www.desteven.nl/leiderschapsontwikkeling/modern-leiderschap/kernwaarden)
-- [Miro Board voor deze opdracht](https://miro.com/app/board/uXjVKh1tR08=/)
+
 
 
 
