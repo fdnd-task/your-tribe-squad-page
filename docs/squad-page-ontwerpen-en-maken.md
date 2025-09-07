@@ -56,13 +56,13 @@ Eerst ga je met je team de visitekaartjes uit je squad bekijken en inspiratie zo
 
 ### 1. Visitekaartjes verzamelen en bekijken
 
-1. Verzamel op jullie [Miro board](https://miro.com/app/board/uXjVKh1tR08=/) alle visitekaartjes uit je squad. Maak een screenshot en plak dit in jullie Miro board.
+1. Verzamel in een Figma bestan alle visitekaartjes uit je squad. Maak een screenshot en plak dit in Figma.
 2. Bespreek de kaartjes en benoem en beschrijf verschillen en overeenkomsten.
 3. Kun je de kaartjes op een bepaalde manier organiseren? Bedenk en probeer verschillende manieren.
 
 ### 2. Inspiratie zoeken
 
-1. Zoek online minimaal 12 voorbeelden van overzichtspagina's met veel informatie. Maak screenshots en voeg ze toe aan jullie Miro board. 
+1. Zoek online minimaal 12 voorbeelden van overzichtspagina's met veel informatie. Maak screenshots en voeg ze toe aan jullie Figma bestand. 
 2. Bespreek de voorbeelden, wat werkt goed, welke vormen zijn interessant ...
 3. Schets aan de hand van de voorbeelden een paar ideeën hoe jullie de visitekaartjes kunnen tonen.
 
