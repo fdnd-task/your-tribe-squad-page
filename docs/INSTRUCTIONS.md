@@ -32,12 +32,11 @@ Deze leertaak wordt behandeld in week 2 en 3 van sprint 1. Er worden verschillen
 
 Deze opdracht is done als:
 
-- Je hebt met een team iteratief gewerkt <!-- connecting commits tekening evalueren -->
-- Je hebt het team-canvas ingevuld en toegevoegd aan de issues van de repository waar jullie in samenwerken, en je hebt de samenwerking geevalueerd in een kampvuur sessie <!-- Piek en dal tekening evalueren -->
-
-- Je hebt verschillende schetsen gemaakt voor het responsive ontwerp en met een media-query verschillende layouts gemaakt en feedback gekregen in Github Issues
-- Je hebt verschillende variaties geschetst voor de layout en de visuele hiërachie en dit gedocumenteerd in een Github Issues
-- Je hebt het responsive ontwerp gerealiseerd met HTML, CSS en/of JS, je hebt code uitgelegd en feedback gekregen in Github Issues
+- [ ] Je hebt met een team iteratief gewerkt <!-- connecting commits tekening evalueren -->
+- [ ] Je hebt het team-canvas ingevuld en toegevoegd aan de issues van de repository waar jullie in samenwerken, en je hebt de samenwerking geevalueerd in een kampvuur sessie <!-- Piek en dal tekening evalueren -->
+- [ ] Je hebt verschillende schetsen gemaakt voor het responsive ontwerp en met een media-query verschillende layouts gemaakt
+- [ ] Je hebt verschillende variaties geschetst voor de layout en de visuele hiërachie en dit gedocumenteerd in een Github Issues
+- [ ] Je hebt het responsive ontwerp gerealiseerd met HTML, CSS en/of JS, je hebt code uitgelegd en feedback gekregen in Github Issues en dit verwerkt
 
 <!--
 - [ ] De squadpage staat op Github en heeft een live url
