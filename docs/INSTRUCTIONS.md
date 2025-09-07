@@ -34,9 +34,9 @@ Deze opdracht is done als:
 
 - [ ] Je hebt met een team iteratief gewerkt <!-- connecting commits tekening evalueren -->
 - [ ] Je hebt het team-canvas ingevuld en toegevoegd aan een Github Issue van de repository waar jullie in samenwerken, en je hebt de samenwerking geevalueerd in een kampvuur sessie <!-- Piek en dal tekening maken en evalueren -->
-- [ ] Je hebt een breakdown-schets gemaakt voor het responsive ontwerp en dit in een GitHub Issue toegevoegd
-- [ ] Je hebt verschillende variaties geschetst voor de layout en de visuele hiërachie en dit in een Github Issues toegevoegd
-- [ ] Je hebt het responsive ontwerp gerealiseerd met HTML, CSS en/of JS, je hebt code uitgelegd en feedback gekregen in Github Issues en de feedback verwerkt
+- [ ] Je hebt een breakdown-schets gemaakt voor het responsive ontwerp en dit aan een GitHub Issue toegevoegd
+- [ ] Je hebt verschillende variaties geschetst voor de layout en de visuele hiërachie en dit aan een Github Issues toegevoegd
+- [ ] Je hebt het responsive ontwerp gerealiseerd met HTML, CSS en/of JS, je hebt code uitgelegd in comments, feedback gekregen in Github Issues en de feedback verwerkt
 
 <!--
 - [ ] De squadpage staat op Github en heeft een live url
