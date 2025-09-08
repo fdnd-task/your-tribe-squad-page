@@ -14,7 +14,7 @@ Elke squad krijgt een eigen squadpagina met een overzicht van alle visitekaartje
 ## Doel van deze opdracht
 
 * Samenwerken in een team
-* In een team de dev-lifecycle toepassen 
+* De werkwijze van FDND leren
 * Een squadpagina ontwerpen en maken waarin o.a. alle visitekaartjes van de squad samen komen
 
 ## Werkwijze
