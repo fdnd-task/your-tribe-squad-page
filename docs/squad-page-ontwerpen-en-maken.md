@@ -56,7 +56,7 @@ Eerst ga je met je team de visitekaartjes uit je squad bekijken en inspiratie zo
 
 ### 1. Visitekaartjes verzamelen en bekijken
 
-1. Verzamel in een Figma bestan alle visitekaartjes uit je squad. Maak een screenshot en plak dit in Figma.
+1. Verzamel in een Figma bestand alle visitekaartjes uit je squad. Maak een screenshot en plak dit in Figma.
 2. Bespreek de kaartjes en benoem en beschrijf verschillen en overeenkomsten.
 3. Kun je de kaartjes op een bepaalde manier organiseren? Bedenk en probeer verschillende manieren.
 
