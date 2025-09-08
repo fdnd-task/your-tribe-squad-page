@@ -24,7 +24,7 @@ N.B.: Het invullen van het Team Canvas is natuurlijk geen garantie voor geslaagd
 
 Het Team Canvas invullen.
 
-0. Kopieer het Team Canvas naar [Figma](https://www.figma.com/) (maak een account aan als je dat nog niet hebt). Daar kunnen jullie het gezamenlijk invullen. Met Figma kun je tegelijk in hetzelfde bestand werken.
+0. Kopieer het Team Canvas naar [Figma](https://www.figma.com/). Met Figma kun je tegelijk in hetzelfde bestand werken, wat we bij deze opdracht meerdere keren gaan doen. Maak een account aan als je dat nog niet hebt, en nodig elkaar uit in hetzelfde bestand. Daar kunnen jullie het Team Canvas gezamenlijk invullen.
 
 
 1. Zet in het midden (PURPOSE) de opdracht waar jullie de komende twee weken aan gaan werken. 
