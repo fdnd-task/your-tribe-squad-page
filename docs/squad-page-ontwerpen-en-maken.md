@@ -9,23 +9,23 @@ Volg onderstaand fases om met een team een squadpagina te ontwerpen en maken en 
 
 ## Analyseren
 
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren,  formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen en hoe jullie gaan samenwerken. Ook zet je de _repository_ klaar waarin jullie gaan werken. Maar je begint altijd met een sprintplanning! 
+In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren, formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen en hoe jullie gaan samenwerken. Ook zet je de _repository_ klaar waarin jullie gaan werken. Maar je begint altijd met een _sprint planning_!
 
-### 1. Sprintplanning
+### 1. Sprint planning
 
-Je begint een project altijd met een sprintplanning. Dan weet je wat de planning is, wat we de komende weken gaan doen en wat er van je wordt verwacht. 
+Je begint een project altijd met een sprint planning. Dan weet je wat de planning is, wat we de komende weken gaan doen en wat er van je wordt verwacht.
 
-1. Lees de instructies van deze leertaak zorgvuldig door, en bekijk de DoD's
+1. Lees eerst de instructies van deze leertaak zorgvuldig door, en bekijk de DoD's
 2. Bekijk de verschillende fases van de Development Lifecycle en wat je per fase gaat doen
-3. Bespreek met jouw team wat je aan werk verwacht en maak een planning op basis van wat er op de [programma website](https://programma.fdnd.nl/static-web/your-tribe) staat, welke workshops staan op het programma, wat heb je nodig voor de code/design review van vrijdag, en wat ga je presenteren tijdens de expo volgende week vrijdag?
+3. Bespreek met jouw team wat je aan werk verwacht en maak een planning op basis van wat er op de [programma website](https://programma.fdnd.nl/static-web/your-tribe) staat. Welke workshops staan op het programma? Wat heb je nodig voor de code/design review van vrijdag? En wat ga je laten zien tijdens de expo volgende week vrijdag?
 
 
 ### 2. Repository klaarzetten
 
-Jullie gaan als team 1 website maken. Jullie maken 1 ontwerp, je werkt soms in je eigen code en soms zullen jullie de code gaan samenvoegen. Die doe je door met je team 1 gezamenlijke _repository_ te gebruiken. 
+Jullie gaan als team één website maken. Jullie maken samen één ontwerp. Je werkt soms in je eigen code en soms zullen jullie de code gaan samenvoegen. Die doe je door met je team één gezamenlijke _repository_ te gebruiken. 
 
-1. Slechts één teamlid _forkt_ de leertaak 'Your Tribe Squad Page' voor deze opdracht.
-2. Deze persoon voegt de teamleden toe als 'Collaborators': Ga naar de settings van de _repository_, klik op _collaborators_ en voeg de GitHub accounts van de overige teamleden toe.
+1. Slechts één teamlid _forkt_ deze keer de leertaak “Your Tribe Squad Page” voor deze opdracht. Bepaal wie dat wordt en laat diegene de _fork_ maken.
+2. Deze persoon voegt vervolgens de teamleden toe als “Collaborators”: Ga naar de Settings van de _repository_, klik op _collaborators_ en voeg de GitHub accounts van de overige teamleden toe.
 3. Nu kunnen alle teamleden samenwerken op die _repository_, door deze allemaal te _clonen_ (downloaden).
 4. Alle teamleden kunnen nu op hun eigen computer onderdelen van de website coderen, en hun aanpassingen en wijzigingen _committen_ en _pushen_ naar jullie gezamenlijke _repository_. Dit is een manier van samenwerken in code, via GitHub.
 
@@ -33,7 +33,7 @@ Jullie gaan als team 1 website maken. Jullie maken 1 ontwerp, je werkt soms in j
 ### 3. Team Canvas invullen
 
 Als je in een team gaat werken, is het belangrijk om afspraken te maken over de samenwerking, zodat alle teamleden goed op één lijn zitten. 
-Vul met jouw team een Team Canvas in om een goed vertrekpunt voor jouw teamproject te hebben. Voor het invullen van het Team Canvas is een Workshop met uitleg beschikbaar. 
+Vul met jouw team een Team Canvas in om een goed vertrekpunt voor jouw teamproject te hebben. Voor het invullen van het Team Canvas is een [Workshop met uitleg](team-canvas.md) beschikbaar. 
 
 ### Bronnen Team Canvas invullen
 
@@ -56,7 +56,7 @@ Eerst ga je met je team de visitekaartjes uit je squad bekijken en inspiratie zo
 
 ### 1. Visitekaartjes verzamelen en bekijken
 
-1. Verzamel in een Figma bestand alle visitekaartjes uit je squad. Maak een screenshot en plak dit in Figma.
+1. Verzamel in jullie gedeelde Figma bestand alle visitekaartjes uit jullie squad. Maak een screenshot en plak dit in Figma.
 2. Bespreek de kaartjes en benoem en beschrijf verschillen en overeenkomsten.
 3. Kun je de kaartjes op een bepaalde manier organiseren? Bedenk en probeer verschillende manieren.
 
@@ -64,13 +64,13 @@ Eerst ga je met je team de visitekaartjes uit je squad bekijken en inspiratie zo
 
 1. Zoek online minimaal 12 voorbeelden van overzichtspagina's met veel informatie. Maak screenshots en voeg ze toe aan jullie Figma bestand. 
 2. Bespreek de voorbeelden, wat werkt goed, welke vormen zijn interessant ...
-3. Schets aan de hand van de voorbeelden een paar ideeën hoe jullie de visitekaartjes kunnen tonen.
+3. Schets aan de hand van de voorbeelden een paar ideeën voor hoe jullie de visitekaartjes zouden kunnen tonen.
 
 ### 3. Amstelcampus onderzoeken
 
-Op jullie website komen ook interessante plekken op de [Amstelcampus](https://www.hva.nl/locaties/campus/amstelcampus.html) van de HvA. Hiervoor gaan jullie eerst de Amstelcampus onderzoeken! Waar kan je goed werken met een team in de middag? Waar kun je lekker eten? Waar kun je bidden? Waar kun je met een frisbee gooien? Waar is het mooiste uitzicht? Ga met je team rondlopen en schrijf de plekken op.
+Op jullie website komen ook interessante plekken op de [Amstelcampus](https://www.hva.nl/locaties/campus/amstelcampus.html) van de HvA. Hiervoor gaan jullie eerst de Amstelcampus onderzoeken! Waar kan je goed werken met een team in de middag? Waar kun je lekker eten? Waar kun je bidden? Waar kun je met een frisbee gooien? Waar is het mooiste uitzicht? Ga met je team rondlopen en schrijf de plekken op. Installeer eerst Teams op je telefoon, en post tijdens jullie ontdekkingstocht foto's van de plekken die je vindt in het Sprint 1 kanaal. Misschien vinden jullie wel plekken die wij ook nog niet kennen!
 
-Er is een mooie werkplek op de 3e verdieping bij CMD, de Medialounge, en in het Kohnstammhuis (KSH) is een "Broedplaats" op de 1e verdieping naast de bibliotheek. Er zijn verschillende plekken waar je koffie kan halen, in het Jakoba Mulderhuis (JMH), in het Benno Premselahuis (BPH) en in het Wibauthuis (WBH), daar is ook een restaurant. Er is een voetbalveldje. Een gymzaal. En vlak in de buurt een supermarkt, de Coffee Company, Bagels and Beans, ... Waar zijn nog meer interessante plekken op de Amstelcampus om te hangen of om te werken?
+💡 Wat tips: Er is een mooie werkplek op de 3e verdieping bij CMD, de Medialounge, en in het Kohnstammhuis (KSH) is een “Broedplaats” op de 1e verdieping naast de bibliotheek. Er zijn verschillende plekken waar je koffie kan halen, in het Jakoba Mulderhuis (JMH), in het Benno Premselahuis (BPH) en in het Wibauthuis (WBH). Daar is ook een restaurant. Er is een voetbalveldje. Een gymzaal. En vlak in de buurt een supermarkt, de Coffee Company, Bagels and Beans, ... Waar zijn nog meer interessante plekken op de Amstelcampus om te hangen of om te werken?
 
 ### 4. Schetsen en breakdown
 
@@ -78,9 +78,9 @@ Nu je (ongeveer) weet wat je op jullie squadpagina kan tonen, ga je schetsen en 
 
 1. Schets individueel minstens 4 ideeën voor jullie squadpagina op papier.
 2. Maak gezamenlijk een selectie van de beste ideeën en schets jullie ontwerp op een whiteboard. 
-3. Maak een issue aan bij jullie gezamenlijke _repository_, geef het de titel "Ontwerp squadpage" en voeg jullie ontwerp toe met uitleg. Dit is jullie eerste ontwerp dat jullie gaan proberen te bouwen.
+3. Maak een issue aan bij jullie gezamenlijke _repository_, geef het de titel “Ontwerp squad page” en voeg in reacties jullie schetsen en uiteindelijke ontwerp toe met uitleg. Dit is jullie eerste ontwerp dat jullie gaan proberen te bouwen.
 4. Maak dan met je team een breakdown schets van jullie ontwerp op het whiteboard. Richt je in eerste instantie op de HTML. Kijk bij de [HTML reference van MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) welke elementen je kan gebruiken, of [bij de workshop van week 1](https://github.com/fdnd-task/your-tribe-profile-card/blob/main/docs/breakdown-schets.md) als je even niet meer weet hoe je een goede breakdown maakt.
-5. Voeg de breakdown schets toe aan het issue met jullie ontwerp. Een docent bespreekt de breakdown met jullie en geeft feedback.
+5. Voeg de breakdown schets toe aan het issue met jullie ontwerp. Tag een docent net als vorige week, en vraag weer om feedback op jullie werk.
 
 ### Bronnen breakdown
 
