@@ -11,3 +11,19 @@
   --dark-grey: hsl(0, 0%, 12%);
   --off-black: hsl(0, 0%, 8%);
 }
+
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--off-black);
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--white);
+}
+
+header{
+     margin: 0 auto;
+     position: relative;
+}
