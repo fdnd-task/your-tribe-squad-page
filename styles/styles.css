@@ -5,7 +5,7 @@
 }
 
 :root {
-  --green: hsl(75, 94%, 57%);
+  --yellow: hsl(51, 100%, 50%);
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 20%);
   --dark-grey: hsl(0, 0%, 12%);
@@ -19,41 +19,108 @@ body {
   color: var(--white);
 }
 
+
 .hero {
-  height: 100vh; 
+  height: 100vh;
+ padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('') no-repeat center center/cover;
+  /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('') no-repeat center center/cover; */
   color: white;
-}
-.hero-content {
-  padding: 20px;
 }
 .hero h1 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
 }
-.hero p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+.hero span {
+  color: var(--yellow); 
+}
+.hero-content h1 {
+  overflow: hidden;
+  max-width: fit-content;
+  border-right: .15em solid var(--yellow);
+  white-space: nowrap; 
+  margin: 0 auto; 
+  padding: 0 auto;
+  letter-spacing: .10em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--yellow) }
 }
 
+
+.squad {
+  padding: 50px 20px;
+  text-align: center;
+}
+.squad-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.member {
+  background: var(--off-black);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--yellow);
+  width: 200px;
+}
+.member img {
+  width: 100%;
+  border-radius: 50%;
+}
+.member h3 {
+  margin: 15px 0 10px;
+}
 .btn {
   display: inline-block;
-  padding: 12px 30px;
-  font-size: 1.2rem;
-  color: white;
-  background: transparent;
-  border: 2px solid white;
-  border-radius: 30px;
+  padding: 8px 20px;
+  border: 2px solid var(--dark-grey);
+  border-radius: 25px;
   text-decoration: none;
-  transition: all 0.3s ease;
+  color: var(--grey);
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: #333;
+  color: white;
 }
 
-.btn:hover {
-  background: white;
-  color: black;
+
+
+.favorites {
+  padding: 50px 20px;
+  text-align: center;
+  background: var(--off-black);
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.location {
+  width: 200px;
+}
+.location img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--off-black);
+}
+.location p {
+  margin-top: 10px;
+  font-weight: bold;
 }
