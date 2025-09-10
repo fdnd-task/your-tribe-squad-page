@@ -69,8 +69,8 @@ body {
 
 #### Opdracht
 
-1. Maak in je Digital Garden/Learning Journal een HTML file aan, noem het "mediaquery.html"
-2. Maak een CSS file aan, noem dit "style.css" en koppel het aan het HTML file
+1. Maak in je Digital Garden/Learning Journal een HTML file aan, noem het "mediaquery.html" (we gaan in workshops vaker kleine experimentjes toevoegen aan je Digital Garden)
+2. Maak een CSS file aan, noem dit "mediaquery.css" en koppel het aan het HTML file
 3. Geef het document een achtergrondkleur. Voeg dit bijvoorbeeld toe aan je CSS: 
 
 ```css
@@ -111,9 +111,9 @@ Schets en maak een responsive design voor je squad page.
 
 - [Statcounter mobile/desktop/tablet](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide)
 
-- [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
-- [Beginner guide to Media Queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
-- [Viewport meta tag op MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
+- [A Complete Guide to CSS Media Queries @ CSS Tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+- [Beginner guide to Media Queries @ MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
+- [Viewport meta tag @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
 
 <!--
 - [Whatsmyviewport](https://whatismyviewport.com/)
@@ -122,7 +122,7 @@ Schets en maak een responsive design voor je squad page.
 
 
 **Meer lezen over Responsive**
-- [How Much Has The Web Really Changed?](https://www.smashingmagazine.com/2013/05/new-defaults-web-design/)
+- [How Much Has The Web Really Changed? @ Smashing Magazine](https://www.smashingmagazine.com/2013/05/new-defaults-web-design/)
 - [The New Multi-screen World](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/the-new-multi-screen-world-study/)
 - [The ideal viewport doesn’t exist](https://viewports.fyi)
 
