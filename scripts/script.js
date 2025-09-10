@@ -2,7 +2,6 @@ const teamMembers = [
 	{ name: "Tin", photo: "assets/squadfoto's/Jaar 1/Squad1I-Tin.JPG", link: "https://webtins.github.io/your-tribe-profile-card/" },
 	{ name: "Thomas", photo: "assets/squadfoto's/Jaar 1/Squad1I-Thomas.JPG", link: "https://thomasseisveld.github.io/profilecard-Thomas/" },
 	{ name: "Ayoub", photo: "assets/squadfoto's/Jaar 1/Squad1I-Ayoub-1.JPG", link: "" },
-	{ name: "Ayoub", photo: "assets/squadfoto's/Jaar 1/Squad1I-Ayoub-2.JPG", link: "" },
 	{ name: "Caitlin", photo: "assets/squadfoto's/Jaar 1/Squad1I-Caitlin.JPG", link: "https://caitlin-fdnd.github.io/your-tribe-profile-card/" },
 	{ name: "Emre", photo: "assets/squadfoto's/Jaar 1/Squad1I-Emre.JPG", link: "https://emrebahar0912.github.io/your-tribe-profile-card/" },
 	{ name: "Gijs", photo: "assets/squadfoto's/Jaar 1/Squad1I-Gijs.JPG", link: "" },
