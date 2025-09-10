@@ -110,7 +110,6 @@ Schets en maak een responsive design voor je squad page.
 ### Bronnen 
 
 - [Statcounter mobile/desktop/tablet](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide)
-
 - [A Complete Guide to CSS Media Queries @ CSS Tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 - [Beginner guide to Media Queries @ MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
 - [Viewport meta tag @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
