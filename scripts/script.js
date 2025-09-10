@@ -1,15 +1,65 @@
 const teamMembers = [
-	{ name: "Tin", role: "Founder" },
+	{
+		name: "Tin",
+		photo: "assets/squadfoto's/Jaar 1/Squad1I-Tin.JPG",
+		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
+	},
+	{
+		name: "Thomas",
+		photo: "assets/squadfoto's/Jaar 1/Squad1I-Thomas.JPG",
+		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
+	},
+	{
+		name: "Kate",
+		photo: "assets/squadfoto's/Jaar 1/Squad1I-Kate.JPG",
+		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
+	},
+	{
+		name: "Emre",
+		photo: "assets/squadfoto's/Jaar 1/Squad1I-Emre.JPG",
+		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
+	},
+	{
+		name: "Roxy",
+		photo: "assets/squadfoto's/Jaar 1/Squad1I-Roxy.JPG",
+		link: ""
+	},
+	{
+		name: "Oumaima",
+		photo: "assets/squadfoto's/Jaar 1/Squad1I-Roxy.JPG",
+		link: "https://meemo99.github.io/your-tribe-profile-card/"
+	}
 ];
 
-const cards = document.querySelectorAll(".card");
-const dots = document.querySelectorAll(".dot");
-const memberName = document.querySelector(".member-name");
-const memberRole = document.querySelector(".member-role");
-const leftArrow = document.querySelector(".nav-arrow.left");
-const rightArrow = document.querySelector(".nav-arrow.right");
+const carouselTrack = document.querySelector('.carousel-track');
+const dots = document.querySelectorAll('.dot');
+const leftArrow = document.querySelector('.nav-arrow.left');
+const rightArrow = document.querySelector('.nav-arrow.right');
 let currentIndex = 0;
 let isAnimating = false;
+
+function createCard(member, i) {
+	const card = document.createElement('div');
+	card.className = 'card';
+	card.setAttribute('data-index', i);
+	card.innerHTML = `
+		<img src="${member.photo}" alt="${member.name}">
+		<h3 class="member-name">${member.name}</h3>
+		<div class="card-preview">
+			<iframe src="${member.link}" frameborder="0"></iframe>
+			<a class="preview-overlay" href="${member.link}" target="_blank">bezoeken</a>
+		</div>
+		<a href="${member.link}" class="btn">Meer</a>
+	`;
+	return card;
+}
+
+carouselTrack.innerHTML = '';
+const cards = teamMembers.map((member, i) => {
+	const card = createCard(member, i);
+	carouselTrack.appendChild(card);
+	return card;
+});
 
 function updateCarousel(newIndex) {
 	if (isAnimating) return;
@@ -47,16 +97,6 @@ function updateCarousel(newIndex) {
 	dots.forEach((dot, i) => {
 		dot.classList.toggle("active", i === currentIndex);
 	});
-
-	memberName.style.opacity = "0";
-	memberRole.style.opacity = "0";
-
-	setTimeout(() => {
-		memberName.textContent = teamMembers[currentIndex].name;
-		memberRole.textContent = teamMembers[currentIndex].role;
-		memberName.style.opacity = "1";
-		memberRole.style.opacity = "1";
-	}, 300);
 
 	setTimeout(() => {
 		isAnimating = false;
@@ -117,18 +157,3 @@ function handleSwipe() {
 }
 
 updateCarousel(0);
-
-
-
-// let touchEvent = null;
-// if ('ontouchstart' in window || navigator.maxTouchPoints) {
-//   touchEvent = 'touchstart';
-// } else {
-//   touchEvent = 'click';
-// }
-// document.querySelectorAll('.member').forEach(member => {
-//   member.addEventListener(touchEvent, () => {
-//     document.querySelectorAll('.member').forEach(m => m.classList.remove('active'));
-//     member.classList.add('active');
-//   });
-// });
