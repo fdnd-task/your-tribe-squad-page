@@ -76,6 +76,15 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 6px var(--yellow);
   width: 200px;
+  height: 200px;
+}
+.member.active {
+  background: var(--dark-grey);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--yellow);
+  width: 250px;
+  height: 200px;
 }
 .member img {
   width: 100%;
