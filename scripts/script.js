@@ -32,7 +32,7 @@ const teamMembers = [
 ];
 
 const carouselTrack = document.querySelector('.carousel-track');
-const dots = document.querySelectorAll('.dot');
+// const dots = document.querySelectorAll('.dot');
 const leftArrow = document.querySelector('.nav-arrow.left');
 const rightArrow = document.querySelector('.nav-arrow.right');
 let currentIndex = 0;
@@ -94,9 +94,9 @@ function updateCarousel(newIndex) {
 		}
 	});
 
-	dots.forEach((dot, i) => {
-		dot.classList.toggle("active", i === currentIndex);
-	});
+	// dots.forEach((dot, i) => {
+	// 	dot.classList.toggle("active", i === currentIndex);
+	// });
 
 	setTimeout(() => {
 		isAnimating = false;
@@ -111,11 +111,11 @@ rightArrow.addEventListener("click", () => {
 	updateCarousel(currentIndex + 1);
 });
 
-dots.forEach((dot, i) => {
-	dot.addEventListener("click", () => {
-		updateCarousel(i);
-	});
-});
+// dots.forEach((dot, i) => {
+// 	dot.addEventListener("click", () => {
+// 		updateCarousel(i);
+// 	});
+// });
 
 cards.forEach((card, i) => {
 	card.addEventListener("click", () => {
