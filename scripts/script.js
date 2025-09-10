@@ -1,34 +1,29 @@
 const teamMembers = [
-	{
-		name: "Tin",
-		photo: "assets/squadfoto's/Jaar 1/Squad1I-Tin.JPG",
-		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
-	},
-	{
-		name: "Thomas",
-		photo: "assets/squadfoto's/Jaar 1/Squad1I-Thomas.JPG",
-		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
-	},
-	{
-		name: "Kate",
-		photo: "assets/squadfoto's/Jaar 1/Squad1I-Kate.JPG",
-		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
-	},
-	{
-		name: "Emre",
-		photo: "assets/squadfoto's/Jaar 1/Squad1I-Emre.JPG",
-		link: "https://thomasseisveld.github.io/profilecard-Thomas/"
-	},
-	{
-		name: "Roxy",
-		photo: "assets/squadfoto's/Jaar 1/Squad1I-Roxy.JPG",
-		link: ""
-	},
-	{
-		name: "Oumaima",
-		photo: "assets/squadfoto's/Jaar 1/Squad1I-Roxy.JPG",
-		link: "https://meemo99.github.io/your-tribe-profile-card/"
-	}
+	{ name: "Tin", photo: "assets/squadfoto's/Jaar 1/Squad1I-Tin.JPG", link: "https://webtins.github.io/your-tribe-profile-card/" },
+	{ name: "Thomas", photo: "assets/squadfoto's/Jaar 1/Squad1I-Thomas.JPG", link: "https://thomasseisveld.github.io/profilecard-Thomas/" },
+	{ name: "Ayoub", photo: "assets/squadfoto's/Jaar 1/Squad1I-Ayoub-1.JPG", link: "" },
+	{ name: "Ayoub", photo: "assets/squadfoto's/Jaar 1/Squad1I-Ayoub-2.JPG", link: "" },
+	{ name: "Caitlin", photo: "assets/squadfoto's/Jaar 1/Squad1I-Caitlin.JPG", link: "https://caitlin-fdnd.github.io/your-tribe-profile-card/" },
+	{ name: "Emre", photo: "assets/squadfoto's/Jaar 1/Squad1I-Emre.JPG", link: "https://emrebahar0912.github.io/your-tribe-profile-card/" },
+	{ name: "Gijs", photo: "assets/squadfoto's/Jaar 1/Squad1I-Gijs.JPG", link: "" },
+	{ name: "Ilias", photo: "assets/squadfoto's/Jaar 1/Squad1I-Ilias.JPG", link: "" },
+	{ name: "Isaac", photo: "assets/squadfoto's/Jaar 1/Squad1I-Isaac.JPG", link: "" },
+	{ name: "Kate", photo: "assets/squadfoto's/Jaar 1/Squad1I-Kate.JPG", link: "https://kitkatisvibing.github.io/your-tribe-profile-card/" },
+	{ name: "Kayleigh", photo: "assets/squadfoto's/Jaar 1/Squad1I-Kayleigh.JPG", link: "https://kayleighhhhh.github.io/profile-card-kayleigh/" },
+	{ name: "Khitam", photo: "assets/squadfoto's/Jaar 1/Squad1I-Khitam.JPG", link: "" },
+	{ name: "Khouloud", photo: "assets/squadfoto's/Jaar 1/Squad1I-Khouloud.JPG", link: "" },
+	{ name: "Lesther", photo: "assets/squadfoto's/Jaar 1/Squad1I-Lesther.JPG", link: "https://lestherluis.github.io/lesthercard/" },
+	{ name: "Mohamed", photo: "assets/squadfoto's/Jaar 1/Squad1I-Mohamed.JPG", link: "https://mohamedelib.github.io/your-tribe-profile-card/" },
+	{ name: "Mouaad", photo: "assets/squadfoto's/Jaar 1/Squad1I-Mouaad.JPG", link: "" },
+	{ name: "Rowan", photo: "assets/squadfoto's/Jaar 1/Squad1I-Rowan.JPG", link: "https://scar055.github.io/your-tribe-profile-card/" },
+	{ name: "Roxy", photo: "assets/squadfoto's/Jaar 1/Squad1I-Roxy.JPG", link: "https://rox-codelabs.github.io/your-tribe-profile-card/" },
+	{ name: "Seb", photo: "assets/squadfoto's/Jaar 1/Squad1I-Seb.JPG", link: "" },
+	{ name: "Semih", photo: "assets/squadfoto's/Jaar 1/Squad1I-Semih.JPG", link: "https://hexterty46.github.io/your-tribe-profile-card/" },
+	{ name: "Siyar", photo: "assets/squadfoto's/Jaar 1/Squad1I-Siyar.JPG", link: "" },
+	{ name: "Sven", photo: "assets/squadfoto's/Jaar 1/Squad1I-Sven.JPG", link: "https://svenvandijk22.github.io/your-tribe-profile-card/" },
+	{ name: "Angel", photo: "assets/squadfoto's/Jaar 1/Squad1I-Angel-1.JPG", link: "https://angelaaliyah12.github.io/your-tribe-profile-card/" },
+	{ name: "Tjeerd", photo: "assets/squadfoto's/Jaar 1/Squad1I-Tjeerd.JPG", link: "https://tjeerd-jw.github.io/your-tribe-profile-card/" },
+	{ name: "Oumaima", photo: "assets/squadfoto's/Jaar 1/Squad1I-Oumaima.JPG", link: "https://meemo99.github.io/your-tribe-profile-card/" }
 ];
 
 const carouselTrack = document.querySelector('.carousel-track');

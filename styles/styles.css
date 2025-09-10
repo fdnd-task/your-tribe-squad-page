@@ -292,7 +292,7 @@ color: white;
 	margin-top: -15px;
 	position: relative;
 }
-.dots {
+/* .dots {
 	display: flex;
 	justify-content: center;
 	gap: 10px;
@@ -311,7 +311,7 @@ color: white;
 .dot.active {
 	background: var(--yellow);
 	transform: scale(1.2);
-}
+} */
 
 .nav-arrow {
 	position: absolute;
@@ -380,6 +380,33 @@ color: white;
   transform-origin: top left;
   pointer-events: none;
 }
+
+
+.favorites {
+  padding: 50px 20px;
+  text-align: center;
+  background: var(--off-black);
+}
+.locations {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.location {
+  width: 200px;
+}
+.location img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--off-black);
+}
+.location p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 
 @media (max-width: 768px) {
   .hero-bg-video {
@@ -453,28 +480,3 @@ color: white;
 
 
 
-
-.favorites {
-  padding: 50px 20px;
-  text-align: center;
-  background: var(--off-black);
-}
-.locations {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-.location {
-  width: 200px;
-}
-.location img {
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px var(--off-black);
-}
-.location p {
-  margin-top: 10px;
-  font-weight: bold;
-}
