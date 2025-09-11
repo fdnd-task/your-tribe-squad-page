@@ -23,7 +23,7 @@ Hieronder staat een leidraad voor de review die je op het werk van een andere st
 Zorg ook dat je zelf feedback krijgt! 
 Schrijf altijd nette teksten in een issue en probeer een bron of voorbeeld bij te voegen als je een tip of verbeterpunt hebt. 
 
-Doe de review samen met jouw groepje en bespreek alles wat je tegenkomt. Doe minimaal een Code/Design review voor een andere groep uit je squad.
+Doe de review samen met jouw groepje en bespreek alles wat je tegenkomt. Doe minimaal één Code/Design review voor een andere groep uit je squad.
 
 
 0. Zorg dat je issues van je _repository_ aan staan, en dat je site live staat via GitHub Pages, met een link erheen. En dat je de meest recente versie naar je online _repository_ hebt gepusht.
