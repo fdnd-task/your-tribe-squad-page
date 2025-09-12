@@ -156,7 +156,7 @@ color: white;
   left: 0;
   margin: 10px;
   padding: 10px;
-  width: 250px;
+  width: 260px;
 	height: 193px;
   display: flex;
   align-items: center;
@@ -365,7 +365,7 @@ color: white;
 }
 
 .card-preview {
-  width: 1000px;
+  width: 1040px;
   height: 768px;
   margin: 10px;
   display: none;
