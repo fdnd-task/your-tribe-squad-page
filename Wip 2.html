@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist 1I</title>
+    <link rel=" stylesheet " type='text/css' href="Css-sp.css">
+  </head>
+<body>
+<H1> Playlist 1I </H1>
+  <div class="carousel">
+    <div class="carousel-card" style="--offset: -1;">
+      <img src="Gold.png" alt="Album" />
+	  <div class="profiel">
+	  Informatie
+	  </div>
+    </div>
+    <div class="carousel-card" style="--offset: 1;">
+      <img src="Static.png" alt="Album" />
+	  <div class="profiel">
+	  Informatie
+	  </div>
+    </div>
+    <div class="carousel-card" style="--offset: -2;">
+      <img src="Sunburn.png" alt="Album" />
+	  <div class="profiel">
+	  Informatie
+	  </div>
+    </div>
+    <div class="carousel-card" style="--offset: 2;">
+      <img src="Rumours.png" alt="Album" />
+	  <div class="profiel">
+	  Informatie
+	  </div>
+    </div>
+  </div>
+
+  <div class="Buttons">
+    <button onclick="prev()">◀ Vorige</button>
+    <button onclick="next()">Volgende ▶</button>
+  </div>
+
+</body>
+  <script>
+    let activeIndex = 0;
+    const items = document.querySelectorAll(".carousel-card");
+
+    function updateCarousel() {
+      items.forEach((item, index) => {
+        item.style.setProperty('--offset', index - activeIndex);
+      });
+    }
+
+    function next() {
+      if (activeIndex < items.length - 1) {
+        activeIndex++;
+        updateCarousel();
+      }
+    }
+
+    function prev() {
+      if (activeIndex > 0) {
+        activeIndex--;
+        updateCarousel();
+      }
+    }
+
+    // Initialize carousel
+    updateCarousel();
+  </script>
