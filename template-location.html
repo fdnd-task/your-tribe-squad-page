@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Location</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/location-page.css">
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="location-title-exception">Locations</h1>
+        <!-- NAVIGATION -->
+        <nav>
+            <button popovertarget="navigation" aria-label="Toggle navigation menu">
+                <img src="./assets/svg/nav-icon.svg" alt="Nav Icon" width="25" height="25">
+            </button>
+            <ul popover id="navigation">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#profile-cards">Profile Cards</a>
+                </li>
+                <li>
+                    <a href="#locations">Locations</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- END NAVIGATION -->
+    </header>
+
+    <!-- HOOFDINHOUD (DE FIGMA LAYOUT) -->
+    <main>
+
+        <!-- BOVENSTE BLOK: HERO / FEATURE VAN DE LOCATIE -->
+<section class="top-section">
+    
+    <img class="locatie-afbeelding" src="assets/Younes.png" alt="Locatie afbeelding">
+    
+    <div class="tekst-blok">
+        <h2>Title van de locatie</h2>
+        <p>Lorem ipsum dolor sit amet. Cum impedit voluptatem qui provident neque quo sapiente debitis aut suscipit iure ea debitis optio eum obcaecati corporis et itaque voluptas.</p>
+    </div>
+
+</section>
+
+
+        <!-- ONDERSTE BLOK: REVIEWS VOOR DEZE LOCATIE -->
+        <section class="review-section">
+            <div class="review-section-wrapper">
+        <h2>Reviews</h2>
+           <ul class="reviews-ul">
+            <!-- REVIEW KAART 1 -->
+            <li>
+                <h3>Review 1</h3>
+                <p>deze locatie is heel interessant! Misschien kom ik hier ooit terug, want het was zooo leuk!</p>
+                <cite>David</cite>
+            </li>
+
+            <!-- REVIEW KAART 2 -->
+            <li>
+                <h3>Review 2</h3>
+                <p>Ik ga hier nooit meer komen, service was zo slecht! Not really my type of event, ik ga liever naar de gym.</p>
+                <cite>Mika</cite>
+            </li>
+
+            <!-- REVIEW KAART 3 -->
+            <li>
+                <h3>Review 3</h3>
+                <p>Je kan hier veel leuke dingen doen, Ik ga hier vaker komen!</p>
+                <cite>Rosa</cite>
+            </li>
+           </ul>
+           </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
